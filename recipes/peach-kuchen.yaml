@@ -1,0 +1,50 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: peach-kuchen
+title: Peach Kuchen
+category: desserts
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: 400
+prep_time: null
+cook_time: 45 min
+inactive_time: null
+pan: 9-inch pie pan or skillet
+tags: [peach, pie, whole-wheat, vegetarian]
+ingredient_groups:
+- name: Crust
+  ingredients:
+  - {quantity: "1 1/3", unit: cup, item: flour, note: part whole wheat}
+  - {quantity: "1/4", unit: tsp, item: baking powder}
+  - {quantity: "1/2", unit: tsp, item: salt}
+  - {quantity: "2", unit: Tbsp, item: sugar}
+  - {quantity: "1/3", unit: cup, item: margarine or butter}
+- name: Fruit
+  ingredients:
+  - {quantity: "8-12", unit: null, item: peach halves, note: canned or fresh}
+  - {quantity: "1/4", unit: cup, item: sugar}
+  - {quantity: "1", unit: tsp, item: cinnamon}
+- name: Topping
+  ingredients:
+  - {quantity: "1", unit: null, item: egg, preparation: beaten}
+  - {quantity: "1", unit: cup, item: sour cream, note: 'or sour milk, yogurt, or a combination
+      of these'}
+directions:
+- name: null
+  steps:
+  - Preheat oven to 400°F.
+  - Combine flour, baking powder, salt, and 2 Tbsp sugar in a bowl. Cut in margarine or
+    butter.
+  - Pat mixture over bottom and sides of a 9-inch pie pan or skillet.
+  - Arrange peach halves in pastry.
+  - Combine 1/4 cup sugar with cinnamon and sprinkle over peaches.
+  - Bake for 15 minutes.
+  - Combine beaten egg and sour cream. Pour over peaches and bake 30 minutes longer.
+notes:
+- Drizzle peaches with honey instead of sugar.
+- Use 2 cups fresh diced rhubarb in place of the peaches; increase sugar over fruit to 1/2
+  cup.
+story: null

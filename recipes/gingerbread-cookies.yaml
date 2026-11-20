@@ -1,0 +1,53 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: gingerbread-cookies
+title: Gingerbread Cookies
+category: cookies
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: 375
+prep_time: null
+cook_time: 10-12 min
+inactive_time: null
+pan: greased and floured cookie sheet
+tags: [ginger, cutout-cookie]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1", unit: cup, item: sugar}
+  - {quantity: "2", unit: tsp, item: ginger}
+  - {quantity: "1", unit: tsp, item: nutmeg}
+  - {quantity: "1", unit: tsp, item: cinnamon}
+  - {quantity: "1/2", unit: tsp, item: salt}
+  - {quantity: "1 1/2", unit: tsp, item: baking soda}
+  - {quantity: "1", unit: cup, item: margarine, preparation: melted}
+  - {quantity: "1/2", unit: cup, item: evaporated milk}
+  - {quantity: "1", unit: cup, item: unsulfured molasses}
+  - {quantity: "1/4", unit: tsp, item: vanilla extract, optional: true}
+  - {quantity: "3/4", unit: tsp, item: lemon extract, optional: true}
+  - {quantity: "4", unit: cup, item: flour, preparation: sifted, note: more like 5 cups;
+      up to 1/2 cup more if needed to prevent sticking}
+directions:
+- name: null
+  steps:
+  - Combine the sugar, ginger, nutmeg, cinnamon, salt, and baking soda. Mix well.
+  - Add the melted margarine, evaporated milk, and molasses. Add the extracts if desired.
+    Mix well.
+  - >-
+    Add the flour 1 cup at a time, stirring constantly. The dough should be stiff enough
+    to handle without sticking to fingers.
+  - >-
+    Knead the dough for a smooth texture. Add up to 1/2 cup additional flour if necessary
+    to prevent sticking.
+  - When the dough is smooth, roll it out 1/4 inch thick on a floured surface and cut it
+    into cookies.
+  - >-
+    Bake on a greased and floured cookie sheet in a preheated 375°F oven for 10 to 12 minutes.
+    Cookies are done if they spring back when touched.
+notes:
+- I'm trying vegetable oil in place of the melted margarine.
+- The flour is more like 5 cups.
+story: null

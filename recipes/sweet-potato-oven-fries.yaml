@@ -1,0 +1,40 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: sweet-potato-oven-fries
+title: Sweet Potato Oven Fries
+category: vegetables
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: '4'
+oven_temp_f: 450
+prep_time: null
+cook_time: 18 min
+inactive_time: null
+pan: baking sheet
+tags: [sweet-potato, side-dish, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "2", unit: null, item: medium sweet potatoes, preparation: peeled, note: 12
+      oz total}
+  - {quantity: "1", unit: Tbsp, item: olive or canola oil, note: plus 1 tsp}
+  - {quantity: "1/2", unit: tsp, item: paprika}
+  - {quantity: "1/4", unit: tsp, item: garlic powder}
+  - {quantity: "1/4", unit: tsp, item: salt}
+  - {quantity: "1/4", unit: tsp, item: pepper}
+  - {quantity: null, unit: null, item: nonstick cooking spray}
+directions:
+- name: null
+  steps:
+  - Heat the oven to 450°F. Spray a baking sheet with nonstick cooking spray.
+  - Cut the sweet potatoes into French fries (about 3 inches long and 1/4 inch thick).
+  - Place in a large bowl and toss with the oil, paprika, garlic powder, salt, and pepper.
+  - Arrange the sweet potatoes in a single layer on the prepared baking sheet.
+  - Roast for about 18 minutes, turning once, until lightly browned and tender. Serve immediately.
+notes:
+- >-
+  Per 3-oz serving: 131 calories, 2 g protein, 21 g carbohydrate, 5 g total fat, 2 g fiber,
+  155 mg sodium.
+story: null

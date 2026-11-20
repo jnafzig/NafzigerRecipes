@@ -1,0 +1,54 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: old-fashioned-honey-wheat-bread
+title: Old Fashioned Honey Wheat Bread
+category: breads
+author: null
+source: Sandi Harnish
+source_url: null
+date: null
+yield: 2 loaves
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: 40-50 min
+inactive_time: 1 hr 30 min-2 hr
+pan: 2 loaf pans
+tags: [yeast-bread, whole-wheat, cheese, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1 1/2", unit: cup, item: water}
+  - {quantity: "1", unit: cup, item: cream style cottage cheese, note: I substitute vanilla
+      or plain yogurt}
+  - {quantity: "1/2", unit: cup, item: honey}
+  - {quantity: "1/4", unit: cup, item: margarine}
+  - {quantity: "5 1/2-6", unit: cup, item: bread flour, preparation: lightly measured}
+  - {quantity: null, unit: null, item: whole-wheat flour, note: amount not given in the
+      original}
+  - {quantity: null, unit: null, item: sugar, note: amount not given in the original}
+  - {quantity: null, unit: null, item: salt, note: amount not given in the original}
+  - {quantity: null, unit: null, item: yeast, note: amount not given in the original}
+  - {quantity: "1", unit: null, item: egg}
+  - {quantity: null, unit: null, item: margarine, note: for brushing the baked loaves}
+directions:
+- name: null
+  steps:
+  - Heat the water, cottage cheese, honey, and margarine until very warm (120-130°F); cool.
+  - >-
+    Combine the warm liquid, 2 cups of the white flour, the whole-wheat flour, sugar, salt,
+    yeast, and egg. Beat two minutes at medium speed.
+  - Stir in the remaining flour by hand to make a stiff dough.
+  - Knead on a well-floured surface until smooth and elastic, about 2 minutes.
+  - Place in a greased bowl, cover, and let rise until double, 45-60 minutes.
+  - >-
+    Grease 2 loaf pans. Punch the dough down and divide into the pans. Cover and let rise
+    until double, 45-60 minutes.
+  - Bake at 350°F for 40-50 minutes, until deep golden brown and the loaves sound hollow
+    when tapped.
+  - Immediately remove from the pans and brush with margarine.
+notes: []
+story: >-
+  This recipe came from Sandi Harnish. Our family enjoyed this bread. I made it most often
+  during the winter months. Kneading dough can be therapeutic and baking helped to warm
+  up the house. Baking bread and frying onions are two smells that people respond favorably
+  to.

@@ -1,0 +1,40 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: short-cake
+title: Short Cake
+category: cakes
+author: null
+source: Betty Warfel
+source_url: null
+date: null
+yield: one 8- or 9-inch round cake
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: 20-25 min
+inactive_time: null
+pan: 8 or 9 inch round cake pan
+tags: [whole-wheat, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "2", unit: cup, item: flour, note: I use part whole wheat}
+  - {quantity: "3/8", unit: cup, item: sugar, note: I skimp on this}
+  - {quantity: "1/2", unit: tsp, item: salt}
+  - {quantity: "1/2", unit: tsp, item: baking soda}
+  - {quantity: "1", unit: Tbsp, item: baking powder}
+  - {quantity: "1", unit: null, item: egg}
+  - {quantity: "1", unit: cup, item: sour milk, note: I make this by adding 1 Tbsp vinegar
+      to the milk}
+  - {quantity: "1/2", unit: cup, item: margarine, note: I use 1/4 cup butter and 1/4 cup
+      oil}
+directions:
+- name: null
+  steps:
+  - Mix the dry ingredients. Cut in the margarine (or butter and oil).
+  - Beat the egg and add to the milk. Mix together with the dry ingredients.
+  - Bake in an 8 or 9 inch round cake pan at 350°F until light brown (20 to 25 minutes?).
+  - Enjoy warm with fresh fruit and milk.
+notes: []
+story: >-
+  Adapted from Betty Warfel's recipe. I helped Betty sell lots of these in the Lancaster
+  Central Market during the strawberry season.

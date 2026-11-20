@@ -1,0 +1,72 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: pumpkin-ice-cream
+title: Pumpkin Ice Cream
+category: desserts
+author: null
+source: Jonathan
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: null
+prep_time: null
+cook_time: 11-16 min
+inactive_time: at least 10 hr
+pan: medium saucepan
+tags: [pumpkin, ice-cream, freezer, make-ahead]
+ingredient_groups:
+- name: Custard
+  ingredients:
+  - {quantity: "2", unit: cup, item: heavy cream}
+  - {quantity: "2", unit: cup, item: milk}
+  - {quantity: "3/4", unit: cup, item: brown sugar}
+  - {quantity: "1/4", unit: cup, item: granulated sugar}
+  - {quantity: "3", unit: null, item: egg yolks}
+- name: Pumpkin Mixture
+  ingredients:
+  - {quantity: "1", unit: cup, item: canned solid-pack unsweetened pumpkin}
+  - {quantity: "1", unit: Tbsp, item: vanilla extract}
+  - {quantity: "1", unit: tsp, item: cinnamon}
+  - {quantity: "1/2", unit: tsp, item: ground ginger}
+  - {quantity: "1/4", unit: tsp, item: nutmeg, preparation: grated}
+  - {quantity: "1/8", unit: tsp, item: ground cloves}
+  - {quantity: "1/8", unit: tsp, item: salt}
+directions:
+- name: null
+  steps:
+  - >-
+    Combine cream, milk, brown sugar, and granulated sugar in a medium saucepan over medium
+    heat. Cook, stirring, until the mixture is hot but not boiling, about 6 minutes.
+  - >-
+    Whisk the egg yolks in a medium bowl. Gradually whisk 1 cup of the warm cream mixture
+    into the bowl with the yolks.
+  - >-
+    Pour the egg mixture back into the saucepan, reduce the heat to medium-low, and cook,
+    stirring, until the mixture thickens enough to coat the back of a spoon, 5 to 10 minutes.
+    Do not boil.
+  - >-
+    Strain the custard into another bowl and cover it partially with plastic wrap. Cool
+    at least one hour at room temperature.
+  - >-
+    Combine pumpkin, vanilla, cinnamon, ginger, nutmeg, cloves, and salt in a medium bowl
+    and blend well. Add to the cooled custard and mix so that all the ingredients are evenly
+    distributed.
+  - >-
+    Refrigerate, covered completely, in the coldest part of your refrigerator until the
+    mixture is very cold, about 6 hours.
+  - >-
+    Stir the cold pumpkin mixture, then pour into the mixing bowl of an ice cream maker.
+    Freeze according to the ice cream maker manufacturer's directions.
+  - Put the ice cream in a container with a tight cover. Freeze at least 3 hours before
+    serving.
+notes:
+- >-
+  When thickening the custard so that it coats the back of a spoon, the temperature of the
+  mixture should register at least 160°F on a candy thermometer.
+- >-
+  The refrigerated custard that has yet to be frozen in the ice cream maker can stay covered
+  in the refrigerator as long as three days.
+- The finished pumpkin ice cream tastes best if eaten within four days of making it.
+- Make sure your ice cream maker can accommodate 1 1/2 quarts. If not, throw away the excess.
+- When heating the custard in the thickening phase, do not boil it. The egg yolks will curdle.
+story: null

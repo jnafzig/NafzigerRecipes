@@ -1,0 +1,47 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: chocolate-walnut-brownies
+title: Chocolate Walnut Brownies
+category: cakes
+author: null
+source: John and Lois (adapted from an online recipe)
+source_url: null
+date: '2012-04-15'
+yield: null
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: 30-35 min
+inactive_time: null
+pan: 9x13 inch pan
+tags: [chocolate, walnut, oats, bar, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1/2", unit: cup, item: butter}
+  - {quantity: "1", unit: cup, item: brown sugar, preparation: packed}
+  - {quantity: "1/2", unit: cup, item: white sugar}
+  - {quantity: "2", unit: tsp, item: vanilla}
+  - {quantity: "2", unit: Tbsp, item: milk}
+  - {quantity: "2", unit: null, item: eggs, preparation: beaten}
+  - {quantity: "1", unit: bar, item: dark chocolate, note: 3.5 oz bar}
+  - {quantity: "2", unit: cup, item: flour}
+  - {quantity: "1", unit: tsp, item: baking powder}
+  - {quantity: "1", unit: tsp, item: baking soda}
+  - {quantity: "1", unit: tsp, item: salt}
+  - {quantity: "1", unit: cup, item: quick oats}
+  - {quantity: "1", unit: cup, item: rolled oats}
+  - {quantity: "1", unit: cup, item: chocolate chips}
+  - {quantity: "1", unit: cup, item: walnuts, preparation: chopped}
+directions:
+- name: null
+  steps:
+  - Cream together the butter and sugars. Add the vanilla, milk, and eggs.
+  - Melt the chocolate bar and beat it in.
+  - >-
+    Sift together the flour, baking powder, baking soda, and salt. Stir the dry ingredients
+    into the batter, mixing thoroughly.
+  - Blend in the oatmeal and nuts.
+  - Place into a 9x13 inch pan. Scatter the chocolate chips on top.
+  - Bake at 350°F for 30-35 minutes.
+notes: []
+story: null

@@ -1,0 +1,52 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: nacho-chip-dip
+title: Nacho Chip Dip
+category: main-dishes
+author: Lois Nafziger
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: null
+inactive_time: null
+pan: null
+tags: [snack, ground-beef, beans, cheese, slow-cooker]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1", unit: lb, item: hamburger}
+  - {quantity: "1", unit: pkg, item: taco seasoning, note: or 1/4 cup}
+  - {quantity: null, unit: null, item: water, note: as directed on the taco seasoning package}
+  - {quantity: "1", unit: can, item: refried beans, note: 16 oz can}
+  - {quantity: "1", unit: jar, item: salsa, note: 16 oz jar; the type of salsa sets the
+      spiciness}
+  - {quantity: "1", unit: lb, item: Velveeta cheese, note: "source lists 'Velveeta cheese\
+      \ or 1 cup sour cream'; the oven method uses sour cream plus shredded cheese on top"}
+  - {quantity: "1", unit: cup, item: sour cream, note: oven method}
+  - {quantity: null, unit: null, item: tortilla chips, note: for serving; your choice}
+directions:
+- name: null
+  steps:
+  - Brown the hamburger. Drain.
+  - Add the taco seasoning and water as directed on the taco seasoning package.
+- name: Slow Cooker Method
+  steps:
+  - Combine everything in a slow cooker. Heat on high for 45 minutes.
+  - Serve with your choice of tortilla chip.
+- name: Oven Method
+  steps:
+  - Mix the sour cream and beans together in a separate bowl.
+  - 'Layer in a 9x11 dish: ground beef, sour cream and beans, and then salsa.'
+  - Sprinkle shredded cheese on top.
+  - Bake 20-25 minutes at 350°F. Serve with your choice of tortilla chip.
+notes:
+- >-
+  There are two ways to do this recipe. I most often use the slow cooker method, but it
+  may also be layered in a casserole dish.
+- Adjust the spiciness of the dip by the type of salsa you use.
+story: >-
+  This recipe is new to our family since our move to Indiana. Two different friends gave
+  two similar recipes so I combined them.

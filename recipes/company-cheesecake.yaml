@@ -1,0 +1,54 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: company-cheesecake
+title: Company Cheesecake
+category: cakes
+author: Jonathan Nafziger
+source: null
+source_url: null
+date: null
+yield: one 9-inch cake
+servings: null
+oven_temp_f: 300
+prep_time: null
+cook_time: 1 hr 10 min
+inactive_time: 3 hr
+pan: pie pan
+tags: [cheese, make-ahead, vegetarian]
+ingredient_groups:
+- name: Crust
+  ingredients:
+  - {quantity: "1 1/4", unit: cup, item: graham cracker crumbs, note: about 1 pack or 16
+      crackers}
+  - {quantity: "2", unit: Tbsp, item: sugar}
+  - {quantity: "3", unit: Tbsp, item: butter, preparation: melted, note: or margarine}
+- name: Filling
+  ingredients:
+  - {quantity: "2", unit: pkg, item: cream cheese, preparation: softened, note: 8 oz each}
+  - {quantity: "1", unit: pkg, item: cream cheese, preparation: softened, note: 3 oz}
+  - {quantity: "1", unit: cup, item: sugar}
+  - {quantity: "1", unit: tsp, item: lemon peel, preparation: grated}
+  - {quantity: "1/4", unit: tsp, item: vanilla}
+  - {quantity: "3", unit: null, item: eggs}
+- name: Topping
+  ingredients:
+  - {quantity: "1", unit: cup, item: dairy sour cream, note: or cherry glaze or strawberry
+      glaze}
+directions:
+- name: Crust
+  steps:
+  - Heat the oven to 350°F.
+  - Stir together the graham cracker crumbs and 2 Tbsp sugar. Mix in the butter thoroughly.
+  - Press the mixture evenly in the bottom of a pie pan. Bake 10 minutes. Cool.
+- name: Filling
+  steps:
+  - Reduce the oven heat to 300°F.
+  - Beat the cream cheese in a large mixer bowl. Gradually add the sugar, beating until
+    fluffy.
+  - Add the lemon peel and vanilla. Beat in the eggs, one at a time.
+  - Pour over the crumb mixture. Bake 1 hour or until the center is firm.
+  - Cool to room temperature.
+- name: Topping
+  steps:
+  - Spread with sour cream or glaze. Chill at least 3 hours.
+notes: []
+story: null

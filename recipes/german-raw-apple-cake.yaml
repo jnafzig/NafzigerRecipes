@@ -1,0 +1,53 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: german-raw-apple-cake
+title: German Raw Apple Cake
+category: cakes
+author: Lois Nafziger
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: 30-40 min
+inactive_time: null
+pan: 9x13 inch baking pan
+tags: [apple, whole-wheat, vegetarian]
+ingredient_groups:
+- name: Cake
+  ingredients:
+  - {quantity: "1 1/4", unit: cup, item: cake flour}
+  - {quantity: "1", unit: cup, item: whole wheat flour}
+  - {quantity: "1/4", unit: tsp, item: salt}
+  - {quantity: "2", unit: tsp, item: cinnamon}
+  - {quantity: "1/2", unit: cup, item: shortening, note: or oil}
+  - {quantity: "1/2", unit: cup, item: brown sugar}
+  - {quantity: "1/2", unit: cup, item: white sugar}
+  - {quantity: "2", unit: null, item: eggs}
+  - {quantity: "2", unit: tsp, item: baking soda}
+  - {quantity: "1", unit: cup, item: sour milk, note: 'Put 1 Tbsp of vinegar in a 1 cup
+      measure, then fill up with regular milk.'}
+  - {quantity: "2", unit: cup, item: apples, preparation: diced, note: peeling optional}
+- name: Topping
+  ingredients:
+  - {quantity: "1/4", unit: cup, item: white sugar}
+  - {quantity: "1/2", unit: cup, item: nuts, preparation: chopped}
+  - {quantity: "1/2", unit: cup, item: brown sugar, note: unit missing in the original ("1/2
+      brown sugar"); cup assumed}
+  - {quantity: "1/2", unit: tsp, item: cinnamon}
+directions:
+- name: Cake
+  steps:
+  - Sift together the flours, salt, and cinnamon.
+  - Cream together the shortening, sugars, and eggs.
+  - >-
+    Stir the baking soda into the sour milk. Add the milk and dry ingredients alternately
+    to the creamed mixture.
+  - Fold in the apples. Spread into a greased 9x13 inch baking pan.
+- name: Topping
+  steps:
+  - Combine all the topping ingredients and sprinkle over the cake batter.
+  - Bake at 350°F for 30-40 minutes or until done.
+notes: []
+story: null

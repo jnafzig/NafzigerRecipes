@@ -1,0 +1,55 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: rhubarb-cobbler
+title: Rhubarb Cobbler
+category: desserts
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: '12'
+oven_temp_f: 400
+prep_time: 15 min
+cook_time: 30-35 min
+inactive_time: null
+pan: buttered baking dish
+tags: [rhubarb, cobbler]
+ingredient_groups:
+- name: Filling
+  ingredients:
+  - {quantity: "4", unit: cup, item: rhubarb, preparation: chopped}
+  - {quantity: "1 1/2", unit: cup, item: sugar}
+  - {quantity: "1/4", unit: tsp, item: salt}
+  - {quantity: "2", unit: Tbsp, item: lemon juice}
+  - {quantity: "1/2", unit: tsp, item: almond extract, optional: true}
+- name: Topping
+  ingredients:
+  - {quantity: "2", unit: cup, item: all-purpose flour}
+  - {quantity: "2", unit: Tbsp, item: sugar}
+  - {quantity: "1/4", unit: tsp, item: salt}
+  - {quantity: "1", unit: Tbsp, item: baking powder}
+  - {quantity: "1/4", unit: cup, item: vegetable shortening or lard}
+  - {quantity: "1/4", unit: cup, item: butter}
+  - {quantity: "1/2", unit: cup, item: whole milk}
+  - {quantity: "1", unit: null, item: egg}
+  - {quantity: null, unit: null, item: sugar, note: 'additional, for sprinkling on top'}
+directions:
+- name: null
+  steps:
+  - Preheat oven to 400°F.
+  - >-
+    In a bowl, combine rhubarb, 1 1/2 cups sugar, 1/4 tsp salt, lemon juice, and almond
+    extract if using. Stir and set aside.
+  - In a separate bowl, combine flour, 2 Tbsp sugar, 1/4 tsp salt, and baking powder. Stir
+    together.
+  - Add shortening and butter, then cut together with a pastry cutter.
+  - Beat egg and milk together. Pour into flour mixture and stir with a fork until just
+    combined.
+  - >-
+    Pour rhubarb into a buttered baking dish. Tear off pinches of dough and drop them onto
+    the surface of the fruit, creating a "cobbled" texture. Sprinkle additional sugar over
+    the top.
+  - Bake for 30 to 35 minutes, or until golden brown and bubbly.
+  - Serve warm with vanilla ice cream or fresh whipped cream.
+notes: []
+story: null

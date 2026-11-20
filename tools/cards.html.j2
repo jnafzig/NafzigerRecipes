@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nafziger Family Recipe Cards</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,600;0,700;1,400&family=Alegreya+Sans+SC:wght@500;700&display=swap">
+<style>
+/* Two 5.5x8.5in cards side by side on a landscape letter sheet; cut down the middle. */
+:root {
+  --ink: #1d1b19;
+  --muted: #5f5a54;
+  --rule: #c9c2b8;
+  --accent: #a33a2c;   /* the red rule of an old recipe card */
+  --screen-bg: #8d8a86;
+  --card-bg: #ffffff;
+  --font-body: "Alegreya", "Iowan Old Style", Georgia, serif;
+  --font-label: "Alegreya Sans SC", "Gill Sans", "Trebuchet MS", sans-serif;
+  --card-w: 5.5in;
+  --card-h: 8.5in;
+  --pad: 0.42in;       /* keeps text clear of printers' unprintable edge */
+  --scale: 1;
+}
+@page { size: letter landscape; margin: 0; }
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--screen-bg); color: var(--ink); font-family: var(--font-body); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+.toolbar {
+  position: sticky; top: 0; z-index: 2; display: flex; flex-wrap: wrap; gap: 6px 18px; align-items: baseline;
+  padding: 10px 20px; background: #2b2825; color: #f3efe9; font: 14px/1.4 system-ui, sans-serif;
+}
+.toolbar strong { font-size: 15px; }
+
+.sheets { display: grid; justify-content: center; gap: 24px; padding: 24px 0 48px; }
+.sheet {
+  width: 11in; height: 8.5in; display: grid; grid-template-columns: var(--card-w) var(--card-w);
+  background: var(--card-bg); box-shadow: 0 2px 12px rgb(0 0 0 / 0.35); position: relative; overflow: hidden;
+}
+.sheet::after { /* cut line */
+  content: ""; position: absolute; top: 0.15in; bottom: 0.15in; left: 50%; border-left: 1px dashed var(--rule);
+}
+@media print {
+  body { background: none; }
+  .toolbar { display: none; }
+  .sheets { display: block; padding: 0; }
+  .sheet { box-shadow: none; break-after: page; }
+  .sheet:last-child { break-after: auto; }
+}
+
+.card {
+  width: var(--card-w); height: var(--card-h); padding: var(--pad);
+  display: flex; flex-direction: column; overflow: hidden;
+}
+.card-body { flex: 1; min-height: 0; overflow: hidden; display: flex; flex-direction: column; gap: calc(0.11in * var(--scale)); font-size: calc(10.5pt * var(--scale)); line-height: 1.32; }
+.card-foot {
+  display: flex; justify-content: space-between; gap: 12px; padding-top: 0.08in; margin-top: 0.06in;
+  border-top: 1px solid var(--rule); font: 500 7.5pt var(--font-label); letter-spacing: 0.06em; color: var(--muted); text-transform: lowercase;
+}
+
+.head { border-bottom: 2px solid var(--accent); padding-bottom: calc(0.07in * var(--scale)); }
+.head .eyebrow { font: 700 calc(8pt * var(--scale)) var(--font-label); letter-spacing: 0.1em; text-transform: lowercase; color: var(--accent); }
+.head h1 { margin: 0; font-weight: 700; font-size: calc(19pt * var(--scale)); line-height: 1.1; text-wrap: balance; }
+.head .byline { margin-top: 2px; font-style: italic; color: var(--muted); font-size: 0.95em; }
+.cont h1 { font-size: calc(13pt * var(--scale)); }
+.cont h1::after { content: " (continued)"; font-weight: 400; font-style: italic; color: var(--muted); font-size: 0.8em; }
+
+.facts { display: flex; flex-wrap: wrap; gap: 2px 14px; font-size: 0.92em; }
+.facts span b { font: 700 0.82em var(--font-label); letter-spacing: 0.06em; text-transform: lowercase; color: var(--muted); margin-right: 4px; }
+
+h2 { margin: 0 0 2px; font: 700 calc(9pt * var(--scale)) var(--font-label); letter-spacing: 0.1em; text-transform: lowercase; color: var(--accent); }
+.ing { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 0.22in; }
+.ing.single { columns: 1; }
+.ing li { break-inside: avoid; padding-left: 0.9em; text-indent: -0.9em; margin-bottom: 1px; }
+.ing .amt { font-weight: 600; font-variant-numeric: lining-nums; }
+.ing .note, .ing .opt { color: var(--muted); font-style: italic; }
+
+.step { display: grid; grid-template-columns: 1.3em 1fr; gap: 0 0.3em; }
+.step .n { font-weight: 700; color: var(--accent); font-variant-numeric: lining-nums tabular-nums; }
+.step p { margin: 0; }
+.notes p { margin: 0; padding-left: 0.9em; text-indent: -0.9em; }
+.notes p::before { content: "– "; color: var(--accent); }
+.story { margin-top: auto; padding-top: calc(0.06in * var(--scale)); font-style: italic; color: var(--muted); border-top: 1px solid var(--rule); }
+.story p { margin: 0; }
+.story.headnote { margin-top: 0; padding-top: 0; border-top: 0; }
+</style>
+</head>
+<body>
+<div class="toolbar">
+  <strong>Nafziger Family Recipe Cards</strong>
+  <span id="summary">{{ recipes|length }} recipes</span>
+  <span>Print landscape on letter paper, margins "None", background graphics on. Cut along the dashed line.</span>
+</div>
+<div class="sheets" id="sheets"></div>
+
+{#
+  Each recipe is a list of blocks. The script below places blocks onto 5.5x8.5 cards,
+  shrinking type a little first and only then carrying blocks over to a continuation card.
+  Section headings ride with the first block of their section so they never end a card.
+#}
+{% for r in recipes %}
+<template class="recipe" data-id="{{ r.id }}" data-title="{{ r.title }}" data-foot="{{ r.category_label }}">
+  <div class="blk head">
+    <div class="eyebrow">{{ r.category_label }}</div>
+    <h1>{{ r.title }}</h1>
+    {% if r.byline %}<div class="byline">{{ r.byline }}</div>{% endif %}
+  </div>
+  {% if r.facts %}
+  <div class="blk facts">{% for k, v in r.facts %}<span><b>{{ k }}</b>{{ v }}</span>{% endfor %}</div>
+  {% endif %}
+  {% for g in r.ingredient_groups %}
+  <div class="blk">
+    <h2>{{ g.name or "Ingredients" }}</h2>
+    <ul class="ing{% if g.ingredients|length < 5 %} single{% endif %}">
+      {% for i in g.ingredients %}
+      <li>{% if i.amount %}<span class="amt">{{ i.amount }}</span> {% endif %}{{ i.item }}{% if i.optional %} <span class="opt">(optional)</span>{% endif %}{% if i.note %} <span class="note">— {{ i.note }}</span>{% endif %}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+  {% for d in r.directions %}
+    {% for s in d.steps %}
+  <div class="blk">
+      {% if loop.first %}<h2>{{ d.name or "Directions" }}</h2>{% endif %}
+    <div class="step"><span class="n">{{ loop.index }}</span><p>{{ s }}</p></div>
+  </div>
+    {% endfor %}
+  {% endfor %}
+  {% for n in r.notes %}
+  <div class="blk notes">
+    {% if loop.first %}<h2>Notes</h2>{% endif %}
+    <p>{{ n }}</p>
+  </div>
+  {% endfor %}
+  {% if r.story %}
+  <div class="blk story"><p>{{ r.story }}</p></div>
+  {% endif %}
+</template>
+{% endfor %}
+
+<script>
+// Fit each recipe onto cards. Try one card at full size, then at slightly smaller type;
+// if it still overflows, flow its blocks across as many cards as needed.
+const SCALES = [1, 0.95, 0.9, 0.86];
+const SPLIT_SCALE = 0.95;
+const sheets = document.getElementById("sheets");
+const staging = document.createElement("div");
+staging.style.cssText = "position:absolute;left:-10000px;top:0";
+document.body.append(staging);
+
+function newCard(t, scale, continued) {
+  const card = document.createElement("section");
+  card.className = "card";
+  card.style.setProperty("--scale", scale);
+  card.innerHTML = '<div class="card-body"></div><footer class="card-foot"><span></span><span>Nafziger Family Recipes</span></footer>';
+  card.querySelector(".card-foot span").textContent = t.dataset.foot;
+  if (continued) {
+    const h = document.createElement("div");
+    h.className = "blk head cont";
+    h.innerHTML = "<h1></h1>";
+    h.querySelector("h1").textContent = t.dataset.title;
+    card.querySelector(".card-body").append(h);
+  }
+  staging.append(card);
+  return card;
+}
+const overflows = card => { const b = card.querySelector(".card-body"); return b.scrollHeight > b.clientHeight + 1; };
+const blocksOf = t => [...t.content.cloneNode(true).children].filter(e => e.classList.contains("blk"));
+
+function layout(t) {
+  for (const scale of SCALES) {
+    const card = newCard(t, scale, false);
+    card.querySelector(".card-body").append(...blocksOf(t));
+    if (!overflows(card)) return [card];
+    card.remove();
+  }
+  // Across several cards, the story reads as a headnote under the title instead of a stray last card.
+  const blocks = blocksOf(t);
+  const story = blocks.find(b => b.classList.contains("story"));
+  if (story) {
+    blocks.splice(blocks.indexOf(story), 1);
+    blocks.splice(1, 0, story);
+    story.classList.add("headnote");
+  }
+  const cards = [newCard(t, SPLIT_SCALE, false)];
+  for (const blk of blocks) {
+    let card = cards.at(-1);
+    card.querySelector(".card-body").append(blk);
+    if (overflows(card) && card.querySelectorAll(".card-body > .blk:not(.cont)").length > 1) {
+      card = newCard(t, SPLIT_SCALE, true);
+      card.querySelector(".card-body").append(blk);
+      cards.push(card);
+    }
+  }
+  cards.forEach((c, i) => c.querySelector(".card-foot span").textContent += ` · card ${i + 1} of ${cards.length}`);
+  return cards;
+}
+
+// ?only=id1,id2 prints just those recipes (the website links each recipe's "Print card" here).
+const only = new URLSearchParams(location.search).get("only")?.split(",");
+if (only) document.querySelectorAll("template.recipe").forEach(t => only.includes(t.dataset.id) || t.remove());
+
+function render() {
+  const all = [...document.querySelectorAll("template.recipe")].flatMap(layout);
+  sheets.replaceChildren();
+  for (let i = 0; i < all.length; i += 2) {
+    const sheet = document.createElement("div");
+    sheet.className = "sheet";
+    sheet.append(...all.slice(i, i + 2));
+    sheets.append(sheet);
+  }
+  staging.remove();
+  const multi = all.filter(c => c.querySelector(".cont")).length;
+  document.getElementById("summary").textContent =
+    `${document.querySelectorAll("template.recipe").length} recipes · ${all.length} cards · ${sheets.children.length} sheets` +
+    (multi ? ` · ${multi} continuation cards` : "");
+}
+// Measure after the card faces load so line breaks match what prints. Nothing on the page uses
+// them yet, so document.fonts.ready alone would resolve before they're fetched.
+const FACES = ["400 10pt Alegreya", "italic 400 10pt Alegreya", "600 10pt Alegreya", "700 10pt Alegreya",
+               "500 10pt 'Alegreya Sans SC'", "700 10pt 'Alegreya Sans SC'"];
+Promise.allSettled(FACES.map(f => document.fonts?.load(f))).then(render);
+</script>
+</body>
+</html>

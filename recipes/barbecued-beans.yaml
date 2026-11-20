@@ -1,0 +1,44 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: barbecued-beans
+title: Barbecued Beans
+category: main-dishes
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: 1 hr
+inactive_time: null
+pan: 2 qt casserole
+tags: [beans, casserole, side-dish, slow-cooker]
+ingredient_groups:
+- name: Beans
+  ingredients:
+  - {quantity: "1", unit: Tbsp, item: oil}
+  - {quantity: "1", unit: cup, item: onions}
+  - {quantity: "1", unit: cup, item: kidney beans, preparation: drained}
+  - {quantity: "1", unit: cup, item: lima beans, preparation: cooked and drained}
+  - {quantity: "1", unit: can, item: baked beans, note: large can (1 lb 5 oz)}
+- name: Sauce
+  ingredients:
+  - {quantity: "1/2", unit: tsp, item: mustard}
+  - {quantity: "1/2", unit: cup, item: catsup}
+  - {quantity: "1/2", unit: Tbsp, item: vinegar}
+  - {quantity: "1/2", unit: cup, item: brown sugar}
+  - {quantity: "1/2", unit: tsp, item: salt}
+directions:
+- name: null
+  steps:
+  - Drain the kidney beans.
+  - Sauté the onions in the oil and mix with the beans.
+  - Mix the sauce ingredients and mix with all of the beans.
+  - Bake in a 2 qt casserole at 350°F for 1/2 hour covered and 1/2 hour with the lid off.
+notes:
+- I have also put this into the slow cooker.
+- >-
+  I also use three kinds of beans and make a larger amount than the recipe calls for. I
+  use pinto, northern, black, or small red beans.
+story: null

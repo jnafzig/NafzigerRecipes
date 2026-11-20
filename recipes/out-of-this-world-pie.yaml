@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: out-of-this-world-pie
+title: Out of This World Pie
+category: desserts
+author: null
+source: null
+source_url: null
+date: null
+yield: one 9-inch pie
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: 40-60 min
+inactive_time: null
+pan: null
+tags: [pie, pecan, raisin, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "8", unit: Tbsp, item: butter}
+  - {quantity: "1", unit: cup, item: sugar}
+  - {quantity: "3", unit: null, item: eggs}
+  - {quantity: "1/4", unit: tsp, item: salt}
+  - {quantity: "1/2", unit: tsp, item: vanilla}
+  - {quantity: "1", unit: cup, item: nuts, preparation: chopped, note: I usually used pecans}
+  - {quantity: "1", unit: cup, item: raisins}
+  - {quantity: "1", unit: null, item: 9-inch pie shell, preparation: unbaked}
+directions:
+- name: null
+  steps:
+  - Cream together butter and sugar.
+  - Add eggs, salt, and vanilla and beat well.
+  - Stir in nuts and raisins.
+  - Spoon into unbaked pie shell.
+  - Bake at 350°F for 40-60 minutes or until browned on top.
+notes:
+- I usually used pecans for the nuts.
+story: Dad enjoyed this pie.

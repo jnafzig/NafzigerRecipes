@@ -1,0 +1,46 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: cranberry-bread
+title: Cranberry Bread
+category: breads
+author: null
+source: null
+source_url: null
+date: null
+yield: 1 loaf
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: 1 hr 10 min
+inactive_time: null
+pan: 9x5x3 inch loaf pan
+tags: [cranberry, quick-bread, holiday, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "2", unit: cup, item: flour}
+  - {quantity: "1", unit: cup, item: sugar}
+  - {quantity: "1 1/2", unit: tsp, item: baking powder}
+  - {quantity: "1", unit: tsp, item: salt}
+  - {quantity: "1/2", unit: tsp, item: baking soda}
+  - {quantity: "1/4", unit: cup, item: butter, note: or margarine}
+  - {quantity: "1", unit: null, item: egg, preparation: beaten}
+  - {quantity: "1", unit: tsp, item: orange peel, preparation: grated}
+  - {quantity: "3/4", unit: cup, item: orange juice}
+  - {quantity: "1 1/2", unit: cup, item: light raisins}
+  - {quantity: "1 1/2", unit: cup, item: cranberries, preparation: chopped, note: fresh
+      or frozen}
+directions:
+- name: null
+  steps:
+  - Sift the flour, sugar, baking powder, salt, and baking soda into a large bowl.
+  - Cut in the butter until the mixture is crumbly.
+  - Add the egg, orange peel, and orange juice all at once; stir just until the mixture
+    is evenly moist.
+  - Fold in the raisins and cranberries.
+  - >-
+    Spoon into a greased 9x5x3 inch loaf pan. Bake at 350°F for 1 hour and 10 minutes, or
+    until a toothpick inserted in the center comes out clean.
+  - Remove from the pan and cool on a wire rack.
+notes:
+- If you choose, you may substitute cranberries for the raisins to have all cranberry bread.
+story: null

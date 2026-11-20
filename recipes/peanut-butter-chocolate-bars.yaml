@@ -1,0 +1,62 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: peanut-butter-chocolate-bars
+title: Peanut Butter Chocolate Bars
+category: cookies
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: 15 min
+inactive_time: null
+pan: jelly roll pan (17.8 x 12.8 x 1 inch)
+tags: [peanut-butter, chocolate, oats, bar]
+ingredient_groups:
+- name: Bars
+  ingredients:
+  - {quantity: "1", unit: cup, item: unsalted butter, preparation: softened}
+  - {quantity: "1", unit: cup, item: sugar}
+  - {quantity: "1", unit: cup, item: light brown sugar, preparation: packed}
+  - {quantity: "1", unit: tsp, item: vanilla extract}
+  - {quantity: "2", unit: null, item: large eggs}
+  - {quantity: "2 1/2", unit: cup, item: peanut butter, note: 'divided: 1 cup for the dough,
+      1 1/2 cups for the topping'}
+  - {quantity: "2", unit: cup, item: old fashioned oats}
+  - {quantity: "2", unit: cup, item: all-purpose flour}
+  - {quantity: "1", unit: tsp, item: baking soda}
+  - {quantity: "1", unit: tsp, item: salt}
+- name: Chocolate Frosting
+  ingredients:
+  - {quantity: "1/2", unit: cup, item: butter, preparation: softened}
+  - {quantity: "3", unit: cup, item: powdered sugar}
+  - {quantity: "1/4", unit: cup, item: cocoa powder}
+  - {quantity: "1/4", unit: cup, item: milk}
+  - {quantity: "2", unit: tsp, item: vanilla extract}
+directions:
+- name: Bars
+  steps:
+  - >-
+    Preheat oven to 350°F and spray a jelly roll pan (17.8 x 12.8 x 1 inch) with nonstick
+    cooking spray or line with parchment paper.
+  - In a large mixing bowl, cream together butter, sugar, and brown sugar.
+  - Add the vanilla, eggs, and 1 cup of the peanut butter. Mix well.
+  - Add oats, flour, baking soda, and salt and mix until well combined.
+  - >-
+    Spread dough in an even layer onto the prepared pan. The dough will be wet, so it helps
+    to spray your hands with cooking spray to press it in.
+  - Bake bars for 15 minutes and remove from oven.
+  - >-
+    Drop remaining 1 1/2 cups of peanut butter in small spoonfuls all over the top of the
+    warm bars. Let peanut butter sit for about 5 minutes and spread when it has softened
+    and melted.
+  - Let bars sit until set up before spreading the chocolate frosting on.
+- name: Chocolate Frosting
+  steps:
+  - In a large bowl, beat together the butter, powdered sugar, cocoa, milk, and vanilla
+    until smooth.
+  - Spread on top of bars. Cut into bars and serve.
+notes: []
+story: null

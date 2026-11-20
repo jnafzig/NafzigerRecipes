@@ -1,0 +1,40 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: biscuits-supreme
+title: Biscuits Supreme
+category: breads
+author: null
+source: Martha Clymer
+source_url: null
+date: null
+yield: 16 medium biscuits
+servings: null
+oven_temp_f: 400
+prep_time: null
+cook_time: 10-12 min
+inactive_time: null
+pan: ungreased baking sheets
+tags: [quick-bread, side-dish, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "2", unit: cup, item: flour}
+  - {quantity: "2", unit: tsp, item: sugar}
+  - {quantity: "4", unit: tsp, item: baking powder}
+  - {quantity: "1/2", unit: tsp, item: salt}
+  - {quantity: "1/2", unit: tsp, item: cream of tartar}
+  - {quantity: "1/2", unit: cup, item: shortening, note: or margarine}
+  - {quantity: "2/3", unit: cup, item: milk}
+directions:
+- name: null
+  steps:
+  - Heat the oven to 400°F.
+  - Cut the shortening into the dry ingredients. Stir in the milk.
+  - Flour hands well and knead lightly until elastic in nature.
+  - Roll to approximately 1 inch thick and cut out.
+  - Bake on ungreased baking sheets until golden, 10 to 12 minutes.
+notes:
+- >-
+  Option: use 1/3 whole wheat flour and reduce the shortening to 1/4 cup. The biscuits are
+  still quite fluffy.
+- I do not bake them at 400°F but more like 375°F.
+story: null

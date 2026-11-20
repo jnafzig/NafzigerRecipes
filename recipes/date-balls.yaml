@@ -1,0 +1,35 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: date-balls
+title: Date Balls
+category: cookies
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: null
+prep_time: null
+cook_time: 10 min
+inactive_time: null
+pan: null
+tags: [no-bake, pecan]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1", unit: cup, item: dates, preparation: chopped fine}
+  - {quantity: "1/2", unit: cup, item: granulated sugar, note: more if you like them sweet}
+  - {quantity: "2", unit: null, item: eggs, preparation: beaten}
+  - {quantity: "1/4", unit: cup, item: butter, note: 1/8 lb}
+  - {quantity: "2 1/2", unit: cup, item: Rice Krispies}
+  - {quantity: "1/2", unit: cup, item: pecans, preparation: chopped}
+  - {quantity: null, unit: null, item: coconut, note: for rolling, optional: true}
+directions:
+- name: null
+  steps:
+  - Mix the dates, sugar, eggs, and butter well and cook for 10 minutes, stirring constantly.
+  - Add the Rice Krispies and chopped pecans. Mix well.
+  - Form into balls and roll in coconut.
+notes:
+- I skip the coconut.
+story: null

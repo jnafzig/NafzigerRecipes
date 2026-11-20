@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: pumpkin-pie-crunch
+title: Pumpkin Pie Crunch
+category: desserts
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: 50 min
+inactive_time: null
+pan: 9x13 inch pan
+tags: [pumpkin, bar, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1", unit: can, item: pumpkin, note: 15.5 oz}
+  - {quantity: "1", unit: can, item: evaporated milk, note: 12 oz}
+  - {quantity: "3", unit: null, item: large eggs}
+  - {quantity: "3/4", unit: cup, item: sugar}
+  - {quantity: "1/4", unit: tsp, item: salt}
+  - {quantity: "1", unit: Tbsp, item: pumpkin pie spice}
+  - {quantity: "1", unit: cup, item: unsalted butter, preparation: melted}
+  - {quantity: "1", unit: cup, item: pecans, preparation: chopped}
+  - {quantity: "1", unit: pkg, item: yellow cake mix}
+directions:
+- name: null
+  steps:
+  - Preheat oven to 350°F. Grease and flour a 9x13 pan and set aside.
+  - In a bowl, combine pumpkin, milk, eggs, sugar, salt, and pumpkin pie spice. Pour into
+    prepared pan.
+  - Gently sprinkle the cake mix powder over the pumpkin mixture; top with pecans.
+  - Drizzle melted butter over the cake mix and pecan layer.
+  - Bake 25 minutes uncovered. Cover with foil and bake an additional 25 minutes.
+  - Remove from oven and uncover (be careful, the steam will be hot). Cool completely.
+  - Cut into squares and serve with ice cream.
+notes: []
+story: null

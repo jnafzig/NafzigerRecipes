@@ -1,0 +1,43 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: monster-cookies
+title: Monster Cookies
+category: cookies
+author: null
+source: Nancy Hess
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: 9-11 min
+inactive_time: null
+pan: cookie sheets
+tags: [peanut-butter, oats, chocolate, drop-cookie, christmas]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "2", unit: stick, item: margarine, note: 'half batch: 1'}
+  - {quantity: "6", unit: null, item: eggs, note: 'half batch: 3'}
+  - {quantity: "2", unit: cup, item: sugar, note: 'half batch: 1'}
+  - {quantity: "2", unit: cup, item: brown sugar, note: 'half batch: 1'}
+  - {quantity: "3", unit: cup, item: peanut butter, note: 'half batch: 1 1/2'}
+  - {quantity: "4", unit: tsp, item: baking soda, note: 'half batch: 2'}
+  - {quantity: "9", unit: cup, item: quick oatmeal, note: 'half batch: 4 1/2'}
+  - {quantity: "1/2", unit: lb, item: M&Ms, note: 'half batch: 1/2 lb'}
+  - {quantity: "1/2", unit: lb, item: chocolate chips, note: 'half batch: 1/2 lb'}
+  - {quantity: "2", unit: tsp, item: vanilla, note: 'half batch: 1'}
+  - {quantity: "1/2", unit: tsp, item: Karo corn syrup, note: 'half batch: 1/4'}
+directions:
+- name: null
+  steps:
+  - Mix all ingredients.
+  - Chill for a short period.
+  - Drop or roll into balls and flatten on cookie sheets.
+  - Bake at 350°F for 9 to 11 minutes.
+notes:
+- >-
+  If you do not want to make a monstrous amount, use the half-batch amounts noted with each
+  ingredient.
+story: I often made these cookies around the Christmas holidays. This recipe came from Nancy
+  Hess.

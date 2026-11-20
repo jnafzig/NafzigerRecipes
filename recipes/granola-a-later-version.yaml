@@ -1,0 +1,51 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: granola-a-later-version
+title: Granola (A Later Version)
+category: breakfast
+author: Lois Nafziger
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: 25 min
+inactive_time: null
+pan: ungreased 9x13 inch pan
+tags: [oats, walnut, make-ahead, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "6", unit: cup, item: rolled oats, note: I use 4 cups of quick oats and 4
+      cups of rolled oats = 8 cups}
+  - {quantity: "2/3", unit: cup, item: sunflower seeds or nuts, note: I use heaping half-cup
+      measures}
+  - {quantity: "2/3", unit: cup, item: wheat germ, note: I use heaping half-cup measures}
+  - {quantity: "2/3", unit: cup, item: powdered milk, note: I use heaping half-cup measures}
+  - {quantity: "2/3", unit: cup, item: honey, note: I am generous with the honey}
+  - {quantity: "2/3", unit: cup, item: oil, note: I usually put in 1/2 cup}
+  - {quantity: "1", unit: tsp, item: vanilla}
+  - {quantity: "1/2-1", unit: cup, item: raisins, optional: true}
+  - {quantity: "1-2", unit: cup, item: crisp rice cereal, optional: true}
+  - {quantity: "1/2-1", unit: cup, item: walnuts, optional: true}
+directions:
+- name: null
+  steps:
+  - Preheat the oven to 350°F.
+  - Place the oats in an ungreased 9x13 inch pan. Bake 10 minutes.
+  - Remove from the oven and stir in the sunflower seeds, wheat germ, and powdered milk.
+  - >-
+    Pour the honey, oil, and vanilla over the top. (It is easy to measure these three items
+    together in a two cup measure.)
+  - >-
+    Put into the oven to bake for 5 minutes without stirring. Total baking time should be
+    15 minutes, with stirring every 5 minutes. Bake until uniformly golden. Do not over
+    bake!
+  - Let it cool in the pan undisturbed, then break into chunks.
+notes:
+- >-
+  I usually added raisins (1/2 to 1 cup) and often crisp rice (1 or 2 cups) and walnuts
+  (1/2 to 1 cup).
+- It is unlikely that any two batches of granola are ever the same at my house.
+story: null

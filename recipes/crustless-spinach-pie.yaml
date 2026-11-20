@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: crustless-spinach-pie
+title: Crustless Spinach Pie
+category: main-dishes
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: 6-8
+oven_temp_f: 350
+prep_time: null
+cook_time: 30 min
+inactive_time: null
+pan: pie plate or quiche dish
+tags: [spinach, cheese, eggs, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1", unit: pkg, item: frozen chopped spinach, note: 10 oz pkg; or pre-cooked
+      fresh spinach}
+  - {quantity: "4", unit: Tbsp, item: margarine, preparation: melted}
+  - {quantity: "3", unit: Tbsp, item: flour}
+  - {quantity: "3", unit: null, item: eggs, preparation: lightly beaten}
+  - {quantity: "1/2", unit: tsp, item: salt}
+  - {quantity: "1/8", unit: tsp, item: pepper}
+  - {quantity: "1", unit: null, item: carton cottage cheese, note: 8 oz carton}
+  - {quantity: "1/2", unit: cup, item: mozzarella cheese, preparation: grated}
+directions:
+- name: null
+  steps:
+  - Thaw and drain the spinach, or pre-cook fresh spinach.
+  - Combine all ingredients and mix well. Spoon into a greased pie plate or quiche dish.
+  - Bake at 350°F for 30 minutes.
+notes: []
+story: null

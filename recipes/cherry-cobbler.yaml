@@ -1,0 +1,50 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: cherry-cobbler
+title: Cherry Cobbler
+category: desserts
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: '6'
+oven_temp_f: 350
+prep_time: null
+cook_time: 1 hr
+inactive_time: null
+pan: 8 or 9 inch square or round pan
+tags: [cherry, peach, cobbler]
+ingredient_groups:
+- name: Pan
+  ingredients:
+  - {quantity: "3/4", unit: stick, item: margarine, preparation: melted}
+- name: Batter
+  ingredients:
+  - {quantity: "1", unit: cup, item: flour}
+  - {quantity: "3/4", unit: cup, item: granulated sugar}
+  - {quantity: "2", unit: tsp, item: baking powder}
+  - {quantity: "3/4", unit: cup, item: milk}
+  - {quantity: "1/2", unit: tsp, item: salt}
+- name: Fruit
+  ingredients:
+  - {quantity: "2", unit: cup, item: 'canned or frozen fruit (peaches, cherries, blueberries,
+      rhubarb, or apples)', preparation: drained; thawed if frozen}
+  - {quantity: "1/2", unit: cup, item: granulated sugar, note: omit if fruit is already
+      sweetened}
+  - {quantity: null, unit: null, item: cinnamon or nutmeg, note: as desired, optional: true}
+directions:
+- name: null
+  steps:
+  - Melt the margarine in an 8 or 9 inch square or round pan.
+  - Make a batter of the flour, sugar, baking powder, milk, and salt.
+  - Pour over melted butter, but do not stir.
+  - >-
+    Mix the fruit with 1/2 cup sugar (no sugar if fruit is already sweetened) and pour over
+    top of batter.
+  - Sprinkle with desired spice (cinnamon or nutmeg).
+  - Bake for one hour at 350°F (325°F if using a glass pan).
+  - Serve warm with sugar and milk.
+notes:
+- If using a glass pan, reduce heat to 325°F.
+- Works with peaches, cherries, blueberries, rhubarb, or apples.
+story: null

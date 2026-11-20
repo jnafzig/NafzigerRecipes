@@ -1,0 +1,37 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: freezing-eggplant
+title: Freezing Eggplant
+category: canning-freezing
+author: null
+source: Ball Blue Book
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: null
+prep_time: null
+cook_time: 4 min
+inactive_time: null
+pan: null
+tags: [freezer, make-ahead, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: null, unit: null, item: eggplant}
+  - {quantity: "1", unit: gal, item: boiling water, note: per scalding batch}
+  - {quantity: "4 1/2", unit: tsp, item: citric acid, note: or 1/2 cup lemon juice}
+directions:
+- name: null
+  steps:
+  - >-
+    Wash, peel, and slice 1/3 inch thick. Prepare quickly; just enough eggplant for 1 scalding
+    at a time.
+  - >-
+    Scald 4 minutes in 1 gallon boiling water containing 4 1/2 teaspoons citric acid or
+    1/2 cup lemon juice.
+  - Cool, drain, and pack in cans, freezer jars, or plastic freezer boxes.
+  - 'For frying: pack the drained slices with freezer wrap between slices. Seal, label,
+    and freeze.'
+notes:
+- Harvest before the seeds become mature and when the color is uniformly dark.
+story: null

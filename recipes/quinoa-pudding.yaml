@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: quinoa-pudding
+title: Quinoa Pudding
+category: desserts
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: null
+prep_time: null
+cook_time: 30 min
+inactive_time: null
+pan: medium saucepan
+tags: [quinoa, raisin, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1", unit: cup, item: quinoa}
+  - {quantity: "2", unit: cup, item: water}
+  - {quantity: "2", unit: cup, item: apple juice}
+  - {quantity: "1", unit: cup, item: raisins}
+  - {quantity: "2", unit: Tbsp, item: lemon juice}
+  - {quantity: "1", unit: tsp, item: ground cinnamon, note: or to taste}
+  - {quantity: null, unit: null, item: salt, note: to taste}
+  - {quantity: "2", unit: tsp, item: vanilla extract}
+directions:
+- name: null
+  steps:
+  - Place quinoa in a sieve and rinse thoroughly. Allow to drain.
+  - Place quinoa in a medium saucepan with water. Bring to a boil over high heat.
+  - >-
+    Cover pan with lid, lower heat, and allow to simmer until all water is absorbed and
+    quinoa is tender, about 15 minutes.
+  - >-
+    Mix in apple juice, raisins, lemon juice, cinnamon, and salt. Cover pan and allow to
+    simmer for 15 minutes longer.
+  - Stir in vanilla extract. Serve warm.
+notes: []
+story: null

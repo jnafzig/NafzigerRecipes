@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: celery-seed-salad-dressing
+title: Celery Seed Salad Dressing
+category: condiments
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: null
+prep_time: null
+cook_time: null
+inactive_time: null
+pan: null
+tags: [sauce, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1/2", unit: cup, item: sugar, note: or you could try honey}
+  - {quantity: "1", unit: tsp, item: dry mustard, note: I've used salad mustard}
+  - {quantity: "1/2", unit: tsp, item: salt, note: or less}
+  - {quantity: "1", unit: null, item: small onion}
+  - {quantity: "1/3", unit: cup, item: vinegar}
+  - {quantity: "1", unit: cup, item: canola oil}
+  - {quantity: "1", unit: tsp, item: celery seed}
+directions:
+- name: null
+  steps:
+  - Blend all ingredients except celery seed in the blender for one minute.
+  - Add celery seed and mix.
+  - Pour into container and refrigerate.
+notes:
+- You could try honey instead of sugar.
+- I've used salad mustard instead of dry mustard.
+story: null

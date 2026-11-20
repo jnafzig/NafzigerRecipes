@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: meadow-tea-concentrate
+title: Meadow Tea Concentrate
+category: beverages
+author: null
+source: Mary Hess
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: null
+prep_time: null
+cook_time: null
+inactive_time: 45 min
+pan: null
+tags: [drink, make-ahead, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "4", unit: qt, item: water, note: 16 cups / 1 gallon}
+  - {quantity: "3", unit: cup, item: sugar, note: skimpy; some people will want to adjust
+      the amount of sugar}
+  - {quantity: "6", unit: cup, item: tea leaves, note: or more}
+  - {quantity: "1 1/2", unit: pkg, item: lemon Kool-Aid}
+directions:
+- name: null
+  steps:
+  - Mix the water and sugar and bring to a boil.
+  - Turn off the heat and add the tea leaves. Let this steep for 45 minutes.
+  - Remove the leaves and pour through a sieve.
+  - Add the lemonade mix. Cool.
+  - To serve, mix about 1 cup of concentrate to 3 cups of water, plus ice.
+notes:
+- >-
+  Some will want to make the final mixture stronger or weaker. Adjust the ratio of tea to
+  water to suit your taste. This is clearly a recipe to make your own according to your
+  preference.
+- My sister Rhoda used 3 small cans of frozen lemon concentrate.
+story: From my mother (Mary Hess).

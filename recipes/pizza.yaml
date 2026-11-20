@@ -1,0 +1,55 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: pizza
+title: Pizza
+category: main-dishes
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: 4-6
+oven_temp_f: 425
+prep_time: null
+cook_time: 20-25 min
+inactive_time: 5 min
+pan: greased pizza pan or cookie sheet
+tags: [pizza, cheese]
+ingredient_groups:
+- name: Crust
+  ingredients:
+  - {quantity: "1", unit: pkg, item: yeast}
+  - {quantity: "1", unit: tsp, item: sugar}
+  - {quantity: "1", unit: cup, item: warm water}
+  - {quantity: "2", unit: Tbsp, item: cooking oil}
+  - {quantity: "2 1/2", unit: cup, item: bread flour}
+  - {quantity: "1", unit: tsp, item: salt}
+- name: Sauce and Toppings
+  ingredients:
+  - {quantity: "15", unit: oz, item: tomato sauce or pizza sauce}
+  - {quantity: "2", unit: tsp, item: oregano}
+  - {quantity: "1/2", unit: cup, item: onion, preparation: chopped}
+  - {quantity: "1/2", unit: lb, item: pepperoni, preparation: sliced}
+  - {quantity: "1/2", unit: tsp, item: salt}
+  - {quantity: "1", unit: cup, item: mushrooms, preparation: sliced}
+  - {quantity: "1/2", unit: tsp, item: garlic}
+  - {quantity: "2", unit: null, item: green peppers, preparation: sliced}
+  - {quantity: "8", unit: oz, item: mozzarella cheese, preparation: sliced}
+directions:
+- name: Crust
+  steps:
+  - Dissolve the yeast and sugar in the warm water. Add the oil.
+  - >-
+    Combine the flour and 1 tsp salt. Pour the yeast mixture over the dry ingredients and
+    mix thoroughly.
+  - Let rest 5 minutes.
+  - Roll the dough out onto a greased pizza pan or cookie sheet, forming edges.
+- name: Sauce and Toppings
+  steps:
+  - Pour the tomato sauce or pizza sauce over the crust.
+  - Add the remaining ingredients in the order listed.
+  - Bake at 425°F for 20-25 minutes. Serve.
+notes:
+- Jonathan enjoyed adding herbs such as Italian seasoning to the dough.
+story: >-
+  When our family became more vegetarian we made even more pizza. It was something that
+  we often made for Saturday or Sunday evening meals.

@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: gingersnaps
+title: Gingersnaps
+category: cookies
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: 15 min
+inactive_time: null
+pan: ungreased cookie sheet
+tags: [ginger, molasses, drop-cookie]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "2/3", unit: cup, item: oil}
+  - {quantity: "1", unit: cup, item: dark brown sugar}
+  - {quantity: "1", unit: null, item: egg}
+  - {quantity: "4", unit: Tbsp, item: molasses}
+  - {quantity: "2 1/2", unit: cup, item: flour}
+  - {quantity: "2", unit: tsp, item: baking soda}
+  - {quantity: "1/2", unit: tsp, item: salt}
+  - {quantity: "1", unit: tsp, item: cinnamon}
+  - {quantity: "1", unit: tsp, item: ginger}
+  - {quantity: null, unit: null, item: granulated sugar, note: for rolling}
+directions:
+- name: null
+  steps:
+  - Heat oven to 350°F.
+  - Mix oil, brown sugar, and egg and beat well. Stir in molasses.
+  - Add remaining ingredients.
+  - Form into balls and roll in granulated sugar.
+  - Bake 15 minutes on ungreased cookie sheet.
+notes: []
+story: null

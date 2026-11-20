@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: jonathans-bread
+title: Jonathan's Bread
+category: breads
+author: null
+source: Jonathan
+source_url: null
+date: null
+yield: 1 loaf
+servings: null
+oven_temp_f: 450
+prep_time: null
+cook_time: 45 min
+inactive_time: 12-24 hr
+pan: covered dish (Dutch oven-style pot)
+tags: [yeast-bread, overnight, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "3", unit: cup, item: bread flour, note: I've been playing with making 1/2
+      cup of this whole wheat}
+  - {quantity: "1/4", unit: tsp, item: yeast}
+  - {quantity: "1", unit: tsp, item: salt}
+  - {quantity: "1 1/2", unit: cup, item: water}
+directions:
+- name: null
+  steps:
+  - Mix the flour, yeast, and salt.
+  - Add the water and mix. Let sit for 12 to 24 hours. The dough should spread out and get
+    bubbly.
+  - Preheat the oven to 450°F with the covered dish inside.
+  - Using plenty of flour, gently form the dough into a ball without squishing it too much.
+  - >-
+    Place it into the preheated pot and bake for 30 minutes covered, then remove the cover
+    and bake for 15 more minutes.
+  - Remove and let cool on a rack.
+notes:
+- Good luck! -Jonathan
+story: null

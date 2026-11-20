@@ -1,0 +1,48 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: meatloaf-and-piquant-sauce
+title: Meatloaf and Piquant Sauce
+category: main-dishes
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: '5'
+oven_temp_f: 350
+prep_time: null
+cook_time: 1 hr
+inactive_time: null
+pan: greased loaf or baking pan
+tags: [ground-beef]
+ingredient_groups:
+- name: Meatloaf
+  ingredients:
+  - {quantity: "2", unit: null, item: eggs, preparation: beaten}
+  - {quantity: "1 1/2", unit: lb, item: ground beef}
+  - {quantity: "1", unit: cup, item: milk}
+  - {quantity: "1/4", unit: cup, item: onion, preparation: chopped}
+  - {quantity: "2/3", unit: cup, item: bread or cracker crumbs}
+  - {quantity: "1/2", unit: tsp, item: sage}
+  - {quantity: "1/8", unit: tsp, item: pepper}
+  - {quantity: "1", unit: tsp, item: salt}
+- name: Piquant Sauce
+  ingredients:
+  - {quantity: "6", unit: Tbsp, item: brown sugar}
+  - {quantity: "1/2", unit: cup, item: ketchup}
+  - {quantity: "1/2", unit: tsp, item: nutmeg}
+  - {quantity: "2", unit: tsp, item: dry mustard}
+directions:
+- name: Meatloaf
+  steps:
+  - Beat the eggs in a small bowl. Add the milk and crumbs and stir together with a fork.
+    Set aside.
+  - >-
+    In a medium bowl combine the ground beef, onion, and seasonings. Add the milk and crumb
+    mixture and stir well.
+  - Pack the meatloaf into a greased loaf or baking pan.
+- name: Piquant Sauce
+  steps:
+  - Combine all sauce ingredients and beat together with a fork.
+  - Spread the sauce over the meatloaf. Bake at 350°F for 1 hour.
+notes: []
+story: null

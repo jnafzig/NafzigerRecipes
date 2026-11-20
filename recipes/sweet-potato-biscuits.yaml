@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: sweet-potato-biscuits
+title: Sweet Potato Biscuits
+category: breads
+author: null
+source: Arlene Kindy
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: 400
+prep_time: null
+cook_time: 10-12 min
+inactive_time: null
+pan: null
+tags: [sweet-potato, quick-bread, side-dish, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "2", unit: cup, item: sweet potatoes}
+  - {quantity: "2/3", unit: cup, item: oil, note: or melted fat}
+  - {quantity: "1/2", unit: cup, item: sugar}
+  - {quantity: "3", unit: cup, item: flour, note: some whole wheat}
+  - {quantity: "4", unit: tsp, item: baking powder}
+  - {quantity: "1", unit: tsp, item: salt}
+directions:
+- name: null
+  steps:
+  - Mix together the sweet potatoes and oil.
+  - Add the sugar, flour, baking powder, and salt and mix in.
+  - Pat to biscuit thickness and cut.
+  - Bake for 10 to 12 minutes at 400°F.
+notes: []
+story: I got this recipe from Arlene Kindy. She often made these biscuits for CPTNI meals.

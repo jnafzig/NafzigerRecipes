@@ -1,0 +1,43 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: brussels-sprouts-with-balsamic-and-cranberries
+title: Brussels Sprouts with Balsamic and Cranberries
+category: vegetables
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: '16'
+oven_temp_f: 375
+prep_time: 10 min
+cook_time: 30 min
+inactive_time: null
+pan: 2 baking sheets
+tags: [brussels-sprouts, cranberry, side-dish, vegetarian]
+ingredient_groups:
+- name: Brussels Sprouts
+  ingredients:
+  - {quantity: "3", unit: lb, item: Brussels sprouts}
+  - {quantity: "1/2", unit: cup, item: olive oil}
+  - {quantity: null, unit: null, item: salt and pepper}
+  - {quantity: "1", unit: cup, item: dried cranberries}
+- name: Balsamic Reduction
+  ingredients:
+  - {quantity: "1", unit: cup, item: balsamic vinegar}
+  - {quantity: "1/2", unit: cup, item: sugar}
+directions:
+- name: null
+  steps:
+  - Trim and clean the Brussels sprouts, then cut them in half if desired (or you can leave
+    them whole).
+  - >-
+    Arrange on two baking sheets and toss with the olive oil. Sprinkle with plenty of salt
+    and pepper and roast at 375°F for 25 to 30 minutes, or until brown.
+  - >-
+    Combine the balsamic vinegar and sugar in a saucepan. Bring to a boil, then reduce heat
+    to medium-low and reduce until very thick, about 15 to 20 minutes.
+  - >-
+    Drizzle the balsamic reduction over the roasted sprouts, then sprinkle on the dried
+    cranberries. Toss and serve immediately.
+notes: []
+story: null

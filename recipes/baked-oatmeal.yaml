@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: baked-oatmeal
+title: Baked Oatmeal
+category: breakfast
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: 30 min
+inactive_time: null
+pan: 9x13 inch pan
+tags: [oats, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1/2", unit: cup, item: oil}
+  - {quantity: "3/4", unit: cup, item: sugar, note: 'any combination of honey, maple syrup,
+      brown sugar, or white sugar'}
+  - {quantity: "2", unit: null, item: eggs}
+  - {quantity: "4", unit: cup, item: quick oats}
+  - {quantity: "2", unit: tsp, item: baking powder}
+  - {quantity: "1", unit: tsp, item: salt}
+  - {quantity: "1 1/2", unit: tsp, item: cinnamon}
+  - {quantity: "1", unit: cup, item: milk}
+  - {quantity: "1", unit: cup, item: raisins}
+directions:
+- name: null
+  steps:
+  - Mix together the oil, sugar, and eggs.
+  - >-
+    Add the oats, baking powder, salt, cinnamon, milk, and raisins. Mix all of these together
+    and pour into a 9x13 inch pan.
+  - Bake at 350°F for 30 minutes.
+notes: []
+story: When five of us were home the whole pan disappeared during one breakfast.

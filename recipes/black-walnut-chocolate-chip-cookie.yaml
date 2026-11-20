@@ -1,0 +1,44 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: black-walnut-chocolate-chip-cookie
+title: Black Walnut Chocolate Chip Cookie
+category: cookies
+author: null
+source: null
+source_url: null
+date: null
+yield: 4-5 dozen cookies
+servings: null
+oven_temp_f: 375
+prep_time: null
+cook_time: 8-10 min
+inactive_time: null
+pan: ungreased cookie sheet
+tags: [walnut, chocolate, drop-cookie]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "2 1/4", unit: cup, item: all-purpose flour, note: plus 2 Tbsp}
+  - {quantity: "1", unit: tsp, item: baking soda}
+  - {quantity: "1/2", unit: tsp, item: salt}
+  - {quantity: "1", unit: cup, item: unsalted butter, preparation: softened, note: 2 sticks}
+  - {quantity: "3/4", unit: cup, item: sugar}
+  - {quantity: "3/4", unit: cup, item: light brown sugar}
+  - {quantity: "1", unit: tsp, item: vanilla}
+  - {quantity: "2", unit: null, item: large eggs}
+  - {quantity: "12", unit: oz, item: semi-sweet chocolate chips, note: 1 package}
+  - {quantity: "1", unit: cup, item: black walnuts, preparation: chopped}
+directions:
+- name: null
+  steps:
+  - Preheat oven to 375°F.
+  - In a medium bowl mix flour, baking soda, and salt. Set aside.
+  - In a large bowl beat butter, sugar, brown sugar, and vanilla until creamy. Add eggs
+    and mix well.
+  - >-
+    Gradually stir in flour mixture. When cookie dough is well mixed stir in chocolate chips
+    and walnuts.
+  - Drop by spoonfuls onto ungreased cookie sheet. Bake 8 to 10 minutes or until lightly
+    brown.
+  - Cool slightly; then remove from cookie sheet to completely cool.
+notes: []
+story: null

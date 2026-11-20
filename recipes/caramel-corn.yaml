@@ -1,0 +1,44 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: caramel-corn
+title: Caramel Corn
+category: snacks
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: null
+prep_time: null
+cook_time: null
+inactive_time: null
+pan: brown paper grocery bag
+tags: [snack, popcorn, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "6", unit: qt, item: popped corn}
+  - {quantity: "1", unit: cup, item: white sugar}
+  - {quantity: null, unit: null, item: Pam or oil spray}
+  - {quantity: "1", unit: Tbsp, item: molasses}
+  - {quantity: "1/2", unit: stick, item: margarine}
+  - {quantity: "1/4", unit: tsp, item: salt}
+  - {quantity: "1/4", unit: cup, item: white Karo syrup (light corn syrup)}
+  - {quantity: "1/4", unit: tsp, item: baking soda}
+directions:
+- name: null
+  steps:
+  - Spray the bottom 2/3 of a brown paper grocery bag with Pam or oil spray. Put the popcorn
+    in the bag.
+  - >-
+    Cook the margarine, Karo, sugar, molasses, and salt, stirring until the mixture boils
+    and the sugar is dissolved.
+  - >-
+    Remove from heat. Add the soda and stir. The mixture will become foamy and double or
+    triple in volume.
+  - Pour over the popcorn in the bag. Close the bag and shake for 1 to 2 minutes.
+  - Put the bag in the microwave on high for 60 seconds. Shake the bag again.
+  - Repeat the microwave step and shake.
+  - Pour out to cool. Enjoy!
+notes: []
+story: null

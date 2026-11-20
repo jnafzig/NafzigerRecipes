@@ -1,0 +1,46 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: spicy-baked-sweet-potatoes
+title: Spicy Baked Sweet Potatoes
+category: main-dishes
+author: null
+source: Tim and Mom in California
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: 375
+prep_time: null
+cook_time: 40-45 min
+inactive_time: null
+pan: baking sheet lined with foil
+tags: [sweet-potato, side-dish, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "2-3", unit: null, item: medium sweet potatoes, preparation: sliced lengthwise
+      into wedges}
+  - {quantity: null, unit: null, item: olive oil or olive oil cooking spray}
+  - {quantity: null, unit: null, item: chili powder}
+  - {quantity: null, unit: null, item: salt}
+  - {quantity: null, unit: null, item: pepper}
+  - {quantity: null, unit: null, item: ketchup, note: for dipping, optional: true}
+directions:
+- name: null
+  steps:
+  - Preheat the oven to 375°F. Line a baking sheet with foil and coat lightly with olive
+    oil.
+  - >-
+    Spread the potato wedges on the baking sheet with enough room so that they don't touch
+    (touching will make them steam each other).
+  - >-
+    Drizzle with olive oil or spray with olive oil cooking spray, then dust generously with
+    chili powder, salt, and pepper.
+  - >-
+    Cook for 30-35 minutes until they are almost soft enough to eat, then turn the oven
+    up to 425°F for 10 more minutes to get them brown and crisp.
+  - Eat plain or dip into ketchup!
+notes:
+- >-
+  The cooking time will vary somewhat depending on how thick your slices are, so start checking
+  the potatoes after 30 minutes.
+story: null

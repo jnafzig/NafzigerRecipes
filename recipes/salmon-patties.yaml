@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: salmon-patties
+title: Salmon Patties
+category: main-dishes
+author: null
+source: null
+source_url: null
+date: null
+yield: 6 patties
+servings: null
+oven_temp_f: null
+prep_time: null
+cook_time: null
+inactive_time: null
+pan: skillet
+tags: [salmon, fish, quick]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1", unit: can, item: salmon, note: 15 oz can; reserve 2 Tbsp of the liquid}
+  - {quantity: "1/2", unit: cup, item: flour}
+  - {quantity: "1", unit: null, item: egg}
+  - {quantity: "1 1/2", unit: tsp, item: baking powder}
+  - {quantity: "1/3", unit: cup, item: onion, preparation: chopped}
+  - {quantity: "1/2", unit: Tbsp, item: oil}
+directions:
+- name: null
+  steps:
+  - Drain the salmon, reserving 2 Tbsp liquid.
+  - Combine the salmon, egg, and onion. Stir in the flour.
+  - Stir the baking powder into the reserved salmon liquid and add to the salmon and onion
+    mixture.
+  - Form the mixture into 6 patties.
+  - Heat the oil in a skillet and fry each patty on both sides until golden brown. Serve.
+notes: []
+story: null

@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: peanut-butter-log
+title: Peanut Butter Log
+category: candy
+author: null
+source: null
+source_url: null
+date: null
+yield: 1 log
+servings: null
+oven_temp_f: null
+prep_time: null
+cook_time: null
+inactive_time: null
+pan: null
+tags: [peanut-butter, no-bake, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1", unit: cup, item: peanut butter}
+  - {quantity: "2", unit: tsp, item: margarine, note: written "Tsp." in the original; may
+      mean Tbsp}
+  - {quantity: "3/4", unit: cup, item: powdered sugar}
+  - {quantity: "3", unit: cup, item: crispy rice cereal}
+directions:
+- name: null
+  steps:
+  - Blend together the peanut butter and margarine.
+  - Stir in the powdered sugar. Add the cereal.
+  - Shape into a log. Wrap in wax paper. Chill.
+  - Slice 1/2 inch thick.
+notes: []
+story: null

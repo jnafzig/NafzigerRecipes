@@ -1,0 +1,53 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: spaghetti-pie
+title: Spaghetti Pie
+category: main-dishes
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: '6'
+oven_temp_f: 350
+prep_time: null
+cook_time: 30-35 min
+inactive_time: null
+pan: 8x12 inch baking dish
+tags: [pasta, ground-beef, casserole]
+ingredient_groups:
+- name: Spaghetti Crust
+  ingredients:
+  - {quantity: "6", unit: oz, item: thin spaghetti, preparation: cooked until tender}
+  - {quantity: "2", unit: Tbsp, item: butter}
+  - {quantity: "1/2", unit: cup, item: parmesan cheese}
+  - {quantity: "2", unit: null, item: eggs, preparation: beaten}
+- name: Meat Sauce
+  ingredients:
+  - {quantity: "1", unit: lb, item: hamburger, optional: true}
+  - {quantity: "1/2", unit: null, item: onion, preparation: chopped}
+  - {quantity: "1/4", unit: null, item: green pepper, preparation: chopped}
+  - {quantity: "1/2", unit: tsp, item: salt}
+  - {quantity: "1", unit: Tbsp, item: sugar}
+  - {quantity: "1/4", unit: tsp, item: garlic powder}
+  - {quantity: "3/4", unit: tsp, item: oregano}
+  - {quantity: "2", unit: cup, item: whole tomatoes}
+- name: Topping
+  ingredients:
+  - {quantity: "1", unit: cup, item: cottage or ricotta cheese}
+  - {quantity: null, unit: null, item: pepperoni slices}
+directions:
+- name: null
+  steps:
+  - Cook the spaghetti until tender.
+  - >-
+    Mix the butter, parmesan cheese, and beaten eggs and add to the spaghetti. Spread in
+    a greased 8x12 baking dish.
+  - Sauté and drain the hamburger, onion, and green pepper.
+  - Add the salt, sugar, garlic powder, oregano, and whole tomatoes to the hamburger.
+  - >-
+    Spread the cottage or ricotta cheese over the spaghetti. Add the hamburger mixture and
+    pepperoni slices.
+  - Bake at 350°F for 30-35 minutes.
+notes:
+- This can be made without using hamburger.
+story: null

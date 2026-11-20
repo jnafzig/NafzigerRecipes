@@ -1,0 +1,62 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: manicotti
+title: Manicotti
+category: main-dishes
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: 8-10
+oven_temp_f: 400
+prep_time: null
+cook_time: 45-50 min
+inactive_time: null
+pan: 9x13 inch baking pan
+tags: [pasta, cheese, tomato, vegetarian]
+ingredient_groups:
+- name: Sauce
+  ingredients:
+  - {quantity: "6", unit: Tbsp, item: olive oil}
+  - {quantity: "1", unit: clove, item: garlic, preparation: minced}
+  - {quantity: "1", unit: null, item: medium onion, preparation: minced}
+  - {quantity: "2", unit: Tbsp, item: parsley, preparation: chopped}
+  - {quantity: "1", unit: can, item: whole tomatoes, note: 32 oz can}
+  - {quantity: "1", unit: can, item: tomato sauce, note: 16 oz can}
+  - {quantity: "1", unit: tsp, item: salt}
+  - {quantity: null, unit: dash, item: pepper}
+  - {quantity: "1", unit: tsp, item: sugar}
+  - {quantity: "1/2", unit: tsp, item: basil}
+- name: Filling
+  ingredients:
+  - {quantity: "15", unit: oz, item: ricotta cheese, note: 15 oz carton}
+  - {quantity: "1/4", unit: lb, item: mozzarella cheese, preparation: grated}
+  - {quantity: "1", unit: Tbsp, item: parsley, preparation: chopped}
+  - {quantity: "3", unit: Tbsp, item: Parmesan cheese}
+  - {quantity: "1", unit: null, item: egg, preparation: lightly beaten}
+- name: Assembly
+  ingredients:
+  - {quantity: "1", unit: pkg, item: manicotti shells, preparation: uncooked}
+  - {quantity: "1/2", unit: cup, item: Parmesan cheese, note: for sprinkling on top}
+directions:
+- name: Sauce
+  steps:
+  - Heat the olive oil in a heavy saucepan. Add the garlic, onion, and parsley and sauté
+    until golden.
+  - >-
+    Add the tomatoes, tomato sauce, salt, pepper, sugar, and basil and bring to a boil.
+    Simmer, uncovered, for 20 minutes.
+- name: Filling and Assembly
+  steps:
+  - Combine all filling ingredients.
+  - Fill the uncooked shells with the cheese filling, using a teaspoon or small knife.
+  - >-
+    Pour a thin layer of sauce into the bottom of a 9x13 baking pan. Arrange the filled
+    shells in a single layer across the dish.
+  - Add all the remaining sauce to completely cover the shells. Cover with aluminum foil.
+  - Bake at 400°F for 40 minutes.
+  - >-
+    Remove the foil and sprinkle with 1/2 cup Parmesan cheese. Return to the oven and bake
+    another 5-10 minutes.
+notes: []
+story: null

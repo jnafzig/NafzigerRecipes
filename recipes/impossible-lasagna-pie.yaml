@@ -1,0 +1,49 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: impossible-lasagna-pie
+title: Impossible Lasagna Pie
+category: main-dishes
+author: Lois Nafziger
+source: null
+source_url: null
+date: null
+yield: null
+servings: 6-8
+oven_temp_f: 400
+prep_time: null
+cook_time: 30-35 min
+inactive_time: 5 min
+pan: 10x1 1/2 inch pie plate
+tags: [ground-beef, cheese, casserole]
+ingredient_groups:
+- name: Filling
+  ingredients:
+  - {quantity: "1", unit: lb, item: ground beef, note: or meat substitute}
+  - {quantity: "1", unit: tsp, item: dried oregano leaves}
+  - {quantity: "1/2", unit: tsp, item: dried basil leaves}
+  - {quantity: "1", unit: can, item: tomato paste, note: 6 oz can}
+  - {quantity: "1", unit: cup, item: mozzarella cheese, preparation: shredded, note: 'divided:
+      1/2 cup in the filling, 1/2 cup on top'}
+  - {quantity: "1/2", unit: cup, item: small curd creamed cottage cheese}
+  - {quantity: "1/4", unit: cup, item: parmesan cheese, preparation: grated}
+- name: Topping
+  ingredients:
+  - {quantity: "1", unit: cup, item: milk}
+  - {quantity: "2/3", unit: cup, item: Bisquick baking mix}
+  - {quantity: "2", unit: null, item: eggs}
+  - {quantity: "1", unit: tsp, item: salt}
+  - {quantity: "1/4", unit: tsp, item: pepper}
+directions:
+- name: null
+  steps:
+  - Heat oven to 400°F. Grease a 10x1 1/2 inch pie plate.
+  - Cook and stir the beef over medium heat until brown; drain.
+  - Stir in the oregano, basil, tomato paste, and 1/2 cup of the mozzarella cheese.
+  - Layer the cottage cheese and parmesan cheese in the pie plate. Spoon the beef mixture
+    over the top.
+  - >-
+    Beat the milk, baking mix, eggs, salt, and pepper until smooth (15 seconds in a blender
+    on high or 1 minute with a hand beater). Pour into the pie plate.
+  - Bake until a knife inserted between the center and edge comes out clean, 30 to 35 minutes.
+  - Sprinkle with the remaining cheese. Cool 5 minutes.
+notes: []
+story: null

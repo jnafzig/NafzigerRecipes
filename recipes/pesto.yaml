@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: pesto
+title: Pesto
+category: miscellaneous
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: null
+prep_time: null
+cook_time: null
+inactive_time: null
+pan: null
+tags: [basil, sauce, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1 1/2", unit: cup, item: basil leaves}
+  - {quantity: "1/4", unit: cup, item: sunflower seeds}
+  - {quantity: "2", unit: clove, item: garlic}
+  - {quantity: "3/4", unit: cup, item: olive oil, note: can be 1/2 cup olive oil and 1/4
+      cup vegetable oil}
+  - {quantity: "3/4", unit: cup, item: Romano or Parmesan cheese}
+directions:
+- name: null
+  steps:
+  - Place the basil leaves in a blender. Add the sunflower seeds, garlic, and olive oil.
+  - Blend, then add the Romano or Parmesan cheese.
+notes: []
+story: null

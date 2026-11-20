@@ -1,0 +1,59 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: spicy-split-pea-soup
+title: Spicy Split Pea Soup
+category: soups
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: '6'
+oven_temp_f: null
+prep_time: null
+cook_time: null
+inactive_time: 1 hr
+pan: large saucepan
+tags: [split-pea, soup]
+ingredient_groups:
+- name: Soup
+  ingredients:
+  - {quantity: "5", unit: cup, item: chicken broth or bouillon}
+  - {quantity: "5", unit: cup, item: water}
+  - {quantity: "1", unit: lb, item: dried split peas or lentils}
+- name: Spice Mixture
+  ingredients:
+  - {quantity: "2", unit: Tbsp, item: butter or margarine}
+  - {quantity: "1/2", unit: cup, item: onion, preparation: chopped}
+  - {quantity: "1", unit: clove, item: garlic, preparation: finely chopped}
+  - {quantity: "1", unit: Tbsp, item: curry powder}
+  - {quantity: "1", unit: tsp, item: coriander seeds, preparation: crushed}
+  - {quantity: "1/4", unit: tsp, item: red pepper, preparation: crushed}
+  - {quantity: "1", unit: tsp, item: salt}
+- name: Finish
+  ingredients:
+  - {quantity: "1/2", unit: cup, item: light cream or milk}
+  - {quantity: null, unit: null, item: water or milk, note: to thin if needed}
+directions:
+- name: Soup
+  steps:
+  - Combine the broth, water, and split peas or lentils in a large saucepan.
+  - Heat to boiling, turn off heat, cover, and let stand for 1 hour. (Omit this step if
+    using lentils.)
+  - Reheat, and simmer over low heat for 45 minutes.
+- name: Spice Mixture
+  steps:
+  - >-
+    In a skillet over medium heat, sauté the butter, onion, garlic, curry powder, coriander,
+    red pepper, and salt. Stir-fry about 7 minutes.
+  - Stir the spice mixture into the peas. Cover, and cook over low heat for 20 minutes.
+- name: Finish
+  steps:
+  - >-
+    Cool slightly. Puree 2 cups of the soup at a time in a covered blender, holding the
+    lid partially ajar to let steam escape. Repeat until all has been pureed.
+  - Stir in the light cream or milk.
+  - Heat to serving temperature. If the soup is too thick, thin with a small amount of water
+    or milk.
+notes:
+- I skip the cream or milk and usually puree the soup in the blender.
+story: This is one of Dad's favorite soups.

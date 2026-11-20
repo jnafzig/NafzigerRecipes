@@ -1,0 +1,46 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: chocolate-chip-pumpkin-squares
+title: Chocolate Chip Pumpkin Squares
+category: cookies
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: 325
+prep_time: null
+cook_time: 45 min
+inactive_time: 45 min
+pan: null
+tags: [pumpkin, chocolate, bar]
+ingredient_groups:
+- name: Flour Mixture
+  ingredients:
+  - {quantity: "2 1/4", unit: cup, item: flour}
+  - {quantity: "2 1/4", unit: tsp, item: baking powder}
+  - {quantity: "1/2", unit: tsp, item: baking soda}
+  - {quantity: "1", unit: tsp, item: cinnamon}
+  - {quantity: "1/2", unit: tsp, item: nutmeg}
+- name: Sugar Mixture
+  ingredients:
+  - {quantity: "4", unit: null, item: eggs}
+  - {quantity: "1", unit: cup, item: sugar}
+  - {quantity: "1", unit: cup, item: brown sugar}
+  - {quantity: "1/2", unit: cup, item: shortening}
+  - {quantity: "2", unit: cup, item: pumpkin, preparation: pureed}
+- name: Mix-in
+  ingredients:
+  - {quantity: "1", unit: cup, item: chocolate chips}
+directions:
+- name: null
+  steps:
+  - Preheat oven to 325°F. Grease pan.
+  - Sift together the flour, baking powder, baking soda, cinnamon, and nutmeg.
+  - Beat the eggs. Add the sugar, brown sugar, shortening, and pumpkin and beat together.
+  - Add flour mixture to sugar mixture. Blend.
+  - Add chocolate chips (or sprinkle chips on top of batter after it is in the pan).
+  - Pour mixture into pan. Bake for 45 minutes.
+  - Allow to cool for 45 minutes, then cut into squares.
+notes: []
+story: null

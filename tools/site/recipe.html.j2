@@ -1,0 +1,50 @@
+{% extends "base.html.j2" %}
+{% block title %}{{ r.title }} · Nafziger Family Recipes{% endblock %}
+{% block main %}
+<article class="recipe">
+  <header class="recipe-head">
+    <a class="eyebrow" href="index.html#{{ r.category }}">{{ r.category_label }}</a>
+    <h1>{{ r.title }}</h1>
+    {% if r.byline %}<p class="byline">{{ r.byline }}</p>{% endif %}
+    <p class="actions">
+      <a class="button" href="{{ repo_url }}/edit/main/recipes/{{ r.id }}.yaml">Edit on GitHub</a>
+      <a class="button" href="cards.html?only={{ r.id }}">Print card</a>
+    </p>
+    {% if r.facts %}
+    <dl class="facts">{% for k, v in r.facts %}<div><dt>{{ k }}</dt><dd>{{ v }}</dd></div>{% endfor %}</dl>
+    {% endif %}
+  </header>
+
+  {% if r.story %}<p class="story">{{ r.story }}</p>{% endif %}
+
+  <div class="recipe-body">
+    <section class="ingredients">
+      {% for g in r.ingredient_groups %}
+      <h2>{{ g.name or "Ingredients" }}</h2>
+      <ul>
+        {% for i in g.ingredients %}
+        <li>{% if i.amount %}<span class="amt">{{ i.amount }}</span> {% endif %}{{ i.item }}{% if i.optional %} <span class="aside">(optional)</span>{% endif %}{% if i.note %} <span class="aside">— {{ i.note }}</span>{% endif %}</li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
+    </section>
+
+    <section class="directions">
+      {% for d in r.directions %}
+      <h2>{{ d.name or "Directions" }}</h2>
+      <ol>
+        {% for s in d.steps %}<li>{{ s }}</li>{% endfor %}
+      </ol>
+      {% endfor %}
+      {% if r.notes %}
+      <h2>Notes</h2>
+      <ul class="notes">
+        {% for n in r.notes %}<li>{{ n }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+    </section>
+  </div>
+
+  {% if r.tags %}<p class="tags">{% for t in r.tags %}<span>{{ t|replace('-', ' ') }}</span>{% endfor %}</p>{% endif %}
+</article>
+{% endblock %}

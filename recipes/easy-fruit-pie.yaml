@@ -1,0 +1,40 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: easy-fruit-pie
+title: Easy Fruit Pie
+category: desserts
+author: Lois Nafziger
+source: null
+source_url: null
+date: null
+yield: one 9-inch pie
+servings: null
+oven_temp_f: null
+prep_time: null
+cook_time: null
+inactive_time: null
+pan: null
+tags: [pie, peach, cherry, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "4-5", unit: cup, item: 'fresh fruit (peaches, blueberries, strawberries,
+      cherries, apples, or raspberries)', preparation: washed and sliced as appropriate
+      for pie}
+  - {quantity: "1", unit: cup, item: sugar}
+  - {quantity: "2", unit: Tbsp, item: cornstarch, note: rounded}
+  - {quantity: "1", unit: tsp, item: lemon juice}
+  - {quantity: "1", unit: cup, item: water}
+  - {quantity: "1", unit: null, item: 9-inch pie shell, preparation: baked}
+  - {quantity: null, unit: null, item: whipped topping, optional: true}
+directions:
+- name: null
+  steps:
+  - Spoon fresh fruit into baked pie shell.
+  - Combine sugar, cornstarch, lemon juice, and water in a glass quart measure and stir
+    until smooth.
+  - Microwave on high for 1 1/2 minutes. Stir. Repeat until the mixture is thickened and
+    glossy.
+  - Pour over fruit.
+  - Chill and serve with whipped topping if desired.
+notes: []
+story: null

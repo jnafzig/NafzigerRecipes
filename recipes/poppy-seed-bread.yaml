@@ -1,0 +1,37 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: poppy-seed-bread
+title: Poppy Seed Bread
+category: breads
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: 1 hr
+inactive_time: null
+pan: null
+tags: [quick-bread, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "3", unit: cup, item: flour}
+  - {quantity: "2", unit: cup, item: sugar}
+  - {quantity: "1", unit: tsp, item: salt}
+  - {quantity: "1 1/2", unit: tsp, item: baking powder}
+  - {quantity: "2", unit: tsp, item: poppy seeds, note: written "Tsp." in the original;
+      may mean Tbsp}
+  - {quantity: "3", unit: null, item: eggs}
+  - {quantity: "1", unit: cup, item: oil}
+  - {quantity: "1 1/2", unit: cup, item: milk}
+  - {quantity: "1 1/2", unit: tsp, item: lemon extract}
+  - {quantity: "1 1/2", unit: tsp, item: vanilla}
+directions:
+- name: null
+  steps:
+  - Mix all the ingredients together with a spoon.
+  - Bake at 350°F for 1 hour.
+notes: []
+story: null

@@ -1,0 +1,51 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: chicken-corn-and-noodle-or-rivels
+title: Chicken, Corn, and Noodle (or Rivels)
+category: soups
+author: Lois Nafziger
+source: null
+source_url: null
+date: null
+yield: null
+servings: '10'
+oven_temp_f: null
+prep_time: null
+cook_time: null
+inactive_time: null
+pan: null
+tags: [chicken, corn, soup]
+ingredient_groups:
+- name: Soup
+  ingredients:
+  - {quantity: "2", unit: lb, item: boneless skinless chicken breast}
+  - {quantity: "2 1/2", unit: cup, item: fresh or frozen corn}
+  - {quantity: "4", unit: qt, item: cold water}
+  - {quantity: "2", unit: null, item: cooked eggs, optional: true}
+  - {quantity: "1", unit: null, item: onion}
+  - {quantity: null, unit: null, item: salt and pepper, note: to taste}
+  - {quantity: "1/2", unit: cup, item: celery, preparation: chopped}
+  - {quantity: "4", unit: null, item: chicken bouillon cubes}
+- name: Rivels
+  ingredients:
+  - {quantity: "1", unit: cup, item: flour}
+  - {quantity: "1/4", unit: cup, item: milk}
+  - {quantity: "1", unit: null, item: egg}
+directions:
+- name: Soup
+  steps:
+  - Chop the chicken. Cook in the water until tender, adding the bouillon cubes when it
+    boils.
+- name: Rivels
+  steps:
+  - Before adding the corn, celery, and onion, mix the flour, milk, and egg.
+  - Rub this mixture together with 2 forks until the size of peas and drop into the boiling
+    soup.
+  - Cover and cook gently for 5 minutes.
+- name: Finish
+  steps:
+  - Add the corn, onion, and celery and bring to a boil.
+  - Season with salt and pepper and cook 5 minutes. Serve.
+notes: []
+story: >-
+  I believe that most of my family liked noodles better than rivels, but I enjoy rivels.
+  My mother usually made rivels in chicken corn soup.

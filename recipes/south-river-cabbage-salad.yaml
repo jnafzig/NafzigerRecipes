@@ -1,0 +1,46 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: south-river-cabbage-salad
+title: South River Cabbage Salad
+category: salads
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: '6'
+oven_temp_f: null
+prep_time: null
+cook_time: null
+inactive_time: null
+pan: null
+tags: [cabbage, salad]
+ingredient_groups:
+- name: Salad
+  ingredients:
+  - {quantity: "1/2", unit: head, item: cabbage, preparation: thinly sliced}
+  - {quantity: "1/2", unit: null, item: green pepper, preparation: thinly sliced}
+  - {quantity: "1", unit: null, item: carrot, preparation: grated}
+  - {quantity: "1", unit: null, item: celery stalk, preparation: chopped}
+  - {quantity: "1", unit: null, item: apple, preparation: chopped}
+  - {quantity: "1", unit: Tbsp, item: onion, preparation: finely chopped}
+- name: Dressing
+  ingredients:
+  - {quantity: "1", unit: cup, item: mayonnaise}
+  - {quantity: "1 1/2", unit: Tbsp, item: Worcestershire sauce}
+  - {quantity: "1/2", unit: tsp, item: onion salt}
+  - {quantity: "2", unit: Tbsp, item: prepared mustard}
+  - {quantity: "2", unit: Tbsp, item: cider vinegar}
+  - {quantity: "1/2", unit: cup, item: sugar}
+  - {quantity: "1/2", unit: tsp, item: pepper}
+  - {quantity: "1/2", unit: tsp, item: celery seed}
+directions:
+- name: null
+  steps:
+  - Combine all salad ingredients and set aside.
+  - Combine all dressing ingredients and beat until thoroughly mixed. Chill.
+  - Immediately before serving, toss dressing with vegetables.
+notes:
+- I used 1/4 cup sugar instead of 1/2 cup.
+- This recipe made me think that I might want to plant more cabbage in the garden. I recommend
+  it.
+story: null

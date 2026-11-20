@@ -1,0 +1,42 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: peanut-sauce
+title: Peanut Sauce
+category: main-dishes
+author: null
+source: Tim in California; adapted from The Real Food Daily Cookbook
+source_url: http://realfooddaily.com/cookbook.htm
+date: null
+yield: null
+servings: null
+oven_temp_f: null
+prep_time: null
+cook_time: null
+inactive_time: null
+pan: null
+tags: [sauce, peanut-butter, vegetarian, quick]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "2/3", unit: cup, item: creamy peanut butter}
+  - {quantity: "1/3", unit: cup, item: brown rice vinegar}
+  - {quantity: "2", unit: Tbsp, item: agave, note: or 1/4 cup maple syrup}
+  - {quantity: "3", unit: Tbsp, item: water}
+  - {quantity: "2", unit: Tbsp, item: tamari}
+  - {quantity: "1/2", unit: tsp, item: powdered ginger, note: or 1 Tbsp minced fresh ginger}
+  - {quantity: "2", unit: clove, item: garlic}
+  - {quantity: "1 1/2", unit: tsp, item: toasted sesame oil}
+  - {quantity: null, unit: null, item: crushed red pepper, note: named in the directions;
+      no amount given}
+  - {quantity: "1", unit: cup, item: fresh cilantro leaves, preparation: lightly packed}
+directions:
+- name: null
+  steps:
+  - >-
+    Blend the peanut butter, vinegar, agave or maple syrup, water, tamari, ginger, garlic,
+    sesame oil, and crushed red pepper in a food processor until smooth and creamy.
+  - Add the cilantro and blend just until it's finely chopped.
+notes:
+- >-
+  The dressing will keep for 2 days, covered and refrigerated (though we usually eat it
+  all faster than that!).
+story: null

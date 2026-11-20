@@ -1,0 +1,54 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: chili-california
+title: Chili California
+category: main-dishes
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: null
+prep_time: null
+cook_time: null
+inactive_time: null
+pan: Dutch oven
+tags: [chili, beans, tomato, one-dish]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1", unit: cup, item: onion, preparation: chopped}
+  - {quantity: "1/2", unit: cup, item: carrots, preparation: sliced}
+  - {quantity: "1/2", unit: cup, item: celery, preparation: chopped}
+  - {quantity: "1", unit: cup, item: green pepper, preparation: chopped}
+  - {quantity: "1", unit: cup, item: jicama, preparation: diced}
+  - {quantity: "2", unit: clove, item: garlic}
+  - {quantity: "2", unit: Tbsp, item: olive oil}
+  - {quantity: "2", unit: null, item: beef bouillon cubes}
+  - {quantity: "1 1/2", unit: tsp, item: cumin}
+  - {quantity: "1 1/2", unit: tsp, item: chili powder}
+  - {quantity: "1", unit: can, item: no-salt tomato sauce, note: 8 oz can}
+  - {quantity: "2", unit: can, item: no-salt whole tomatoes, preparation: undrained, note: 16
+      oz cans}
+  - {quantity: "1/2", unit: cup, item: water}
+  - {quantity: "1", unit: can, item: pinto beans, preparation: drained, note: 16 oz can}
+  - {quantity: "1", unit: can, item: chili beans, preparation: undrained, note: 16 oz can}
+  - {quantity: "1/2", unit: cup, item: cheddar cheese, preparation: shredded}
+directions:
+- name: null
+  steps:
+  - >-
+    In a Dutch oven, sauté the onion, celery, jicama, carrots, green pepper, and garlic
+    in oil until crisp-tender.
+  - Add the bouillon cubes, cumin, chili powder, tomato sauce, tomatoes, and water. Bring
+    to a boil.
+  - Cover and simmer for 20 minutes, stirring occasionally.
+  - Uncover and simmer to desired thickness and until vegetables are tender, 10-20 minutes.
+  - Stir in the beans and heat through.
+  - Sprinkle cheese over the top and serve immediately.
+notes:
+- This is a low-calorie chili, which has lost none of its good full flavor.
+- I pre-cooked a variety of dry beans.
+- I never used jicama.
+- This is a recipe that is easy to experiment with.
+story: null

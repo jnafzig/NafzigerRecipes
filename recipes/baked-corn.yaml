@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: baked-corn
+title: Baked Corn
+category: vegetables
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: 3-4
+oven_temp_f: 350
+prep_time: null
+cook_time: 1 hr
+inactive_time: null
+pan: greased casserole
+tags: [corn, casserole, side-dish, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1", unit: cup, item: corn, note: 'enlarged recipe: 1 qt'}
+  - {quantity: "1", unit: Tbsp, item: sugar, note: 'enlarged recipe: 1 Tbsp'}
+  - {quantity: "1/2", unit: cup, item: milk, note: 'enlarged recipe: 1 cup'}
+  - {quantity: null, unit: null, item: salt and pepper, note: 'to taste; enlarged recipe:
+      1/2 tsp salt and 1/8 tsp pepper'}
+  - {quantity: "1", unit: null, item: egg, preparation: beaten, note: 'enlarged recipe:
+      2 eggs'}
+  - {quantity: "3/4", unit: Tbsp, item: cornstarch, note: 'enlarged recipe: 2 Tbsp'}
+  - {quantity: "1", unit: Tbsp, item: butter, preparation: melted, note: 'enlarged recipe:
+      2 Tbsp'}
+directions:
+- name: null
+  steps:
+  - Put everything in a blender and mix.
+  - Pour into a greased casserole and bake at 350°F for 1 hour, until firm.
+notes:
+- >-
+  I enlarge this recipe with the amounts noted for the enlarged recipe. With the larger
+  amount I mix all of the other ingredients in the blender before adding the corn.
+story: null

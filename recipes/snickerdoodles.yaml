@@ -1,0 +1,43 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: snickerdoodles
+title: Snickerdoodles
+category: cookies
+author: Lois Nafziger
+source: null
+source_url: null
+date: null
+yield: about 8 dozen cookies
+servings: null
+oven_temp_f: 375
+prep_time: null
+cook_time: 10-12 min
+inactive_time: null
+pan: greased cookie sheet
+tags: [drop-cookie, nuts]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "2", unit: cup, item: sugar}
+  - {quantity: "3 3/4", unit: cup, item: all-purpose flour}
+  - {quantity: "1", unit: cup, item: butter, preparation: softened}
+  - {quantity: "1/2", unit: tsp, item: baking soda}
+  - {quantity: "2", unit: null, item: eggs}
+  - {quantity: "1/2", unit: tsp, item: cream of tartar}
+  - {quantity: "1/4", unit: cup, item: milk}
+  - {quantity: "1", unit: cup, item: nuts, preparation: chopped}
+  - {quantity: "1", unit: tsp, item: vanilla}
+  - {quantity: "1/2", unit: tsp, item: salt}
+  - {quantity: null, unit: null, item: sugar, note: for the bottom of the tumbler}
+directions:
+- name: null
+  steps:
+  - In mixing bowl, cream sugar and butter till light.
+  - Add eggs, one at a time, beating well after each. Blend in milk and vanilla.
+  - Stir together flour, baking soda, cream of tartar, and 1/2 tsp salt; stir into creamed
+    mixture.
+  - Blend in chopped nuts.
+  - Form dough into 1-inch balls. Place balls 2 inches apart on greased cookie sheet.
+  - Lightly flatten balls with sugared bottom of tumbler.
+  - Bake at 375°F till done, 10 to 12 minutes.
+notes: []
+story: null

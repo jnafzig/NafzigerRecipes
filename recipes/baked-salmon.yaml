@@ -1,0 +1,53 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: baked-salmon
+title: Baked Salmon
+category: main-dishes
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: 375
+prep_time: 5 min
+cook_time: 15 min
+inactive_time: 15 min
+pan: baking dish
+tags: [salmon, fish, quick]
+ingredient_groups:
+- name: Salmon
+  ingredients:
+  - {quantity: "4", unit: null, item: salmon fillets, note: 6 oz each}
+  - {quantity: "2", unit: Tbsp, item: butter, preparation: melted}
+  - {quantity: "1/2", unit: Tbsp, item: lemon juice, note: plus lemon slices for garnish}
+  - {quantity: "3", unit: clove, item: garlic, preparation: minced}
+  - {quantity: null, unit: null, item: salt and pepper}
+  - {quantity: "1", unit: tsp, item: parsley, preparation: finely chopped}
+  - {quantity: "1", unit: tsp, item: dill, preparation: finely chopped}
+- name: Optional Potatoes
+  ingredients:
+  - {quantity: "1", unit: lb, item: fingerling potatoes, preparation: cut in half, optional: true}
+  - {quantity: "2", unit: Tbsp, item: oil, optional: true}
+  - {quantity: "1/2", unit: Tbsp, item: garlic, optional: true}
+  - {quantity: "1/2", unit: tsp, item: salt, optional: true}
+  - {quantity: "1/4", unit: tsp, item: pepper, optional: true}
+directions:
+- name: Salmon
+  steps:
+  - Preheat the oven to 375°F and let the salmon come to room temperature for 15 minutes.
+  - Mix together the melted butter and lemon juice.
+  - Place the salmon in a baking dish and brush the butter mixture all over.
+  - >-
+    Top the salmon with the minced garlic, salt, and pepper. Bake for 12-15 minutes or until
+    cooked through.
+  - Sprinkle the fresh parsley and dill on the salmon before serving.
+- name: Optional Potatoes (prepare before salmon)
+  steps:
+  - Heat the oven to 400°F.
+  - Toss the halved potatoes with the oil, garlic, salt, and pepper.
+  - >-
+    Spread out in an even layer and roast for 15 minutes until they're just starting to
+    soften and brown.
+notes:
+- The potatoes can be added to the salmon along with asparagus.
+story: null

@@ -1,0 +1,51 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: spicy-gingerbread-cookies
+title: Spicy Gingerbread Cookies
+category: cookies
+author: Lois Nafziger
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: 8-10 min
+inactive_time: at least 1 hr
+pan: greased cookie sheets
+tags: [ginger, molasses, cutout-cookie]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1/2", unit: cup, item: butter}
+  - {quantity: "3/4", unit: cup, item: brown sugar}
+  - {quantity: "1/4", unit: cup, item: dark (full-flavor) molasses}
+  - {quantity: "1", unit: null, item: egg}
+  - {quantity: "2", unit: cup, item: all-purpose flour, preparation: sifted}
+  - {quantity: "1/2", unit: tsp, item: salt}
+  - {quantity: "1/2", unit: tsp, item: baking powder}
+  - {quantity: "1/2", unit: tsp, item: baking soda}
+  - {quantity: "1/2", unit: tsp, item: ground cinnamon}
+  - {quantity: "1", unit: tsp, item: ground cloves}
+  - {quantity: "1", unit: tsp, item: ginger}
+  - {quantity: "1/2", unit: tsp, item: ground nutmeg}
+directions:
+- name: null
+  steps:
+  - In a large bowl, cream together the butter and sugar until smooth. Stir in molasses
+    and egg.
+  - >-
+    Combine the flour, salt, baking powder, baking soda, cinnamon, cloves, ginger, and nutmeg;
+    blend into the molasses mixture until smooth.
+  - Cover and chill for at least one hour.
+  - Preheat the oven to 350°F.
+  - >-
+    On a lightly floured surface, roll the dough out to 1/4 inch thickness. Cut into desired
+    shapes with cookie cutters.
+  - Place cookies 2 inches apart on greased cookie sheets.
+  - >-
+    Bake for 8 to 10 minutes in the preheated oven, until firm. Remove from cookie sheets
+    to cool on wire racks.
+  - Frost when cool. Decorate as desired.
+notes: []
+story: null
