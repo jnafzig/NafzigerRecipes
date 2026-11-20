@@ -1,0 +1,55 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: peanut-butter-meltaway-cake
+title: Peanut Butter Meltaway Cake
+category: cakes
+author: null
+source: null
+source_url: null
+date: '1993'
+yield: null
+servings: 16-20
+oven_temp_f: 350
+prep_time: null
+cook_time: 25 min
+inactive_time: null
+pan: 9x13 inch baking pan
+tags: [peanut-butter, chocolate, vegetarian]
+ingredient_groups:
+- name: Cake
+  ingredients:
+  - {quantity: "1", unit: cup, item: margarine}
+  - {quantity: "1/4", unit: cup, item: cocoa}
+  - {quantity: "1/2", unit: cup, item: buttermilk, note: unit missing in the original ("1/2
+      buttermilk"); cup assumed}
+  - {quantity: "2", unit: null, item: eggs}
+  - {quantity: "1", unit: cup, item: water}
+  - {quantity: "2", unit: cup, item: sugar}
+  - {quantity: "2", unit: cup, item: flour}
+  - {quantity: "1", unit: tsp, item: baking soda}
+  - {quantity: "1", unit: tsp, item: vanilla}
+  - {quantity: "1-2", unit: cup, item: peanut butter, preparation: room temperature}
+- name: Topping
+  ingredients:
+  - {quantity: "1/2", unit: cup, item: margarine}
+  - {quantity: "1/4", unit: cup, item: cocoa}
+  - {quantity: "1", unit: lb, item: powdered sugar}
+  - {quantity: "1", unit: tsp, item: vanilla}
+  - {quantity: "6", unit: Tbsp, item: buttermilk, note: I use regular milk most of the time}
+directions:
+- name: Cake
+  steps:
+  - Melt the margarine and cocoa in a saucepan. Add the buttermilk, eggs, and water.
+  - Cook on medium until bubbly, but not quite boiling.
+  - Stir in the sugar, flour, baking soda, and vanilla and mix until smooth.
+  - Pour into a greased 9x13 baking pan. Bake at 350°F for 25 minutes.
+  - Cool slightly. Spread the peanut butter on top of the cake and refrigerate.
+- name: Topping
+  steps:
+  - Combine the margarine and cocoa and heat until bubbly, stirring constantly.
+  - Remove from heat and stir in the powdered sugar, vanilla, and buttermilk. Beat until
+    smooth.
+  - Spread evenly over the cake and refrigerate.
+notes: []
+story: >-
+  This cake has been known to just melt-a-way. While this recipe is not original with me,
+  I did contribute it to the Lancaster County Cookbook, published by Good Books in 1993.

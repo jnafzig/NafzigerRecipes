@@ -1,0 +1,35 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: rhubarb-pudding
+title: Rhubarb Pudding
+category: desserts
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: null
+prep_time: null
+cook_time: null
+inactive_time: null
+pan: null
+tags: [rhubarb, make-ahead]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "4", unit: cup, item: rhubarb, preparation: cut in 1-inch pieces, note: fresh
+      or frozen}
+  - {quantity: "1", unit: pkg, item: strawberry or red raspberry gelatin, note: 3 oz}
+  - {quantity: "1", unit: pkg, item: orange gelatin, note: 3 oz}
+  - {quantity: "4", unit: cup, item: water, note: or a little less}
+  - {quantity: "1 3/4", unit: cup, item: sugar}
+directions:
+- name: null
+  steps:
+  - Cut fresh or frozen rhubarb in 1-inch pieces.
+  - Cook with water and sugar until tender. Remove from heat.
+  - Add flavored gelatins and stir until dissolved.
+  - Cool.
+notes:
+- For variations add strawberries or crushed pineapple.
+story: null

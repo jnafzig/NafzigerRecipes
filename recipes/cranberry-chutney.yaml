@@ -1,0 +1,47 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: cranberry-chutney
+title: Cranberry Chutney
+category: condiments
+author: Lois Nafziger
+source: null
+source_url: null
+date: null
+yield: about 1 qt
+servings: null
+oven_temp_f: null
+prep_time: null
+cook_time: about 30 min
+inactive_time: null
+pan: Dutch oven
+tags: [cranberry, apple, sauce, make-ahead, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1", unit: lb, item: fresh cranberries}
+  - {quantity: "1", unit: cup, item: sugar}
+  - {quantity: "1/2", unit: cup, item: brown sugar, preparation: firmly packed}
+  - {quantity: "1/2", unit: cup, item: golden raisins}
+  - {quantity: "2", unit: tsp, item: ground cinnamon}
+  - {quantity: "1 1/2", unit: tsp, item: ground ginger}
+  - {quantity: "1 1/2", unit: tsp, item: ground cloves}
+  - {quantity: "1/4", unit: tsp, item: ground allspice}
+  - {quantity: "1", unit: cup, item: water}
+  - {quantity: "1", unit: cup, item: cooking apple, preparation: chopped}
+  - {quantity: "1", unit: cup, item: onion, preparation: chopped}
+  - {quantity: "1/2", unit: cup, item: celery, preparation: chopped}
+directions:
+- name: null
+  steps:
+  - >-
+    Combine the cranberries, sugar, brown sugar, raisins, cinnamon, ginger, cloves, allspice,
+    and water in a Dutch oven.
+  - >-
+    Cook over medium heat, stirring frequently, until juice is released from cranberries,
+    about 15 minutes.
+  - >-
+    Stir in the apple, onion, and celery. Reduce heat and simmer, uncovered, about 15 minutes
+    or until thickened, stirring occasionally.
+  - Chill before serving.
+notes:
+- Chutney will keep in the refrigerator in an airtight container for up to 2 weeks.
+story: null

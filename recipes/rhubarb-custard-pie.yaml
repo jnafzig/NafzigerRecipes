@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: rhubarb-custard-pie
+title: Rhubarb Custard Pie
+category: desserts
+author: null
+source: null
+source_url: null
+date: null
+yield: one 10-inch pie
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: 40 min
+inactive_time: null
+pan: null
+tags: [rhubarb, pie, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "2", unit: cup, item: rhubarb, preparation: raw}
+  - {quantity: "1 1/2", unit: cup, item: sugar}
+  - {quantity: "1 1/4", unit: cup, item: evaporated milk}
+  - {quantity: "4", unit: Tbsp, item: flour}
+  - {quantity: "2", unit: Tbsp, item: butter}
+  - {quantity: "1/4", unit: tsp, item: salt}
+  - {quantity: "1", unit: tsp, item: nutmeg, optional: true}
+  - {quantity: "1/4", unit: tsp, item: baking soda}
+  - {quantity: "2", unit: null, item: eggs, preparation: slightly beaten}
+  - {quantity: "1", unit: null, item: 10-inch pie crust}
+directions:
+- name: null
+  steps:
+  - Mix flour, sugar, baking soda, salt, and nutmeg together.
+  - Put half of mixture in bottom of crust. Add rhubarb.
+  - Mix other half of dry mixture into the slightly beaten eggs and milk. Pour over rhubarb.
+  - Dot with butter.
+  - >-
+    Bake 10 minutes at 450°F, then reduce heat to 350°F for 30 minutes, until lightly browned
+    and custard seems slightly set.
+notes: []
+story: null

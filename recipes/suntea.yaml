@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: suntea
+title: Suntea
+category: beverages
+author: Lois Nafziger
+source: null
+source_url: null
+date: null
+yield: 1 gallon
+servings: null
+oven_temp_f: null
+prep_time: null
+cook_time: null
+inactive_time: 3-4 hr
+pan: one gallon Suntea jar
+tags: [drink, make-ahead, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "3", unit: null, item: family size tea bags, note: or 9 regular size tea
+      bags}
+  - {quantity: null, unit: null, item: cold water, note: to fill the jar}
+  - {quantity: null, unit: null, item: sugar, note: to taste; or fruit juice or sweetener}
+directions:
+- name: null
+  steps:
+  - Place the tea bags in a clean one gallon Suntea jar. Add cold water to fill.
+  - Cap the jar loosely and place in hot sunshine for 3-4 hours to brew.
+  - Remove the tea bags. Flavor and sweeten to taste with sugar, fruit juice, or sweetener.
+  - Refrigerate the unused portion within 5 hours of brewing.
+notes:
+- Because this tea is not brewed with boiling water, it should be served within 48 hours.
+story: null

@@ -1,0 +1,47 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: ketchup
+title: Ketchup
+category: condiments
+author: null
+source: Allrecipes (Homemade Ketchup)
+source_url: https://www.allrecipes.com/recipe/232397/homemade-ketchup/
+date: null
+yield: null
+servings: null
+oven_temp_f: null
+prep_time: null
+cook_time: null
+inactive_time: null
+pan: copper bottom pan
+tags: [tomato, sauce, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "2", unit: qt, item: tomato juice, preparation: from fresh tomatoes, note: measured
+      after running through the Squeezo}
+  - {quantity: "1/3", unit: cup, item: brown sugar}
+  - {quantity: "3/4", unit: cup, item: apple cider vinegar}
+  - {quantity: "1", unit: tsp, item: onion powder, note: rounded}
+  - {quantity: "1/2", unit: tsp, item: garlic powder, note: rounded}
+  - {quantity: "2", unit: tsp, item: salt}
+  - {quantity: "1/8", unit: tsp, item: celery seed}
+  - {quantity: "1/8", unit: tsp, item: mustard powder}
+  - {quantity: "1/4", unit: tsp, item: black pepper, preparation: finely ground}
+  - {quantity: "3", unit: null, item: whole cloves}
+directions:
+- name: null
+  steps:
+  - >-
+    Start with fresh tomatoes. Wash and core them, then cook them until soft and run them
+    through the Squeezo.
+  - Pour the hot tomato juice into the copper bottom pan.
+  - Add the remaining ingredients.
+  - Measure the depth.
+  - Boil until it is half the original depth.
+notes:
+- We halved the sugar from the original recipe and used brown instead of white sugar.
+- We used apple cider vinegar instead of white distilled vinegar.
+- >-
+  We modified the recipe to the amount of tomato juice we had, which was slightly more than
+  the 56 oz canned tomatoes the original calls for.
+story: null

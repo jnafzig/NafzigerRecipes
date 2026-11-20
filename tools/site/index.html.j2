@@ -1,0 +1,46 @@
+{% extends "base.html.j2" %}
+{% block main %}
+<section class="intro">
+  <h1>Nafziger Family Recipes</h1>
+  <p>{{ count }} recipes, with the notes and stories that came with them.</p>
+  <input id="q" type="search" placeholder="Search by name, ingredient, or cook" aria-label="Search recipes" autocomplete="off">
+  <nav class="jump">
+    {% for slug, label, rs in sections %}<a href="#{{ slug }}">{{ label }}</a>{% endfor %}
+  </nav>
+</section>
+
+{% for slug, label, rs in sections %}
+<section class="category" id="{{ slug }}">
+  <h2>{{ label }}</h2>
+  <ul class="recipe-list">
+    {% for r in rs %}
+    <li data-search="{{ r.search }}">
+      <a href="{{ r.id }}.html">{{ r.title }}</a>
+      {% if r.author %}<span class="by">{{ r.author.split()[0] }}</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+<p id="none" class="none" hidden>No recipes match that search.</p>
+
+<script>
+// Hide recipes whose name, ingredients, tags, or cook don't contain every typed word.
+const q = document.getElementById("q");
+q.addEventListener("input", () => {
+  const words = q.value.toLowerCase().split(/\s+/).filter(Boolean);
+  let shown = 0;
+  for (const sec of document.querySelectorAll(".category")) {
+    let inSec = 0;
+    for (const li of sec.querySelectorAll("li")) {
+      const hit = words.every(w => li.dataset.search.includes(w));
+      li.hidden = !hit;
+      inSec += hit;
+    }
+    sec.hidden = !inSec;
+    shown += inSec;
+  }
+  document.getElementById("none").hidden = shown > 0;
+});
+</script>
+{% endblock %}

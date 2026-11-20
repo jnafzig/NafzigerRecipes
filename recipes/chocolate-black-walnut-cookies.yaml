@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: chocolate-black-walnut-cookies
+title: Chocolate Black Walnut Cookies
+category: cookies
+author: null
+source: null
+source_url: null
+date: null
+yield: 4 dozen cookies
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: 10 min
+inactive_time: null
+pan: greased baking sheet
+tags: [chocolate, walnut, drop-cookie]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1/4", unit: lb, item: German sweet chocolate, preparation: melted, note: 1
+      package}
+  - {quantity: "2", unit: cup, item: flour}
+  - {quantity: "1/2", unit: tsp, item: baking soda}
+  - {quantity: "1/2", unit: tsp, item: salt}
+  - {quantity: "3/4", unit: cup, item: butter}
+  - {quantity: "3/4", unit: cup, item: sugar}
+  - {quantity: "2", unit: null, item: eggs}
+  - {quantity: "1/2", unit: tsp, item: vanilla}
+  - {quantity: "1/2", unit: cup, item: black walnuts, preparation: chopped}
+directions:
+- name: null
+  steps:
+  - Cream butter. Add sugar and eggs and beat well.
+  - Blend in melted chocolate and dry ingredients.
+  - Stir in vanilla and black walnuts.
+  - Drop by teaspoonful onto greased baking sheet. Bake at 350°F for 10 minutes.
+notes: []
+story: null

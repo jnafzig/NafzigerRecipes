@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: cream-of-cauliflower-soup
+title: Cream of Cauliflower Soup
+category: soups
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: 6-8
+oven_temp_f: null
+prep_time: null
+cook_time: null
+inactive_time: null
+pan: large saucepan
+tags: [cauliflower, soup]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1", unit: head, item: cauliflower, preparation: chopped, note: medium head}
+  - {quantity: null, unit: null, item: salted water, note: for cooking the cauliflower}
+  - {quantity: "4", unit: Tbsp, item: butter or margarine}
+  - {quantity: "1/4", unit: cup, item: onion, preparation: chopped}
+  - {quantity: "1/4", unit: cup, item: flour}
+  - {quantity: "3", unit: cup, item: chicken broth}
+  - {quantity: "2", unit: cup, item: milk}
+  - {quantity: "1", unit: tsp, item: Worcestershire sauce}
+  - {quantity: "1", unit: cup, item: cheese, preparation: shredded}
+  - {quantity: null, unit: null, item: herbs, note: for sprinkling}
+directions:
+- name: null
+  steps:
+  - Cook the cauliflower in salted water until soft.
+  - In a large saucepan, sauté the butter and onion until yellow.
+  - Blend in the flour.
+  - Add the chicken broth, milk, Worcestershire sauce, and the cauliflower with its cooking
+    water.
+  - Cook until the mixture thickens slightly.
+  - Add the cheese and stir to melt. Serve sprinkled with herbs.
+notes: []
+story: null

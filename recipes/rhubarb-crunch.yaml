@@ -1,0 +1,45 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: rhubarb-crunch
+title: Rhubarb Crunch
+category: desserts
+author: null
+source: Mennonite Community Cookbook
+source_url: null
+date: null
+yield: null
+servings: '8'
+oven_temp_f: 350
+prep_time: null
+cook_time: 34-40 min
+inactive_time: null
+pan: greased 9-inch baking pan
+tags: [rhubarb, oats, vegetarian]
+ingredient_groups:
+- name: Crumb
+  ingredients:
+  - {quantity: "1", unit: cup, item: flour, preparation: sifted}
+  - {quantity: "3/4", unit: cup, item: uncooked oatmeal}
+  - {quantity: "1", unit: cup, item: brown sugar, preparation: packed}
+  - {quantity: "1/2", unit: cup, item: butter, preparation: melted}
+  - {quantity: "1", unit: tsp, item: cinnamon}
+- name: Filling
+  ingredients:
+  - {quantity: "4", unit: cup, item: rhubarb, preparation: diced}
+- name: Sauce
+  ingredients:
+  - {quantity: "1", unit: cup, item: sugar}
+  - {quantity: "2", unit: Tbsp, item: cornstarch}
+  - {quantity: "1", unit: cup, item: water}
+  - {quantity: "1", unit: tsp, item: vanilla}
+directions:
+- name: null
+  steps:
+  - Mix the flour, oatmeal, brown sugar, melted butter, and cinnamon until crumbly.
+  - Press half of crumbs into a greased 9-inch baking pan.
+  - Add diced rhubarb.
+  - Combine the sugar, cornstarch, water, and vanilla and cook until thick and clear.
+  - Pour over rhubarb.
+  - Top with remaining crumbs. Bake at 350°F for 34 to 40 minutes.
+  - Cut in squares and serve while warm. Delicious served plain or with cream.
+notes: []
+story: null

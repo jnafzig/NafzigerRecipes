@@ -1,0 +1,40 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: chex-party-mix
+title: Chex Party Mix
+category: snacks
+author: null
+source: null
+source_url: null
+date: null
+yield: about 9 cups
+servings: null
+oven_temp_f: 250
+prep_time: null
+cook_time: 1 hr
+inactive_time: null
+pan: large shallow roasting pan (about 15x10x2 inch)
+tags: [snack, party-mix]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1/2", unit: cup, item: butter or margarine}
+  - {quantity: "1 1/4", unit: tsp, item: seasoned salt}
+  - {quantity: "4 1/2", unit: tsp, item: Worcestershire sauce}
+  - {quantity: "2", unit: cup, item: Rice Chex cereal}
+  - {quantity: "2", unit: cup, item: Bran Chex cereal}
+  - {quantity: "2", unit: cup, item: Wheat Chex cereal}
+  - {quantity: "2", unit: cup, item: Corn Chex cereal}
+  - {quantity: "1", unit: cup, item: salted mixed nuts}
+directions:
+- name: null
+  steps:
+  - Preheat the oven to 250°F.
+  - >-
+    Heat the butter in a large shallow roasting pan (about 15x10x2 inches) in the oven until
+    melted. Remove.
+  - Stir in the seasoned salt and Worcestershire sauce.
+  - Add the Chex and nuts. Mix until all pieces are coated.
+  - Heat in the oven 1 hour, stirring every 15 minutes.
+  - Spread on absorbent paper to cool.
+notes: []
+story: null

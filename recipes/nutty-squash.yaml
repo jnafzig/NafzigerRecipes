@@ -1,0 +1,44 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: nutty-squash
+title: Nutty Squash
+category: vegetables
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: 6-8
+oven_temp_f: 350
+prep_time: null
+cook_time: 40-45 min
+inactive_time: null
+pan: casserole dish
+tags: [squash, casserole, side-dish, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "4", unit: cup, item: winter squash, preparation: 'uncooked and cubed, best
+      peeled', note: or a bit more}
+  - {quantity: "1", unit: null, item: medium onion, preparation: chopped}
+  - {quantity: "3", unit: Tbsp, item: oil}
+  - {quantity: "2", unit: Tbsp, item: flour, note: heaping}
+  - {quantity: "1", unit: cup, item: milk}
+  - {quantity: "2", unit: Tbsp, item: pimento or red and green peppers, preparation: chopped}
+  - {quantity: "1/4", unit: tsp, item: hot pepper sauce, note: unit missing in original;
+      tsp assumed}
+  - {quantity: "1/4", unit: tsp, item: salt}
+  - {quantity: "1/2", unit: cup, item: Swiss cheese, preparation: shredded}
+  - {quantity: "1/2", unit: cup, item: peanuts, preparation: chopped, note: substitute other
+      nuts as desired}
+  - {quantity: "1/2", unit: cup, item: red or white wine, optional: true}
+directions:
+- name: null
+  steps:
+  - Sauté the onion in the oil.
+  - Blend the flour into the onions.
+  - Add the milk, pimento or peppers, hot pepper sauce, and salt.
+  - Add the Swiss cheese, peanuts, and wine (if using) and stir until melted.
+  - Stir into the squash and put into a casserole dish.
+  - Bake uncovered at 350°F for 40 to 45 minutes.
+notes: []
+story: null

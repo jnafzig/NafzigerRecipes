@@ -1,0 +1,51 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: apple-cake
+title: Apple Cake
+category: cakes
+author: null
+source: Martha Clymer
+source_url: null
+date: 2009-02
+yield: null
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: 1 hr
+inactive_time: null
+pan: 9x13 inch pan or 2 square pans
+tags: [apple, holiday, vegetarian]
+ingredient_groups:
+- name: Cake
+  ingredients:
+  - {quantity: "2", unit: cup, item: sugar}
+  - {quantity: "1/2", unit: cup, item: butter}
+  - {quantity: "2", unit: null, item: eggs}
+  - {quantity: "3-4", unit: cup, item: apples, preparation: diced}
+  - {quantity: "2", unit: cup, item: flour}
+  - {quantity: "2", unit: tsp, item: baking soda}
+  - {quantity: "1", unit: tsp, item: cinnamon}
+  - {quantity: "1/2", unit: tsp, item: salt}
+  - {quantity: "1", unit: tsp, item: vanilla}
+- name: Glaze
+  ingredients:
+  - {quantity: "1/2", unit: cup, item: butter}
+  - {quantity: "1", unit: cup, item: brown sugar}
+  - {quantity: "1/4", unit: cup, item: evaporated milk}
+  - {quantity: "1", unit: tsp, item: vanilla}
+directions:
+- name: Cake
+  steps:
+  - Cream together the sugar and butter.
+  - Add the eggs, apples, flour, baking soda, cinnamon, salt, and vanilla.
+  - Bake at 350°F for 1 hour in a 9x13 pan or 2 square pans.
+- name: Glaze
+  steps:
+  - Melt together the butter and brown sugar.
+  - Add the evaporated milk and boil while stirring.
+  - Remove from heat and add the vanilla.
+  - Cool the cake before icing it with the glaze.
+notes:
+- Rachel added whipped topping on top of the glaze.
+story: >-
+  Rachel made this for the Hess Sibling gathering Feb 2009 in celebration of Esther's 50th
+  birthday. Delicious.

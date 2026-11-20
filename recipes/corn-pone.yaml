@@ -1,0 +1,40 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: corn-pone
+title: Corn Pone
+category: breads
+author: null
+source: Grandma Hess
+source_url: null
+date: null
+yield: one 9-inch pan
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: 20-25 min
+inactive_time: null
+pan: 9-inch pan (or slightly larger)
+tags: [cornbread, side-dish, quick-bread]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1/2", unit: cup, item: sugar}
+  - {quantity: "1/2", unit: cup, item: shortening}
+  - {quantity: "1", unit: null, item: egg}
+  - {quantity: "1", unit: cup, item: milk}
+  - {quantity: "1", unit: cup, item: cornmeal}
+  - {quantity: "1", unit: cup, item: flour}
+  - {quantity: "3", unit: tsp, item: baking powder}
+  - {quantity: "1", unit: tsp, item: salt}
+directions:
+- name: null
+  steps:
+  - Mix the sugar, shortening, and egg thoroughly.
+  - Gradually add the milk and the sifted dry ingredients.
+  - Pour into a 9-inch or slightly larger pan. Bake at 350°F for 20 to 25 minutes.
+notes:
+- Good with chili and other soups.
+story: >-
+  When I was growing up, this recipe from Grandma Hess was standard fare for Saturday evening
+  supper. If it was not on the table Grandpa wondered where his corn pone was. My family
+  enjoyed this with chili and other soups and corn pone was often served to guests who joined
+  us for Sunday noon lunch.

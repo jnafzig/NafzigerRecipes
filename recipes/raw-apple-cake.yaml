@@ -1,0 +1,50 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: raw-apple-cake
+title: Raw Apple Cake
+category: cakes
+author: null
+source: null
+source_url: null
+date: '2009-11-16'
+yield: null
+servings: 20-24
+oven_temp_f: 350
+prep_time: null
+cook_time: 1 hr
+inactive_time: null
+pan: 9x13 inch baking pan
+tags: [apple, walnut, cheese, vegetarian]
+ingredient_groups:
+- name: Cake
+  ingredients:
+  - {quantity: "2", unit: null, item: eggs}
+  - {quantity: "4", unit: cup, item: apples, preparation: diced, note: I did not peel the
+      apples}
+  - {quantity: "1/2", unit: cup, item: cooking oil}
+  - {quantity: "1", unit: cup, item: sugar, note: scant}
+  - {quantity: "1/2", unit: tsp, item: salt}
+  - {quantity: "2", unit: tsp, item: baking soda}
+  - {quantity: "2", unit: tsp, item: cinnamon}
+  - {quantity: "2", unit: tsp, item: vanilla}
+  - {quantity: "2", unit: cup, item: flour}
+  - {quantity: "2", unit: cup, item: nuts, preparation: large pieces, note: I used walnuts}
+- name: Frosting
+  ingredients:
+  - {quantity: "1", unit: pkg, item: cream cheese, preparation: room temperature, note: 8
+      oz}
+  - {quantity: "1", unit: tsp, item: vanilla}
+  - {quantity: "1 1/2", unit: cup, item: powdered sugar, note: scant}
+directions:
+- name: Cake
+  steps:
+  - Combine all the cake ingredients and mix well.
+  - Spoon into a lightly greased 9x13 inch baking pan.
+  - Bake at 350°F for 1 hour or until done. Cool.
+- name: Frosting
+  steps:
+  - Allow the cream cheese to come to room temperature.
+  - Cream together all the frosting ingredients.
+  - Frost the cake after it has cooled. Serve.
+notes: []
+story: Served for AMBS faculty/staff break and celebration of Sam Lapp's 70th birthday.
+  November 16, 2009.

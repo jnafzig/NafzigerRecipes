@@ -1,0 +1,47 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: upside-down-pizza
+title: Upside Down Pizza
+category: main-dishes
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: '12'
+oven_temp_f: 350
+prep_time: null
+cook_time: 30 min
+inactive_time: null
+pan: greased 9x13 inch pan
+tags: [ground-beef, pizza, casserole]
+ingredient_groups:
+- name: Meat Layer
+  ingredients:
+  - {quantity: "1 1/2", unit: lb, item: ground beef}
+  - {quantity: "1", unit: null, item: medium onion, preparation: chopped}
+  - {quantity: "1", unit: can, item: pizza sauce, note: can or jar (15 1/2 oz)}
+  - {quantity: "1/2", unit: tsp, item: garlic salt}
+  - {quantity: "1/4", unit: tsp, item: dried oregano leaves}
+  - {quantity: "8", unit: oz, item: mozzarella cheese, preparation: grated}
+- name: Topping
+  ingredients:
+  - {quantity: "2", unit: null, item: eggs}
+  - {quantity: "1", unit: cup, item: milk}
+  - {quantity: "1", unit: Tbsp, item: oil}
+  - {quantity: "1/2", unit: tsp, item: salt}
+  - {quantity: "1", unit: cup, item: flour}
+  - {quantity: "1/2", unit: cup, item: Parmesan cheese, preparation: grated}
+directions:
+- name: null
+  steps:
+  - Preheat the oven to 350°F.
+  - Meanwhile, brown the ground beef and onion; pour off the fat.
+  - Blend in the pizza sauce, garlic salt, and oregano.
+  - Put the mixture in a greased 9x13 pan and sprinkle with the mozzarella cheese.
+  - >-
+    In a small bowl mix the eggs, milk, oil, salt, and flour. Pour over the meat mixture
+    and sprinkle with the Parmesan cheese.
+  - Bake 30 minutes.
+notes:
+- Mushrooms, bell pepper strips, Italian sausage and/or Canadian bacon may be added if desired.
+story: null

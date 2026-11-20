@@ -1,0 +1,42 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: sweet-potato-croquettes
+title: Sweet Potato Croquettes
+category: vegetables
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: '6'
+oven_temp_f: 400
+prep_time: null
+cook_time: 20 min
+inactive_time: 30 min
+pan: flat greased baking dish
+tags: [sweet-potato, side-dish]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "2", unit: cup, item: sweet potatoes, preparation: mashed}
+  - {quantity: "6", unit: null, item: marshmallows}
+  - {quantity: "1", unit: tsp, item: salt}
+  - {quantity: "1 1/2", unit: cup, item: corn flakes or bread crumbs, preparation: crushed}
+  - {quantity: "1 1/2", unit: Tbsp, item: butter, preparation: melted}
+  - {quantity: "1", unit: null, item: egg white or whole egg, preparation: slightly beaten}
+  - {quantity: "1", unit: Tbsp, item: sugar}
+  - {quantity: null, unit: null, item: pepper, note: to taste}
+directions:
+- name: null
+  steps:
+  - Cook the sweet potatoes until soft, then mash very fine.
+  - Season the mashed sweet potatoes with the salt, sugar, and melted butter.
+  - Shape the potato mixture around a marshmallow.
+  - Chill in the refrigerator 30 minutes.
+  - Dip the balls into the slightly beaten egg white and roll in the corn flake or bread
+    crumbs.
+  - Place in a flat greased baking dish and bake at 400°F for 20 minutes or until golden
+    brown.
+notes:
+- I skip the egg and just roll the croquette in crumbs.
+- You can skip the marshmallow and just roll the sweet potato croquette in crumbs.
+story: null

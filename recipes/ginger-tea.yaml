@@ -1,0 +1,49 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: ginger-tea
+title: Ginger Tea
+category: beverages
+author: null
+source: null
+source_url: null
+date: null
+yield: 3 liters
+servings: null
+oven_temp_f: null
+prep_time: null
+cook_time: 10-15 min
+inactive_time: 1 hr to overnight
+pan: large pot
+tags: [ginger, drink, overnight, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "2", unit: null, item: ginger roots, preparation: washed and chopped into
+      1 cm chunks}
+  - {quantity: "2", unit: null, item: medium lemons, preparation: juiced, note: plus chunks
+      of the rind}
+  - {quantity: "1", unit: cup, item: honey}
+  - {quantity: "3", unit: l, item: water}
+  - {quantity: "1", unit: null, item: large spoonful whole peppercorns, optional: true}
+  - {quantity: "3-4", unit: clove, item: garlic, optional: true}
+  - {quantity: "1", unit: null, item: handful of prunes, optional: true}
+directions:
+- name: null
+  steps:
+  - Wash and chop the ginger into 1 cm long chunks.
+  - >-
+    Heat the water in a large pot. Add the chopped ginger root (and any optional peppercorns,
+    garlic, or prunes) and boil for 10 to 15 minutes at a slow boil.
+  - >-
+    Let sit for at least one hour. Overnight is best, with the ginger in the water and without
+    refrigerating.
+  - Next morning, warm and add the honey, lemon juice, and chunks of lemon rind.
+  - Drink hot, or keep the finished tea in a jug in the fridge for several days as you go
+    on drinking.
+notes:
+- >-
+  Ginger root does not exhaust its potency in one boiling, so you can make another two liters
+  in a second round of tea. Just add the honey and lemon juice.
+- >-
+  Optional additions to the brew before boiling are a large spoonful of whole peppercorns,
+  3 or 4 cloves of garlic, and a handful of prunes.
+story: null

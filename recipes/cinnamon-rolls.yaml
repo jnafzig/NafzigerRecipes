@@ -1,0 +1,116 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: cinnamon-rolls
+title: Cinnamon Rolls
+category: cakes
+author: null
+source: Joy the Baker
+source_url: null
+date: null
+yield: about 14 rolls
+servings: null
+oven_temp_f: 375
+prep_time: null
+cook_time: 20 min
+inactive_time: 2 hr 30 min-4 hr
+pan: 9x13 inch baking dish plus a smaller dish
+tags: [yeast-bread, make-ahead, vegetarian]
+ingredient_groups:
+- name: Dough
+  ingredients:
+  - {quantity: "2 1/4", unit: tsp, item: active dry yeast}
+  - {quantity: "1/2", unit: tsp, item: granulated sugar}
+  - {quantity: "1/4", unit: cup, item: water, preparation: warmed to around 105°F, note: listed
+      only in the directions}
+  - {quantity: "1/4", unit: cup, item: granulated sugar}
+  - {quantity: "1/2", unit: cup, item: whole milk, preparation: room temperature}
+  - {quantity: "2", unit: Tbsp, item: brown sugar, preparation: packed}
+  - {quantity: "1", unit: tsp, item: vanilla}
+  - {quantity: "2", unit: null, item: eggs}
+  - {quantity: "2 3/4", unit: cup, item: all-purpose flour, note: plus about 1/4 to 1/2
+      cup more for kneading}
+  - {quantity: "1/4", unit: tsp, item: salt}
+  - {quantity: "1/2", unit: cup, item: salted butter, preparation: softened, note: 1 stick}
+- name: Filling
+  ingredients:
+  - {quantity: "1/2", unit: cup, item: granulated sugar}
+  - {quantity: "1/2", unit: cup, item: brown sugar, preparation: packed}
+  - {quantity: "8-10", unit: null, item: pitted dates, preparation: chopped}
+  - {quantity: "1", unit: Tbsp, item: ground cinnamon}
+  - {quantity: "1/2", unit: tsp, item: salt}
+  - {quantity: "3", unit: Tbsp, item: pure maple syrup}
+  - {quantity: "1/2", unit: cup, item: salted butter, preparation: melted, note: 1 stick}
+  - {quantity: "1-2", unit: Tbsp, item: turbinado or raw crunchy sugar, optional: true}
+- name: Icing
+  ingredients:
+  - {quantity: "2", unit: cup, item: powdered sugar}
+  - {quantity: "1/4", unit: cup, item: whole milk}
+  - {quantity: "1", unit: tsp, item: vanilla}
+directions:
+- name: Dough
+  steps:
+  - >-
+    In the bowl of a stand mixer, combine the yeast and 1/2 tsp sugar. Add 1/4 cup of water
+    warmed to around 105°F.
+  - >-
+    Let stand until the yeast froths a bit, longer if you are unsure of your yeast, shorter
+    if you know it is good.
+  - >-
+    Add the remaining 1/4 cup granulated sugar, milk, brown sugar, vanilla, and the two
+    eggs. Beat with the whisk attachment until thoroughly combined.
+  - Switch over to the dough hook and add the flour and salt. Mix on low until the dough
+    comes together.
+  - >-
+    Increase to medium and knead the dough for 4 minutes. Add the butter in chunks and knead
+    for another 6 minutes. The dough will be very wet and sticky.
+  - Add 1/4 to 1/2 cup flour and knead for another 2 minutes.
+  - Cover the bowl with a towel and let rise until doubled in size (1 1/2 to 2 hours).
+- name: Filling
+  steps:
+  - While the dough rises, make the filling by combining all the filling ingredients in
+    a bowl.
+- name: Assembly
+  steps:
+  - >-
+    Once the dough has risen, dump the dough onto a well floured surface. Knead the dough
+    until it is no longer sticky; you may need to add a few tablespoons of additional flour.
+  - >-
+    Once supple and elastic, shape the dough into a ball and cover it with plastic wrap.
+    Let it rest for 5 minutes.
+  - >-
+    Roll out the dough into a rectangle, aiming for 10 by 20 inches. You may need to give
+    the dough short breaks to help it relax into the shape.
+  - >-
+    Spread 1/4 cup of the melted butter all over the dough. Then spread the filling out
+    evenly across the dough, leaving a 1 inch border along the long sides to allow for better
+    sealing. Sprinkle the filling with the turbinado sugar.
+  - >-
+    Roll the dough up from the long side, going slowly and trying to keep the dough tight.
+    Pinch the dough sealed and roll the log so the seam is down.
+  - >-
+    Cut into rolls. I got 14 out of my log; you may get more or less depending on how high
+    you like your rolls.
+  - >-
+    Carefully transfer the rolls into greased baking dishes (I used a 9x13 dish and an additional
+    smaller one), leaving 1 to 1 1/2 inches between them to leave room for the rise.
+  - >-
+    Cover the baking dishes with a towel or plastic wrap and allow to rise for 1 to 2 hours
+    (mine only took 1 hour to look nicely plump; in cooler weather 2 hours may be needed).
+- name: Baking and Icing
+  steps:
+  - >-
+    Heat the oven to 375°F. Bake the cinnamon rolls for around 20 minutes; you may need
+    shorter or longer depending on size. Aim for medium golden brown, but I always try to
+    err on the side of underdone.
+  - >-
+    Once you take the rolls out, make the icing by beating all the icing ingredients together
+    with a fork.
+  - Once the rolls have cooled slightly (10 minutes or so), pour the icing over the rolls.
+    Enjoy!
+notes:
+- >-
+  The second rise can also be done in the fridge overnight; let the rolls come fully back
+  to room temperature before baking the next morning.
+story: >-
+  Adapted from Joy the Baker's recipe for Giant Cinnamon Roll with Buttermilk Icing. Abby
+  and Hans have enjoyed baking this together several times. These rolls are rich, but incredibly
+  heavenly with a mug of coffee in the morning.

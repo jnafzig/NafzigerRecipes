@@ -1,0 +1,35 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: rice
+title: Rice
+category: main-dishes
+author: null
+source: null
+source_url: null
+date: null
+yield: 3 cups
+servings: '4'
+oven_temp_f: 350
+prep_time: null
+cook_time: null
+inactive_time: null
+pan: casserole
+tags: [rice, side-dish, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1", unit: cup, item: rice, note: use 2 cups for a double batch or 3 cups
+      for a triple batch}
+  - {quantity: "1 3/4", unit: cup, item: water, note: 3 1/2 cups for 2 cups rice; 5 1/4
+      cups for 3 cups rice}
+  - {quantity: null, unit: null, item: oil, note: for the casserole}
+directions:
+- name: null
+  steps:
+  - Oil a casserole, then put in the rice and water.
+  - Cook in a 350°F oven. When the top looks dry, the rice should be cooked and ready to
+    serve.
+notes:
+- 'Amounts: 1 cup rice + 1 3/4 cups water yields 3 cups (4 servings).'
+- 'Amounts: 2 cups rice + 3 1/2 cups water yields 6 cups (8 servings).'
+- 'Amounts: 3 cups rice + 5 1/4 cups water yields 9 cups (12 servings).'
+story: null

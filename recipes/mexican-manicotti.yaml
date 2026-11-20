@@ -1,0 +1,59 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: mexican-manicotti
+title: Mexican Manicotti
+category: main-dishes
+author: null
+source: Sandy Sohar
+source_url: null
+date: 2001-11
+yield: null
+servings: '8'
+oven_temp_f: 350
+prep_time: null
+cook_time: 1 hr 5-10 min
+inactive_time: overnight
+pan: 13x9x2 inch baking dish
+tags: [ground-beef, beans, pasta, make-ahead]
+ingredient_groups:
+- name: Filling
+  ingredients:
+  - {quantity: "1", unit: lb, item: lean ground beef, preparation: uncooked}
+  - {quantity: "1", unit: can, item: refried beans, note: 16 oz can}
+  - {quantity: "2 1/2", unit: tsp, item: chili powder}
+  - {quantity: "1 1/2", unit: tsp, item: dried oregano}
+  - {quantity: "1", unit: pkg, item: manicotti shells, preparation: uncooked, note: 8 oz
+      pkg}
+- name: Sauce
+  ingredients:
+  - {quantity: "2 1/2", unit: cup, item: water}
+  - {quantity: "1", unit: jar, item: picante sauce, note: 16 oz jar}
+- name: Topping
+  ingredients:
+  - {quantity: "2", unit: cup, item: sour cream, note: 16 oz}
+  - {quantity: "1/4", unit: cup, item: green onions, preparation: sliced}
+  - {quantity: "1", unit: can, item: sliced ripe olives, preparation: drained, note: 2 1/4
+      oz can, optional: true}
+  - {quantity: "1", unit: cup, item: shredded Monterey Jack or Mexican-style cheese, note: 4
+      oz}
+directions:
+- name: null
+  steps:
+  - In a bowl combine the uncooked beef, beans, chili powder, and oregano.
+  - Spoon into the uncooked manicotti shells; arrange in a greased 13x9x2 inch baking dish.
+  - Combine the water and picante sauce; pour over the shells.
+  - Cover and refrigerate overnight.
+  - Remove from the refrigerator 30 minutes before baking.
+  - Cover and bake at 350°F for 1 hour.
+  - Uncover and spoon sour cream over the top. Sprinkle with onions, olives (if desired),
+    and cheese.
+  - Bake 5-10 minutes longer or until the cheese is melted.
+notes:
+- >-
+  Nutritional analysis: one serving (prepared with fat-free refried beans, light sour cream,
+  and reduced-fat Monterey Jack cheese, and without olives) equals 383 calories, 785 mg
+  sodium, 47 mg cholesterol, 40 g carbohydrates, 26 g protein, 13 g fat, 4 g fiber.
+- 'Diabetic exchange: 3 meat, 2 1/2 starch.'
+- >-
+  I plan to change this into a vegetarian dish by either omitting the meat or substituting
+  crushed tofu, ricotta cheese, or soybean protein. (Lois Nafziger)
+story: null

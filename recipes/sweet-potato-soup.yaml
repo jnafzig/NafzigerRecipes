@@ -1,0 +1,40 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: sweet-potato-soup
+title: Sweet Potato Soup
+category: soups
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: null
+prep_time: null
+cook_time: null
+inactive_time: null
+pan: soup pot
+tags: [sweet-potato, soup]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1", unit: null, item: medium onion, preparation: chopped}
+  - {quantity: "1", unit: tsp, item: oil}
+  - {quantity: "2", unit: null, item: large sweet potatoes, preparation: peeled and chopped}
+  - {quantity: "5", unit: cup, item: beef or vegetable broth}
+  - {quantity: "2", unit: cup, item: canned tomatoes with juice}
+  - {quantity: "1/4", unit: tsp, item: ground white pepper}
+  - {quantity: "3/4", unit: cup, item: orange juice}
+  - {quantity: null, unit: null, item: water, note: to desired consistency}
+directions:
+- name: null
+  steps:
+  - Sauté the onion in the oil in a soup pot until translucent.
+  - >-
+    Add the sweet potatoes and broth and bring to a boil. Reduce heat and simmer, partially
+    covered, until the sweet potatoes are tender, 20-25 minutes. Remove from heat.
+  - Stir in the tomatoes with juice and the white pepper.
+  - Puree in a blender or food processor until smooth (this may require 2 batches).
+  - Return to the soup pot. Add the orange juice and additional water to desired consistency.
+  - Heat gently until hot and serve.
+notes: []
+story: null

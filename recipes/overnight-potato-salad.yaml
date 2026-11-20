@@ -1,0 +1,52 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: overnight-potato-salad
+title: Overnight Potato Salad
+category: salads
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: '10'
+oven_temp_f: null
+prep_time: null
+cook_time: null
+inactive_time: overnight
+pan: null
+tags: [potato, eggs, salad, overnight, make-ahead]
+ingredient_groups:
+- name: Salad
+  ingredients:
+  - {quantity: "6", unit: null, item: medium potatoes}
+  - {quantity: "1", unit: null, item: medium onion}
+  - {quantity: "2-3", unit: null, item: hard-boiled eggs, preparation: diced}
+  - {quantity: "2-3", unit: null, item: celery stalks, preparation: chopped}
+- name: Dressing
+  ingredients:
+  - {quantity: "1", unit: cup, item: sugar}
+  - {quantity: "1/2", unit: cup, item: water}
+  - {quantity: "1", unit: Tbsp, item: cornstarch}
+  - {quantity: "1/2", unit: cup, item: vinegar, note: unit missing in original; cup assumed}
+  - {quantity: "1/2", unit: tsp, item: salt}
+  - {quantity: "2", unit: null, item: eggs, preparation: beaten}
+  - {quantity: "1/8", unit: tsp, item: pepper}
+  - {quantity: null, unit: null, item: mustard, note: used in directions but not in the
+      original ingredient list; amount not given}
+  - {quantity: "1/2", unit: cup, item: salad dressing}
+directions:
+- name: Salad
+  steps:
+  - Cook the potatoes and cube them.
+  - Toss together all salad ingredients. Set aside.
+- name: Dressing
+  steps:
+  - Combine all dry ingredients in a saucepan.
+  - Gradually add the water and vinegar to make a smooth paste, stirring constantly.
+  - Add the eggs and cook until thickened, stirring occasionally.
+  - Remove from heat and add the mustard and salad dressing.
+- name: Assembly
+  steps:
+  - Pour the hot dressing over the warm potato mixture and toss.
+  - Chill overnight and serve.
+notes: []
+story: null

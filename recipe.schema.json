@@ -1,0 +1,264 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "recipe.schema.json",
+  "title": "Nafziger Family Recipe",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "category",
+    "ingredient_groups",
+    "directions"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "description": "Kebab-case slug of the title; must match the file name (recipes/<id>.yaml).",
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "enum": [
+        "beverages",
+        "breads",
+        "cakes",
+        "candy",
+        "canning-freezing",
+        "breakfast",
+        "cookies",
+        "condiments",
+        "desserts",
+        "main-dishes",
+        "salads",
+        "snacks",
+        "soups",
+        "vegetables",
+        "miscellaneous"
+      ]
+    },
+    "author": {
+      "description": "Whose voice the recipe text is written in (the person saying \"I\" in the notes and story). Null if unknown.",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source": {
+      "description": "Who or where the recipe came from, as stated in the text (person, cookbook, website). Null if not stated.",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "date": {
+      "description": "A date the text associates with the recipe (when made, served, or adapted). ISO 8601 (YYYY, YYYY-MM, or YYYY-MM-DD).",
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$"
+    },
+    "yield": {
+      "description": "What the recipe makes, e.g. \"4-5 dozen cookies\", \"2 loaves\", \"2 1/2 qt\".",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "servings": {
+      "description": "Number of servings if stated; a range like \"16-20\" is allowed.",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "oven_temp_f": {
+      "description": "Oven temperature in °F. Use the main baking temperature if the recipe changes it.",
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "prep_time": {
+      "$ref": "#/$defs/duration"
+    },
+    "cook_time": {
+      "$ref": "#/$defs/duration"
+    },
+    "inactive_time": {
+      "description": "Rising, resting, chilling, steeping, or overnight time.",
+      "$ref": "#/$defs/duration"
+    },
+    "pan": {
+      "description": "Pan or vessel, e.g. \"9x13 inch pan\", \"9x5x3 inch loaf pan\".",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+      },
+      "uniqueItems": true
+    },
+    "ingredient_groups": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "ingredients"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "description": "Component name such as \"Dough\", \"Filling\", or \"Topping\"; null when the recipe has one group.",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "ingredients": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/ingredient"
+            }
+          }
+        }
+      }
+    },
+    "directions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "steps"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "steps": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "notes": {
+      "description": "Tips, substitutions, variations, and the cook's personal adjustments.",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "story": {
+      "description": "Family history or memories attached to the recipe.",
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "$defs": {
+    "ingredient": {
+      "type": "object",
+      "required": [
+        "item"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "quantity": {
+          "description": "Amount as written, normalized: \"1 1/2\", \"2/3\", \"2-3\". Null for \"to taste\" items.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "unit": {
+          "enum": [
+            null,
+            "tsp",
+            "Tbsp",
+            "cup",
+            "pint",
+            "qt",
+            "gal",
+            "oz",
+            "fl oz",
+            "lb",
+            "g",
+            "kg",
+            "ml",
+            "l",
+            "pkg",
+            "can",
+            "jar",
+            "bag",
+            "box",
+            "stick",
+            "bar",
+            "clove",
+            "slice",
+            "pinch",
+            "dash",
+            "head",
+            "bunch",
+            "sprig",
+            "piece"
+          ]
+        },
+        "item": {
+          "type": "string"
+        },
+        "preparation": {
+          "description": "e.g. \"chopped\", \"melted\", \"room temperature\".",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "note": {
+          "description": "Substitutions or asides about this ingredient.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "optional": {
+          "type": "boolean"
+        }
+      }
+    },
+    "duration": {
+      "description": "Human-readable normalized duration, e.g. \"10 min\", \"20-25 min\", \"1 hr 10 min\", \"12-24 hr\", \"overnight\".",
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

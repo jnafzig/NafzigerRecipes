@@ -1,0 +1,49 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: curry-cashew-rice
+title: Curry Cashew Rice
+category: main-dishes
+author: null
+source: Wilderness Wind (Boundary Waters outfitter, northern Minnesota)
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: null
+prep_time: null
+cook_time: null
+inactive_time: null
+pan: null
+tags: [backpacking, rice, cheese, vegetarian]
+ingredient_groups:
+- name: Rice
+  ingredients:
+  - {quantity: "2", unit: cup, item: rice}
+  - {quantity: "1 1/2", unit: tsp, item: curry powder}
+  - {quantity: "1/4", unit: tsp, item: salt}
+- name: Sauce
+  ingredients:
+  - {quantity: "1/3", unit: cup, item: margarine or butter}
+  - {quantity: "1/3", unit: cup, item: honey}
+- name: Mix-ins
+  ingredients:
+  - {quantity: "1/2", unit: cup, item: powdered milk}
+  - {quantity: "1/2", unit: cup, item: cashews, preparation: crushed}
+  - {quantity: "3", unit: oz, item: mozzarella cheese, preparation: shredded}
+directions:
+- name: null
+  steps:
+  - Cook the rice with the curry and salt.
+  - While the rice is cooking, mix the honey with the margarine in a pot and heat to make
+    the sauce.
+  - After the rice is cooked, mix in the crushed cashews, powdered milk, sauce, and shredded
+    cheese.
+notes:
+- >-
+  A backpacking recipe from a Boundary Waters outfitter, so the original assumes camp packing
+  (ingredients carried in squeeze tubes).
+- >-
+  Original text: "2 cups rice, 1 1/2 tsp curry, 1/4 tsp salt. Cook rice with curry and salt.
+  1/2 cup powdered milk, 1/2 cup cashews, 3 oz. mozzarella cheese, 1/3 cup margarine/butter,
+  1/3 c. honey. While rice is cooking, mix ingredients in tube with the margarine and heat.
+  After rice is cooked, mix in cashews (crushed), powdered milk, sauce and shredded cheese."
+story: null

@@ -1,0 +1,67 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: schleppin-chicken
+title: Schleppin' Chicken
+category: main-dishes
+author: null
+source: Rachel Hess
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: 325
+prep_time: null
+cook_time: null
+inactive_time: null
+pan: null
+tags: [chicken, make-ahead]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: null, unit: null, item: onion, preparation: chopped, note: as much as you
+      like; I use lots}
+  - {quantity: null, unit: null, item: garlic, optional: true}
+  - {quantity: null, unit: null, item: chicken pieces, note: any amount; I usually make
+      one piece per person plus 2-3}
+  - {quantity: null, unit: null, item: flour}
+  - {quantity: null, unit: null, item: oregano, optional: true}
+  - {quantity: null, unit: null, item: basil, optional: true}
+  - {quantity: null, unit: null, item: fresh ground black pepper, optional: true}
+  - {quantity: null, unit: null, item: cayenne pepper, optional: true}
+  - {quantity: null, unit: null, item: curry powder, optional: true}
+  - {quantity: null, unit: null, item: cumin, optional: true}
+  - {quantity: null, unit: null, item: salt}
+  - {quantity: null, unit: null, item: chicken broth, note: enough so the liquid rises around
+      the chicken but doesn't cover it}
+directions:
+- name: null
+  steps:
+  - Chop and sauté the onion. Add garlic too if you like.
+  - >-
+    In a plastic bag, mix flour and any amount you like of any of the herbs and spices (oregano,
+    basil, fresh ground black pepper, cayenne pepper, curry powder, cumin).
+  - Salt each piece of chicken and toss in the bag until coated with the flour/herb mix.
+  - Sauté the chicken until all sides are brown.
+  - >-
+    Add chicken broth, enough so that the liquid rises around the chicken but doesn't cover
+    it. No need to be too precise because now you let it cook for a while.
+  - >-
+    Either simmer on the stove top until the chicken is really tender, or refrigerate and
+    bake later in the oven.
+  - To bake, bake at around 325°F for as long as possible. I like the chicken to fall off
+    the bone.
+notes:
+- >-
+  Each time I make this it gets a little different because I use a different combination
+  of herbs and spices.
+- >-
+  I'm usually so pressed for time that I make this in bits of time, so refrigerating it
+  and baking it later works best for me.
+- >-
+  If you don't have much time, just bake it at a higher temperature and keep it covered
+  so that you don't lose all the sauce.
+story: >-
+  Here's the recipe that's currently the rage with us. In our church we are frequently making
+  meals for folks, either because of illness, a new baby or just for the fun of it. I am
+  always looking for things that are easy and reliable and during the past few months I
+  made this up. It's nothing earthshaking but most people seem to like it. My daughter calls
+  it "Schleppin' Chicken". Enjoy!

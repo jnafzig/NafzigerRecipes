@@ -1,0 +1,102 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: saffron-cardamom-star-bread
+title: Saffron Cardamom Star Bread
+category: breads
+author: null
+source: Stephanie Gagnon
+source_url: https://www.thelittleblackcoffeecup.com/journal/starbread
+date: null
+yield: 1 star bread
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: 20-25 min
+inactive_time: 2 hr
+pan: baking sheet lined with parchment paper
+tags: [yeast-bread, holiday, vegetarian]
+ingredient_groups:
+- name: Saffron Dough
+  ingredients:
+  - {quantity: "0.5", unit: g, item: saffron threads, note: the good quality stuff!}
+  - {quantity: "1", unit: Tbsp, item: vodka, note: Abby used spiced rum}
+  - {quantity: "375", unit: g, item: all-purpose flour, note: 2 1/2 cups}
+  - {quantity: "66", unit: g, item: granulated sugar, note: 1/3 cup}
+  - {quantity: "1", unit: tsp, item: kosher salt}
+  - {quantity: "1 1/2", unit: tsp, item: ground cardamom}
+  - {quantity: "1/2", unit: null, item: orange, preparation: zested}
+  - {quantity: "7", unit: g, item: instant yeast, note: 2 tsp}
+  - {quantity: "75", unit: g, item: unsalted butter, note: 1/3 cup}
+  - {quantity: "160", unit: ml, item: whole milk, note: 2/3 cup}
+  - {quantity: "1", unit: null, item: large egg}
+- name: Cardamom Filling
+  ingredients:
+  - {quantity: "100", unit: g, item: unsalted butter, preparation: room temperature}
+  - {quantity: "1", unit: Tbsp, item: cardamom}
+  - {quantity: "1", unit: tsp, item: cinnamon}
+  - {quantity: "50", unit: g, item: brown sugar}
+- name: Assembly
+  ingredients:
+  - {quantity: "1", unit: null, item: egg yolk}
+  - {quantity: "1", unit: Tbsp, item: whole milk}
+  - {quantity: null, unit: null, item: powdered sugar, note: for dusting}
+directions:
+- name: Saffron Dough
+  steps:
+  - Ideally, steep the saffron in the vodka overnight for a very yellow dough (or at least
+    for an hour).
+  - >-
+    In a bowl, mix the flour, sugar, salt, cardamom, and orange zest with a whisk. Add the
+    instant yeast and mix again.
+  - >-
+    In a small saucepan, melt the butter slowly. Transfer to the bowl of a stand mixer and
+    add the milk. Use the same whisk used for the dry ingredients to stir the liquids.
+  - Add the saffron and vodka, as well as the egg. Whisk again until evenly mixed.
+  - >-
+    Add the dry ingredients to the stand mixer bowl. With the dough hook attachment, knead
+    on low speed until the dough pulls away from the sides, about 5 to 8 minutes. You can
+    also mix the dough by hand if you don't have a stand mixer, but it might take slightly
+    longer.
+  - >-
+    Grease a bowl (you can use the same one you mixed the dry ingredients in) and place
+    the dough in it. Cover with a cloth. Let it rise in a warm place until doubled in size,
+    about an hour.
+- name: Filling
+  steps:
+  - >-
+    Clean the bowl of your stand mixer and place all the filling ingredients in it. Beat
+    with the paddle attachment on medium speed for a minute or two, until it can be easily
+    spread.
+- name: Assembly
+  steps:
+  - >-
+    Line a baking sheet with parchment paper. On a clean floured surface, place the dough
+    and divide it into 4 equal pieces.
+  - With a rolling pin, roll each piece of dough into a 9-inch diameter circle.
+  - >-
+    Spread 1/3 of the filling on the first piece of dough and place it on the parchment
+    paper. Spread another third of the filling on a second piece of dough and place it on
+    top of the first one. Repeat with a third piece of dough and top with the fourth, leaving
+    it bare. You should now have four levels of dough with three layers of filling.
+  - >-
+    Trim the edge of the stack to form a neat circle. Place a small jar in the middle of
+    the stack of dough, imprinting a small circle. With a knife or a bench scraper, cut
+    the stack of dough from the edge of the small imprinted circle into 16 equal strips.
+  - >-
+    With your hands, grab two neighboring strips and twist them away from each other twice.
+    Pinch the ends of the pair of twisted strips together to seal them. Repeat with all
+    the strips.
+  - >-
+    Cover again with the cloth and let it rise until it's nice and puffy, checking on it
+    once in a while. It took me about another hour.
+  - While it's rising, heat the oven to 350°F.
+  - >-
+    When it's ready to go in the oven, make an egg wash by mixing the egg yolk and milk
+    in a small bowl and brush the whole bread with it. Bake for 20-25 minutes, until golden.
+  - >-
+    Let cool for 10-15 minutes before serving. Dust with powdered sugar. Pieces can be easily
+    pulled apart.
+  - Share this star bread with lots of friends over a cup of coffee!
+notes: []
+story: >-
+  Kate discovered this bread and made it for winter solstice, and Abby got really excited
+  and wanted to try it too.

@@ -1,0 +1,51 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: amazing-overnight-waffles
+title: Amazing Overnight Waffles
+category: breakfast
+author: Abby Nafziger
+source: Mollie Katzen's Sunlight Café (Hyperion)
+source_url: null
+date: null
+yield: 3 to 4 Belgian waffles or 6 to 8 standard waffles
+servings: null
+oven_temp_f: null
+prep_time: 15 min
+cook_time: 2-3 min per waffle
+inactive_time: overnight
+pan: waffle iron
+tags: [overnight, make-ahead, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "2", unit: cup, item: all-purpose flour}
+  - {quantity: "1", unit: tsp, item: yeast}
+  - {quantity: "1", unit: Tbsp, item: sugar}
+  - {quantity: "1/2", unit: tsp, item: salt}
+  - {quantity: "2", unit: cup, item: milk}
+  - {quantity: "1", unit: null, item: large egg, preparation: lightly beaten}
+  - {quantity: "6", unit: Tbsp, item: unsalted butter, preparation: melted}
+  - {quantity: "1-1 1/2", unit: cup, item: quinoa, preparation: cooked, note: adds a fantastic
+      texture and extra protein, optional: true}
+  - {quantity: null, unit: null, item: nonstick spray}
+  - {quantity: null, unit: null, item: butter, note: for the waffle iron}
+directions:
+- name: null
+  steps:
+  - Combine the flour, yeast, sugar, and salt. Whisk in the milk until blended.
+  - >-
+    Cover the bowl tightly with plastic wrap and let stand overnight at room temperature.
+    (If the room is warmer than 70°F, refrigerate.)
+  - >-
+    In the morning, heat the waffle iron. Beat the egg and melted butter into the bowl of
+    batter; the batter will be quite thin. Add the cooked quinoa.
+  - >-
+    Spray the hot waffle iron with nonstick spray, and rub on a little butter with a paper
+    towel or piece of bread.
+  - >-
+    Add just enough batter to cover the cooking surface, about 1 1/3 cups for a Belgian
+    waffle or 2/3 cup for a standard waffle.
+  - >-
+    Cook the waffles until crisp and brown but not too dark, 2 to 3 minutes each. Serve
+    hot with toppings.
+notes: []
+story: null

@@ -1,0 +1,64 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: layered-taco-spread
+title: Layered Taco Spread
+category: salads
+author: Lois Nafziger
+source: null
+source_url: null
+date: null
+yield: null
+servings: '10'
+oven_temp_f: null
+prep_time: null
+cook_time: null
+inactive_time: up to 4 hr
+pan: 8x13 inch dish
+tags: [beans, dip, make-ahead]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1", unit: can, item: refried beans, note: 16 oz}
+  - {quantity: "1", unit: null, item: large avocado, preparation: seeded and peeled}
+  - {quantity: "1/2", unit: cup, item: taco sauce, note: 'plus additional for drizzling,
+      if desired'}
+  - {quantity: null, unit: dash, item: bottled hot pepper sauce, note: several dashes, optional: true}
+  - {quantity: "1", unit: null, item: medium onion, preparation: cut up}
+  - {quantity: "3/4", unit: cup, item: sharp cheddar cheese, preparation: shredded, note: 3
+      oz}
+  - {quantity: "1", unit: Tbsp, item: lemon juice}
+  - {quantity: "1", unit: pkg, item: cream cheese, preparation: softened, note: 8 oz}
+  - {quantity: "1", unit: null, item: tomato, preparation: seeded and chopped}
+  - {quantity: "1/4", unit: cup, item: sour cream}
+  - {quantity: "1/2", unit: cup, item: pitted ripe olives, preparation: sliced}
+  - {quantity: "3", unit: Tbsp, item: mayonnaise}
+  - {quantity: "1/2", unit: cup, item: green onions, preparation: sliced}
+  - {quantity: "1/4", unit: tsp, item: garlic powder}
+  - {quantity: null, unit: null, item: celery leaves, note: for garnish, optional: true}
+  - {quantity: null, unit: null, item: jalapeno peppers, note: for garnish, optional: true}
+  - {quantity: null, unit: null, item: tortilla chips, note: for serving}
+directions:
+- name: null
+  steps:
+  - >-
+    In a 3-cup bowl stir together the refried beans, taco sauce, and several dashes of bottled
+    hot pepper sauce, if desired.
+  - >-
+    Spread the refried bean mixture evenly on the bottom and sides of an 8x13 dish. Sprinkle
+    half of the shredded cheese over the bean layer.
+  - >-
+    In a mixing bowl combine the cream cheese, sour cream, mayonnaise, and garlic powder;
+    beat with an electric mixer on medium speed until smooth. Spread the cream cheese mixture
+    evenly over the cheese.
+  - >-
+    Cut the avocado into small pieces. In a blender or food processor, blend the avocado,
+    onion, and lemon juice until combined. Spread the avocado mixture evenly over the cream
+    cheese layer.
+  - >-
+    Sprinkle the avocado layer with the chopped tomato, sliced olives, sliced green onions,
+    and remaining cheese. If desired, drizzle with additional taco sauce.
+  - Cover and chill in the refrigerator up to 4 hours.
+  - >-
+    At serving time remove the cover. If desired, garnish with celery leaves and jalapeno
+    peppers. Serve with tortilla chips.
+notes: []
+story: null

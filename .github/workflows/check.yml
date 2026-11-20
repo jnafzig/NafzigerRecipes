@@ -1,0 +1,17 @@
+# Validates every recipe file against the schema and builds the site, so a broken edit
+# shows up on the pull request before it's merged.
+name: Check recipes
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv run tools/build_site.py

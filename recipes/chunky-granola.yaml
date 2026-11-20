@@ -1,0 +1,47 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: chunky-granola
+title: Chunky Granola
+category: breakfast
+author: null
+source: More-with-Less Cookbook, p. 92 (Mary Lou Houser)
+source_url: null
+date: null
+yield: 2 1/2 qt
+servings: null
+oven_temp_f: 350
+prep_time: null
+cook_time: 10-15 min
+inactive_time: null
+pan: ungreased 9x13 inch pan
+tags: [oats, make-ahead, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "6", unit: cup, item: rolled oats, note: I use half quick oats and half rolled
+      oats}
+  - {quantity: "1/2", unit: cup, item: sunflower seeds, note: raw or roasted}
+  - {quantity: "1/2", unit: cup, item: wheat germ}
+  - {quantity: "1/2", unit: cup, item: powdered milk}
+  - {quantity: "2/3", unit: cup, item: oil}
+  - {quantity: "2/3", unit: cup, item: honey}
+  - {quantity: "1", unit: tsp, item: vanilla}
+  - {quantity: "1/2-1", unit: cup, item: raisins, optional: true}
+directions:
+- name: null
+  steps:
+  - Preheat the oven to 350°F.
+  - Place the oats in an ungreased 9x13 pan. Bake 10 minutes. Remove from the oven.
+  - In a small bowl, mix the sunflower seeds, wheat germ, and powdered milk. Stir into the
+    roasted oats.
+  - >-
+    Pour the oil into a two cup measure. Pour the honey on top of the oil. Add the vanilla.
+    This mixture will slide easily out of the cup thanks to the oil.
+  - Pour over the dry mixture. Bake for 3-5 minutes. Stir until thoroughly coated.
+  - Bake 10-15 minutes, stirring every 3-5 minutes.
+  - Add raisins if desired. Let it cool, or eat warm with milk.
+notes:
+- Other things to add are dates or dried fruits.
+- Our family enjoys this as a topping on ice cream, pudding, or fruit.
+story: >-
+  To keep up with the demand for this granola, I could make it every week. I adapted it
+  from the recipe by Mary Lou Houser on page 92 in the More-with-Less Cookbook.

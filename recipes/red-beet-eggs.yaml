@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: red-beet-eggs
+title: Red Beet Eggs
+category: salads
+author: null
+source: null
+source_url: null
+date: null
+yield: null
+servings: null
+oven_temp_f: null
+prep_time: null
+cook_time: null
+inactive_time: overnight
+pan: null
+tags: [eggs, beets, overnight, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "1", unit: cup, item: red beet juice}
+  - {quantity: "1", unit: cup, item: vinegar}
+  - {quantity: "1", unit: cup, item: sugar}
+  - {quantity: null, unit: null, item: hard-boiled eggs, note: amount not given}
+directions:
+- name: null
+  steps:
+  - Combine the beet juice, vinegar, and sugar and heat to the boiling point.
+  - When cool, pour over the hard-boiled eggs, covering them with the liquid.
+  - Let stand at least overnight.
+notes:
+- Add cooked beets for pickled beets.
+story: null
