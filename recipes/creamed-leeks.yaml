@@ -1,0 +1,66 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: creamed-leeks
+title: Creamed Leeks
+category: vegetables
+author: null
+source: Alyssa, My Sequined Life
+source_url: https://www.mysequinedlife.com/creamed-leeks/
+date: '2022-11-09'
+yield: about 6 cups
+servings: '6'
+oven_temp_f: null
+prep_time: 20 min
+cook_time: 25-30 min
+inactive_time: null
+pan: extra-large skillet or wide braiser with a tight-fitting lid
+tags: [leeks, side-dish, thanksgiving, make-ahead]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "6", unit: null, item: large leeks, note: about 6 cups sliced}
+  - {quantity: "2", unit: Tbsp, item: unsalted butter}
+  - {quantity: "2", unit: Tbsp, item: olive oil}
+  - {quantity: "4", unit: clove, item: garlic, preparation: minced, note: large cloves}
+  - {quantity: "2", unit: pinch, item: kosher salt}
+  - {quantity: "2", unit: pinch, item: ground black pepper}
+  - {quantity: "1", unit: cup, item: reduced-sodium chicken broth, note: or vegetable broth}
+  - {quantity: "1/2", unit: cup, item: dry white wine, note: 'such as Chardonnay, Pinot Grigio,
+      or Sauvignon Blanc'}
+  - {quantity: "1/2", unit: cup, item: heavy cream}
+directions:
+- name: Prep the Leeks
+  steps:
+  - >-
+    Slice off the root end and the dark green tops of each leek, leaving the white and light
+    green parts. Discard the roots; discard the dark green tops or save them for another use.
+  - >-
+    Halve each leek lengthwise, then slice each half into strips 1/4 inch wide, until you
+    have about 6 cups.
+  - >-
+    Put the sliced leeks in a mixing bowl and fill it with cool water. Swish the leeks around
+    vigorously with your hands, separating the strips and loosening all the dirt and sand.
+  - >-
+    Lift the leeks out with a slotted spoon or skimmer onto a paper towel-lined plate and pat
+    dry. Don't pour them through a colander: the grit has settled to the bottom of the bowl
+    and would end up back on the leeks.
+- name: Cook
+  steps:
+  - >-
+    Melt the butter with the olive oil in an extra-large skillet over medium heat, swirling the
+    pan. Add the leeks and cook until softened, 6-8 minutes, then add the garlic and cook 1
+    minute more. Season with a little salt and pepper.
+  - >-
+    Stir in the broth and wine, cover the pan tightly, and simmer for 5 minutes.
+  - Uncover and cook, stirring occasionally, until the liquid is nearly all absorbed.
+  - >-
+    Stir in the cream for 2-3 minutes as it heats and thickens to your liking. Taste for salt
+    and pepper before serving.
+notes:
+- >-
+  Season lightly while cooking; the broth gets saltier as it reduces. Adjust salt and pepper
+  at the end.
+- >-
+  Make ahead: keeps 1-2 days in an airtight container in the refrigerator. Reheat over low
+  heat on the stove, adding a little drizzle of cream if needed to make it creamy again.
+- Choose leeks with the largest white and light green parts so you need to buy fewer.
+story: null

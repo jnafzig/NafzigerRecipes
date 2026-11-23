@@ -1,0 +1,69 @@
+{% extends "base.html.j2" %}
+{% block title %}{{ m.title }} · Nafziger Family Recipes{% endblock %}
+{% block main %}
+<article class="menu" data-menu="{{ m.id }}">
+  <header class="recipe-head">
+    <span class="eyebrow">Menu</span>
+    <h1>{{ m.title }}</h1>
+    <p class="byline">{{ m.date_label }}{% if m.serve_time %} · dinner at {{ m.serve_time }}{% endif %}</p>
+    <p class="actions">
+      <a class="button" href="cards.html?only={{ m.dishes|map(attribute='id')|join(',') }}">Print all cards</a>
+    </p>
+  </header>
+
+  <ul class="dishes">
+    {% for d in m.dishes %}
+    <li><a href="{{ d.id }}.html">{{ d.title }}</a><span class="by">{{ d.category_label }}</span></li>
+    {% endfor %}
+  </ul>
+
+  {% if m.plan %}
+  <h2>Plan</h2>
+  {% for day in m.plan %}
+  <section class="day" data-date="{{ day.date }}">
+    <h3>{{ day.label }} <span class="when">{{ day.relative }}</span></h3>
+    <ol class="tasks">
+      {% for t in day.tasks %}
+      <li>
+        <label>
+          <input type="checkbox" data-key="{{ day.date }}-{{ loop.index }}">
+          <span class="time">{{ t.time or "" }}</span>
+          <span class="what">
+            {% if t.recipe %}<a class="dish" href="{{ t.recipe }}.html">{{ titles[t.recipe] }}</a>{% endif %}
+            {{ t.task }}
+          </span>
+        </label>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+  {% endfor %}
+  {% endif %}
+
+  {% if m.notes %}
+  <h2>Notes</h2>
+  <ul class="notes">
+    {% for n in m.notes %}<li>{{ n }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+</article>
+
+<script>
+// Tick-offs are remembered in this browser only, per menu.
+const menu = document.querySelector(".menu").dataset.menu;
+const storeKey = `menu:${menu}`;
+let done = {};
+try { done = JSON.parse(localStorage.getItem(storeKey)) || {}; } catch {}
+for (const box of document.querySelectorAll(".tasks input")) {
+  box.checked = !!done[box.dataset.key];
+  box.addEventListener("change", () => {
+    done[box.dataset.key] = box.checked;
+    try { localStorage.setItem(storeKey, JSON.stringify(done)); } catch {}
+  });
+}
+// Mark today's section.
+const d = new Date();
+const today = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+document.querySelector(`.day[data-date="${today}"]`)?.classList.add("today");
+</script>
+{% endblock %}

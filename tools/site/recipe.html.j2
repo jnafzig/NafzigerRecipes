@@ -6,6 +6,7 @@
     <a class="eyebrow" href="index.html#{{ r.category }}">{{ r.category_label }}</a>
     <h1>{{ r.title }}</h1>
     {% if r.byline %}<p class="byline">{{ r.byline }}</p>{% endif %}
+    {% for m in menus %}<p class="on-menu">On the menu for <a href="{{ m.id }}.html">{{ m.title }}</a></p>{% endfor %}
     <p class="actions">
       <a class="button" href="{{ repo_url }}/edit/main/recipes/{{ r.id }}.yaml">Edit on GitHub</a>
       <a class="button" href="cards.html?only={{ r.id }}">Print card</a>

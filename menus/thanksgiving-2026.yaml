@@ -1,0 +1,91 @@
+# yaml-language-server: $schema=../menu.schema.json
+id: thanksgiving-2026
+title: Thanksgiving 2026
+date: '2026-11-26'
+serve_time: 1:00 pm
+notes:
+- >-
+  The turkey is on the pellet smoker, so Thursday's oven is free for the green beans and the
+  stove for the leeks.
+- >-
+  If the turkey finishes early, tent it loosely with foil and let it rest longer while the
+  sides finish.
+dishes:
+- spice-rubbed-butterflied-smoked-turkey
+- classic-green-bean-casserole
+- creamed-leeks
+- mama-stambergs-cranberry-relish
+- cranberry-curd-tart
+plan:
+- date: '2026-11-24'
+  tasks:
+  - time: evening
+    recipe: spice-rubbed-butterflied-smoked-turkey
+    task: >-
+      Butterfly the turkey and remove the wishbone. Oil it, rub on the spice mix, and refrigerate
+      it on a rack over a rimmed baking sheet, loosely covered with plastic wrap, until Thursday.
+- date: '2026-11-25'
+  tasks:
+  - time: morning
+    recipe: cranberry-curd-tart
+    task: >-
+      Make and bake the crust, make the cranberry curd, and fill the tart. Cool 30-45 minutes,
+      then refrigerate overnight. Save the whipped cream for Thursday.
+  - time: midday
+    recipe: mama-stambergs-cranberry-relish
+    task: Grind the cranberries and onion, mix in everything else, and freeze.
+  - time: afternoon
+    recipe: classic-green-bean-casserole
+    task: >-
+      Boil the beans, mix the casserole with 1 cup of the fried onions, and spread it in the
+      baking dish. Cover and refrigerate. Keep the remaining 1/2 cup onions in the bag for
+      Thursday.
+  - time: afternoon
+    recipe: creamed-leeks
+    task: >-
+      Trim, slice, wash, and dry the leeks. Mince the garlic. Refrigerate both so Thursday is
+      just cooking.
+- date: '2026-11-26'
+  tasks:
+  - time: 8:15 am
+    recipe: spice-rubbed-butterflied-smoked-turkey
+    task: Start the smoker at 275°F.
+  - time: 8:15 am
+    recipe: mama-stambergs-cranberry-relish
+    task: Move the relish from the freezer to the refrigerator to thaw.
+  - time: 8:45 am
+    recipe: spice-rubbed-butterflied-smoked-turkey
+    task: Turkey on the smoker, skin side up, probe in the breast.
+  - time: 10:15 am
+    recipe: spice-rubbed-butterflied-smoked-turkey
+    task: Check the pellet level and top up the hopper if needed.
+  - time: 11:15 am
+    recipe: spice-rubbed-butterflied-smoked-turkey
+    task: >-
+      Start checking temperatures. It's done when the breast reads 150°F and the legs at least
+      165°F (2 1/2-3 1/2 hours at 275°F, so 11:15 to 12:15).
+  - time: 11:30 am
+    recipe: classic-green-bean-casserole
+    task: Take the casserole out of the refrigerator. Preheat the oven to 350°F.
+  - time: 12:00 pm
+    recipe: classic-green-bean-casserole
+    task: >-
+      Bake uncovered 40-45 minutes (10 more than usual because it was refrigerated), until
+      bubbly.
+  - time: 12:15 pm
+    recipe: creamed-leeks
+    task: >-
+      Cook the leeks: about 30 minutes from butter to cream. Keep warm on low until dinner.
+  - time: 12:15 pm
+    recipe: spice-rubbed-butterflied-smoked-turkey
+    task: Turkey off the smoker by now at the latest. Rest 15 minutes, then carve.
+  - time: 12:45 pm
+    recipe: classic-green-bean-casserole
+    task: Stir, top with the remaining fried onions, and bake 10 minutes more, until golden.
+  - time: 1:00 pm
+    task: Dinner.
+  - time: after dinner
+    recipe: cranberry-curd-tart
+    task: >-
+      Whip the cream (about 3 minutes), spread it over the tart, garnish, remove the pan rim,
+      and serve.

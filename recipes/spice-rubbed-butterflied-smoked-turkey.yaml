@@ -1,0 +1,78 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: spice-rubbed-butterflied-smoked-turkey
+title: Spice-Rubbed Butterflied Smoked Turkey
+category: main-dishes
+author: Jonathan Nafziger
+source: J. Kenji López-Alt, Serious Eats
+source_url: https://www.seriouseats.com/spice-rubbed-butterflied-smoked-turkey-food-lab-recipe
+date: '2015-11-20'
+yield: null
+servings: 10-12
+oven_temp_f: null
+prep_time: null
+cook_time: 2 hr 30 min-3 hr 30 min
+inactive_time: overnight-3 days
+pan: pellet smoker
+tags: [turkey, thanksgiving, smoked, pellet-smoker, make-ahead, overnight]
+ingredient_groups:
+- name: Turkey
+  ingredients:
+  - {quantity: "1", unit: null, item: turkey, note: 10-12 lb (4.5-6 kg)}
+  - {quantity: "1", unit: Tbsp, item: vegetable oil}
+- name: Spice Rub
+  ingredients:
+  - {quantity: "2", unit: Tbsp, item: kosher salt, note: 35 g}
+  - {quantity: "1", unit: Tbsp, item: paprika}
+  - {quantity: "1", unit: tsp, item: smoked paprika}
+  - {quantity: "1/2", unit: tsp, item: black pepper, preparation: freshly ground}
+  - {quantity: "1/2", unit: tsp, item: yellow mustard seeds, preparation: ground}
+  - {quantity: "1/2", unit: tsp, item: coriander seeds, preparation: ground}
+  - {quantity: "1/2", unit: tsp, item: cumin seeds, preparation: ground}
+  - {quantity: "1/4", unit: tsp, item: cayenne pepper, preparation: ground}
+  - {quantity: "1", unit: tsp, item: granulated garlic powder}
+  - {quantity: "1", unit: tsp, item: granulated onion powder}
+  - {quantity: "1", unit: tsp, item: ground sage}
+  - {quantity: "2", unit: Tbsp, item: light brown sugar, note: 40 g}
+  - {quantity: "1", unit: Tbsp, item: baking powder}
+- name: For the Smoker
+  ingredients:
+  - {quantity: null, unit: null, item: hickory pellets, note: a full hopper}
+directions:
+- name: Butterfly and Dry-Brine (1-3 days ahead)
+  steps:
+  - >-
+    At least 1 day and up to 3 days before cooking, remove the backbone from the turkey by
+    cutting down either side of the spine with heavy-duty poultry shears. If necessary, use
+    a cleaver or a heavy chef's knife to cut through the joints where the thigh meets the
+    backbone. Alternatively, ask your butcher to butterfly the bird for you.
+  - >-
+    Remove the wishbone: lift the skin above the breast near the neck opening and find the
+    Y-shaped bone with your fingertip. Using a sharp paring knife, cut along the top and
+    bottom of both halves of the bone. Slip your finger behind the bone and pull it out.
+    Discard it or save it for gravy or stock.
+  - >-
+    Lay the bird flat on a cutting board with its legs splayed out. Press down firmly on
+    the breast to crack the bone so the turkey lies flat. Rub the skin all over with the oil.
+  - >-
+    Combine the salt, paprika, smoked paprika, black pepper, mustard seed, coriander, cumin,
+    cayenne, garlic powder, onion powder, sage, brown sugar, and baking powder in a small
+    bowl and mix until homogeneous. Rub the mixture over the entire surface of the turkey,
+    coating it thoroughly.
+  - >-
+    Transfer the turkey to a wire rack set in a rimmed baking sheet, cover loosely with
+    plastic wrap, and refrigerate at least overnight and up to 3 days.
+- name: Smoke
+  steps:
+  - >-
+    Fill the hopper with hickory pellets. Start the smoker, set it to 275°F (135°C), and
+    preheat with the lid closed until it holds temperature, about 15 minutes.
+  - >-
+    Lay the turkey skin side up on the grate. If your smoker runs hotter on one side, point
+    the legs that way. Put a leave-in probe in the thickest part of the breast if you have
+    one, and close the lid.
+  - >-
+    Smoke at 275°F until the coolest part of the breast reads 150°F (66°C) and the legs read
+    at least 165°F (74°C), 2 1/2 to 3 1/2 hours. Check the pellet level about halfway.
+  - Remove the turkey from the smoker, let rest 15 minutes, carve, and serve.
+notes: []
+story: null

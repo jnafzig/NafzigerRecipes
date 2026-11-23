@@ -1,0 +1,56 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: classic-green-bean-casserole
+title: Classic Green Bean Casserole
+category: vegetables
+author: null
+source: Holly Nilsson, Spend With Pennies
+source_url: https://www.spendwithpennies.com/classic-green-bean-casserole/
+date: '2025-11-14'
+yield: null
+servings: '8'
+oven_temp_f: 350
+prep_time: 10 min
+cook_time: 40 min
+inactive_time: null
+pan: 2 qt baking dish
+tags: [green-beans, casserole, side-dish, thanksgiving, make-ahead, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "4", unit: cup, item: frozen cut green beans, note: or canned or fresh; see notes}
+  - {quantity: "1", unit: can, item: condensed cream of mushroom soup, note: 10.5 oz}
+  - {quantity: "1/2", unit: cup, item: milk}
+  - {quantity: "1", unit: tsp, item: soy sauce}
+  - {quantity: "1/2", unit: tsp, item: black pepper}
+  - {quantity: "1/4", unit: tsp, item: seasoned salt, note: more to taste}
+  - {quantity: "1 1/2", unit: cup, item: crispy fried onions, note: divided}
+  - {quantity: "1 1/2", unit: cup, item: cheddar cheese, preparation: shredded, note: the
+      author's favorite addition, optional: true}
+directions:
+- name: null
+  steps:
+  - Preheat the oven to 350°F.
+  - >-
+    Bring a medium pot of salted water to a boil. Add the frozen green beans and boil until
+    tender-crisp, 2-3 minutes. Drain.
+  - >-
+    In a large bowl, combine the green beans with the soup, milk, soy sauce, pepper, seasoned
+    salt, 1 cup of the fried onions, and the cheese, if using. Transfer to a 2-quart baking
+    dish.
+  - Bake uncovered for 30-35 minutes, until bubbly.
+  - >-
+    Remove from the oven and stir. Top with the remaining 1/2 cup onions and bake 10 minutes
+    more, until golden.
+notes:
+- >-
+  Instead of frozen beans, use 2 cans (14.5 oz each) cut green beans, drained, or 1 1/2 lb
+  fresh green beans, trimmed and simmered 7-8 minutes.
+- >-
+  Cheese can be mixed into the sauce (the author's preference) or sprinkled on top after
+  stirring. Fried mushrooms, onions, garlic, or shallots are also good additions.
+- >-
+  Make ahead: assemble up to 48 hours ahead and keep the onion topping separate. Take it out
+  of the fridge at least 30 minutes before baking, and allow about 10 extra minutes in the
+  oven.
+- Leftovers keep 2-3 days in an airtight container in the refrigerator.
+story: null
