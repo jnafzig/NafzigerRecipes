@@ -31,6 +31,10 @@ groceries:
     amount: 1 small, 1 medium
     for: [mama-stambergs-cranberry-relish, smoked-turkey-gravy]
     note: The small one for the relish, the medium one for the gravy stock
+  - item: Fresh green beans
+    amount: 1½ lb
+    for: [classic-green-bean-casserole]
+    note: In place of the recipe's 4 cups frozen
   - item: Carrot
     amount: '1'
     for: [smoked-turkey-gravy]
@@ -80,11 +84,6 @@ groceries:
     amount: 6 oz (1½ cups)
     for: [classic-green-bean-casserole]
     note: Optional
-- section: Frozen
-  items:
-  - item: Frozen cut green beans
-    amount: about 1 lb (4 cups)
-    for: [classic-green-bean-casserole]
 - section: Canned & Jarred
   items:
   - item: Condensed cream of mushroom soup
@@ -223,7 +222,8 @@ plan:
   - time: afternoon
     recipe: classic-green-bean-casserole
     task: >-
-      Boil the beans, mix the casserole with 1 cup of the fried onions, and spread it in the
+      Trim the fresh green beans and simmer them in salted water 7-8 minutes, until
+      tender-crisp; drain. Mix the casserole with 1 cup of the fried onions and spread it in the
       baking dish. Cover and refrigerate. Keep the remaining 1/2 cup onions in the bag for
       Thursday.
   - time: afternoon

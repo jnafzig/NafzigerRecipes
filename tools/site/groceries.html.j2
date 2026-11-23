@@ -9,14 +9,13 @@
   </header>
 
   {% for sec in m.groceries %}
-  {% set si = loop.index %}
   <section class="aisle">
     <h3>{{ sec.section }}</h3>
     <ul class="checklist groceries">
       {% for g in sec["items"] %}
-      <li>
+      <li data-key="{{ g.item|lower|replace(' ', '-') }}">
         <label>
-          <input type="checkbox" data-key="g{{ si }}-{{ loop.index }}">
+          <input type="checkbox">
           <span class="what">
             <b>{{ g.item }}</b>{% if g.amount %} <span class="amt">{{ g.amount }}</span>{% endif %}
             <span class="for">{% if g.note %}{{ g.note }} · {% endif %}{% for r in g["for"] %}{{ titles[r] }}{% if not loop.last %}, {% endif %}{% endfor %}</span>
@@ -27,6 +26,63 @@
     </ul>
   </section>
   {% endfor %}
+
+  <div class="hide-bar">
+    <p class="actions">
+      <button type="button" class="button" id="hide-checked">Hide checked items</button>
+      <button type="button" class="button" id="show-hidden" hidden>Show hidden items</button>
+    </p>
+  </div>
 </article>
-{% include "checklist.js.j2" %}
+
+<script>
+// Tick what you already have, then "Hide checked items" before heading to the store; anything
+// ticked after that (in the cart) stays on the list, crossed out. "Show hidden items" undoes it.
+// Both lists are remembered in this browser only.
+const storeKey = document.querySelector("[data-store]").dataset.store;
+const load = k => { try { return JSON.parse(localStorage.getItem(k)) || {}; } catch { return {}; } };
+const save = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} };
+const checked = load(storeKey);
+const hidden = load(`${storeKey}:hidden`);
+const items = [...document.querySelectorAll(".groceries li")];
+const hideButton = document.getElementById("hide-checked");
+const showButton = document.getElementById("show-hidden");
+const label = (n, word) => `${n} ${word} item${n === 1 ? "" : "s"}`;
+
+function render() {
+  for (const li of items) {
+    li.querySelector("input").checked = !!checked[li.dataset.key];
+    li.hidden = !!hidden[li.dataset.key];
+  }
+  for (const sec of document.querySelectorAll(".aisle")) {
+    sec.hidden = [...sec.querySelectorAll("li")].every(li => li.hidden);
+  }
+  const nHidden = items.filter(li => li.hidden).length;
+  const nToHide = items.filter(li => !li.hidden && checked[li.dataset.key]).length;
+  hideButton.disabled = nToHide === 0;
+  hideButton.textContent = nToHide ? `Hide ${label(nToHide, "checked")}` : "Hide checked items";
+  showButton.hidden = nHidden === 0;
+  showButton.textContent = `Show ${label(nHidden, "hidden")}`;
+}
+
+for (const li of items) {
+  li.querySelector("input").addEventListener("change", e => {
+    checked[li.dataset.key] = e.target.checked;
+    save(storeKey, checked);
+    render();
+  });
+}
+hideButton.addEventListener("click", () => {
+  for (const li of items) if (checked[li.dataset.key]) hidden[li.dataset.key] = true;
+  save(`${storeKey}:hidden`, hidden);
+  render();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+showButton.addEventListener("click", () => {
+  for (const k of Object.keys(hidden)) delete hidden[k];
+  save(`${storeKey}:hidden`, hidden);
+  render();
+});
+render();
+</script>
 {% endblock %}
