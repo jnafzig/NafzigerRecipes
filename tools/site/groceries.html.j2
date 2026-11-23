@@ -1,0 +1,32 @@
+{% extends "base.html.j2" %}
+{% block title %}{{ m.title }} grocery list · Nafziger Family Recipes{% endblock %}
+{% block main %}
+<article class="menu" data-store="groceries:{{ m.id }}">
+  <header class="recipe-head">
+    <a class="eyebrow" href="{{ m.id }}.html">{{ m.title }}</a>
+    <h1>Grocery list</h1>
+    <p class="byline">Totals for every dish on the menu. Check the pantry before you go.</p>
+  </header>
+
+  {% for sec in m.groceries %}
+  {% set si = loop.index %}
+  <section class="aisle">
+    <h3>{{ sec.section }}</h3>
+    <ul class="checklist groceries">
+      {% for g in sec["items"] %}
+      <li>
+        <label>
+          <input type="checkbox" data-key="g{{ si }}-{{ loop.index }}">
+          <span class="what">
+            <b>{{ g.item }}</b>{% if g.amount %} <span class="amt">{{ g.amount }}</span>{% endif %}
+            <span class="for">{% if g.note %}{{ g.note }} · {% endif %}{% for r in g["for"] %}{{ titles[r] }}{% if not loop.last %}, {% endif %}{% endfor %}</span>
+          </span>
+        </label>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</article>
+{% include "checklist.js.j2" %}
+{% endblock %}

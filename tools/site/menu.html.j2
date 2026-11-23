@@ -1,12 +1,14 @@
 {% extends "base.html.j2" %}
 {% block title %}{{ m.title }} · Nafziger Family Recipes{% endblock %}
 {% block main %}
-<article class="menu" data-menu="{{ m.id }}">
+<article class="menu" data-store="menu:{{ m.id }}">
   <header class="recipe-head">
     <span class="eyebrow">Menu</span>
     <h1>{{ m.title }}</h1>
     <p class="byline">{{ m.date_label }}{% if m.serve_time %} · dinner at {{ m.serve_time }}{% endif %}</p>
     <p class="actions">
+      {% if m.groceries %}<a class="button" href="{{ m.id }}-groceries.html">Grocery list</a>{% endif %}
+      {% if m.plan %}<a class="button" href="#plan">Plan</a>{% endif %}
       <a class="button" href="cards.html?only={{ m.dishes|map(attribute='id')|join(',') }}">Print all cards</a>
     </p>
   </header>
@@ -18,11 +20,11 @@
   </ul>
 
   {% if m.plan %}
-  <h2>Plan</h2>
+  <h2 id="plan">Plan</h2>
   {% for day in m.plan %}
   <section class="day" data-date="{{ day.date }}">
     <h3>{{ day.label }} <span class="when">{{ day.relative }}</span></h3>
-    <ol class="tasks">
+    <ol class="checklist tasks">
       {% for t in day.tasks %}
       <li>
         <label>
@@ -48,22 +50,5 @@
   {% endif %}
 </article>
 
-<script>
-// Tick-offs are remembered in this browser only, per menu.
-const menu = document.querySelector(".menu").dataset.menu;
-const storeKey = `menu:${menu}`;
-let done = {};
-try { done = JSON.parse(localStorage.getItem(storeKey)) || {}; } catch {}
-for (const box of document.querySelectorAll(".tasks input")) {
-  box.checked = !!done[box.dataset.key];
-  box.addEventListener("change", () => {
-    done[box.dataset.key] = box.checked;
-    try { localStorage.setItem(storeKey, JSON.stringify(done)); } catch {}
-  });
-}
-// Mark today's section.
-const d = new Date();
-const today = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
-document.querySelector(`.day[data-date="${today}"]`)?.classList.add("today");
-</script>
+{% include "checklist.js.j2" %}
 {% endblock %}

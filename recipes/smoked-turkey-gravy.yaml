@@ -1,0 +1,76 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: smoked-turkey-gravy
+title: Smoked Turkey Gravy
+category: condiments
+author: null
+source: Written with Claude for Thanksgiving 2026
+source_url: null
+date: '2026-11-23'
+yield: about 4 cups
+servings: 10-12
+oven_temp_f: null
+prep_time: 15 min
+cook_time: 1 hr 30 min
+inactive_time: null
+pan: large saucepan, medium saucepan, and a drip pan for the smoker
+tags: [gravy, turkey, sauce, thanksgiving, make-ahead]
+ingredient_groups:
+- name: Turkey Stock
+  ingredients:
+  - {quantity: null, unit: null, item: turkey backbone, note: saved from butterflying the turkey}
+  - {quantity: null, unit: null, item: turkey neck and giblets, note: not the liver}
+  - {quantity: "1", unit: Tbsp, item: vegetable oil}
+  - {quantity: "1", unit: null, item: medium onion, preparation: roughly chopped}
+  - {quantity: "1", unit: null, item: carrot, preparation: roughly chopped}
+  - {quantity: "1", unit: null, item: celery rib, preparation: roughly chopped}
+  - {quantity: "6", unit: cup, item: low-sodium chicken broth}
+  - {quantity: "2", unit: null, item: bay leaves}
+  - {quantity: "4", unit: sprig, item: fresh thyme}
+- name: Gravy
+  ingredients:
+  - {quantity: "6", unit: Tbsp, item: unsalted butter}
+  - {quantity: "6", unit: Tbsp, item: all-purpose flour}
+  - {quantity: null, unit: null, item: drippings from the smoked turkey}
+  - {quantity: "1", unit: tsp, item: soy sauce, optional: true}
+  - {quantity: null, unit: null, item: salt and black pepper, note: to taste}
+directions:
+- name: Turkey Stock (the day before)
+  steps:
+  - >-
+    Cut the backbone into 2 or 3 pieces with poultry shears or a cleaver. Heat the oil in a
+    large saucepan over medium-high heat and brown the backbone, neck, and giblets well on all
+    sides, about 10 minutes.
+  - Add the onion, carrot, and celery and cook, stirring, until softened, about 5 minutes.
+  - >-
+    Add the broth, bay leaves, and thyme. Bring to a boil, then reduce to a bare simmer and
+    cook 1 hour.
+  - >-
+    Strain, discarding the solids. You should have about 4 cups; top up with broth if you're
+    short. Set aside 1 cup for Thursday.
+- name: Gravy Base (the day before)
+  steps:
+  - >-
+    Melt the butter in a medium saucepan over medium heat. Whisk in the flour and cook,
+    whisking, until light golden brown, 3-4 minutes.
+  - >-
+    Slowly whisk in 3 cups of the stock. Bring to a simmer and cook, whisking often, until
+    thick enough to coat a spoon, about 10 minutes. Cool, cover, and refrigerate.
+- name: Finish (the day of)
+  steps:
+  - >-
+    When the turkey goes on, set a pan under it in the smoker to catch the drippings, with
+    about 1 cup of water in it so they don't scorch. Top up the water if it cooks dry.
+  - >-
+    When the turkey comes off, pour the pan drippings into a fat separator or measuring cup
+    and let the fat rise; spoon it off.
+  - >-
+    Reheat the gravy base over medium heat, whisking. Whisk in the drippings a little at a
+    time, tasting as you go. Simmer 5 minutes, thinning with the reserved stock if it's too
+    thick.
+  - Season with pepper, the soy sauce if you like, and salt only at the end, if it needs it.
+notes:
+- >-
+  The turkey's dry-brine rub makes the drippings salty and smoky, so add them gradually and
+  taste before adding salt.
+- The gravy base keeps up to 3 days in the refrigerator.
+story: null

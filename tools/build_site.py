@@ -8,7 +8,7 @@
     python3 -m http.server -d build/site     # preview at http://localhost:8000
 
 Pages: index.html (every recipe, searchable), <id>.html (one per recipe and one per menu in
-menus/), and cards.html (the printable cards; cards.html?only=<id> prints one recipe). GitHub Actions publishes
+menus/), <menu id>-groceries.html (a menu's grocery list), and cards.html (the printable cards; cards.html?only=<id> prints one recipe). GitHub Actions publishes
 build/site/ to GitHub Pages on every push to main.
 """
 import argparse
@@ -89,8 +89,11 @@ def main() -> int:
 
     titles = {r["id"]: r["title"] for r in recipes}
     for m in menus:
-        (args.out / f"{m['id']}.html").write_text(
-            env.get_template("menu.html.j2").render(m=menu_context(m, by_id), titles=titles))
+        context = menu_context(m, by_id)
+        (args.out / f"{m['id']}.html").write_text(env.get_template("menu.html.j2").render(m=context, titles=titles))
+        if m.get("groceries"):
+            (args.out / f"{m['id']}-groceries.html").write_text(
+                env.get_template("groceries.html.j2").render(m=context, titles=titles))
 
     (args.out / "cards.html").write_text(render_cards.render(recipes))
     print(f"Wrote {len(recipes)} recipe pages and {len(menus)} menu pages to {args.out.relative_to(rx.ROOT) if args.out.is_relative_to(rx.ROOT) else args.out}")

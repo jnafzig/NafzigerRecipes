@@ -21,7 +21,7 @@ Each recipe page has an **Edit on GitHub** button that opens its YAML file in Gi
 
 ## Menus
 
-`menus/<id>.yaml` (described by `menu.schema.json`) lists the recipes for a meal and a day-by-day plan for when to do the work. Each menu gets its own page on the site, linked from the home page. The page has a checklist you can tick off (remembered in your browser) and a button that prints all of the menu's cards. The build stops if a menu names a recipe id that doesn't exist.
+`menus/<id>.yaml` (described by `menu.schema.json`) lists the recipes for a meal and a day-by-day plan for when to do the work. Each menu gets its own page on the site, linked from the home page. The page has a checklist you can tick off (remembered in your browser) and a button that prints all of the menu's cards. A menu's optional `groceries` section becomes its own page, `<id>-groceries.html`, linked from the menu page. The build stops if a menu names a recipe id that doesn't exist.
 
 ## Printing recipe cards
 
