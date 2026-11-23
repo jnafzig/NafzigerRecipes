@@ -55,14 +55,15 @@ def load_menus(recipe_ids: set[str], directory: pathlib.Path = MENUS_DIR) -> lis
     for path in sorted(directory.glob("*.yaml")):
         m = _load_file(path, MENU_SCHEMA)
         where = path.relative_to(ROOT)
-        if m["id"] in recipe_ids:
-            raise SystemExit(f"{where}: id {m['id']!r} is also a recipe id; the pages would collide")
+        if m["id"] in recipe_ids or f"{m['id']}-groceries" in recipe_ids:
+            raise SystemExit(f"{where}: id {m['id']!r} collides with a recipe id; the pages would overwrite each other")
         missing = [d for d in m["dishes"] if d not in recipe_ids]
         if missing:
             raise SystemExit(f"{where}: unknown recipe ids in dishes: {', '.join(missing)}")
         stray = [t["recipe"] for day in m.get("plan", []) for t in day["tasks"] if t.get("recipe") and t["recipe"] not in m["dishes"]]
+        stray += [r for sec in m.get("groceries", []) for i in sec["items"] for r in i.get("for", []) if r not in m["dishes"]]
         if stray:
-            raise SystemExit(f"{where}: plan tasks name recipes that aren't in dishes: {', '.join(sorted(set(stray)))}")
+            raise SystemExit(f"{where}: plan or grocery items name recipes that aren't in dishes: {', '.join(sorted(set(stray)))}")
         menus.append(m)
     return sorted(menus, key=lambda m: m["date"], reverse=True)
 

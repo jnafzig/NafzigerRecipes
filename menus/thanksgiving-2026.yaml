@@ -12,10 +12,193 @@ notes:
   sides finish.
 dishes:
 - spice-rubbed-butterflied-smoked-turkey
+- smoked-turkey-gravy
 - classic-green-bean-casserole
 - creamed-leeks
 - mama-stambergs-cranberry-relish
 - cranberry-curd-tart
+groceries:
+- section: Produce
+  items:
+  - item: Leeks
+    amount: 6 large
+    for: [creamed-leeks]
+  - item: Garlic
+    amount: 1 head
+    for: [creamed-leeks]
+    note: 4 large cloves
+  - item: Onions
+    amount: 1 small, 1 medium
+    for: [mama-stambergs-cranberry-relish, smoked-turkey-gravy]
+    note: The small one for the relish, the medium one for the gravy stock
+  - item: Carrot
+    amount: '1'
+    for: [smoked-turkey-gravy]
+  - item: Celery
+    amount: 1 bunch
+    for: [smoked-turkey-gravy]
+    note: 1 rib
+  - item: Fresh thyme
+    amount: 1 small package
+    for: [smoked-turkey-gravy]
+    note: 4 sprigs
+  - item: Fresh cranberries
+    amount: 2 bags (12 oz each)
+    for: [cranberry-curd-tart, mama-stambergs-cranberry-relish]
+    note: 1 lb for the tart, 2 cups for the relish. Get a third bag if you want sugared cranberries on the tart.
+- section: Meat
+  items:
+  - item: Turkey
+    amount: 10-12 lb
+    for: [spice-rubbed-butterflied-smoked-turkey]
+    note: 'Buy it fresh, not frozen: it goes into the dry brine Tuesday evening, with no time to thaw.'
+- section: Dairy & Eggs
+  items:
+  - item: Heavy cream
+    amount: 1 pint
+    for: [creamed-leeks, cranberry-curd-tart]
+    note: ½ cup for the leeks, 1 cup for the whipped cream
+  - item: Unsalted butter
+    amount: 3 sticks
+    for: [creamed-leeks, cranberry-curd-tart, smoked-turkey-gravy]
+    note: 2 Tbsp for the leeks, 7 Tbsp for the tart, 6 Tbsp for the gravy
+  - item: Sour cream
+    amount: 8 oz
+    for: [mama-stambergs-cranberry-relish]
+    note: ¾ cup
+  - item: Eggs
+    amount: 3 large
+    for: [cranberry-curd-tart]
+    note: 1 whole egg and 2 yolks
+  - item: Milk
+    amount: ½ cup
+    for: [classic-green-bean-casserole]
+  - item: Orange juice
+    amount: 1 cup
+    for: [cranberry-curd-tart]
+  - item: Shredded cheddar
+    amount: 6 oz (1½ cups)
+    for: [classic-green-bean-casserole]
+    note: Optional
+- section: Frozen
+  items:
+  - item: Frozen cut green beans
+    amount: about 1 lb (4 cups)
+    for: [classic-green-bean-casserole]
+- section: Canned & Jarred
+  items:
+  - item: Condensed cream of mushroom soup
+    amount: 1 can (10.5 oz)
+    for: [classic-green-bean-casserole]
+  - item: Crispy fried onions
+    amount: 1 container (6 oz)
+    for: [classic-green-bean-casserole]
+    note: 1½ cups
+  - item: Reduced-sodium chicken broth
+    amount: 2 cartons (32 oz each)
+    for: [creamed-leeks, smoked-turkey-gravy]
+    note: 1 cup for the leeks, 6 cups for the gravy stock
+  - item: Prepared horseradish
+    amount: 1 small jar
+    for: [mama-stambergs-cranberry-relish]
+    note: 2 Tbsp. Red is a bit milder than white.
+- section: Baking
+  items:
+  - item: Graham crackers
+    amount: 1 box
+    for: [cranberry-curd-tart]
+    note: 10 full sheets (1¼ cups crumbs)
+  - item: Granulated sugar
+    amount: about 2 cups
+    for: [cranberry-curd-tart, mama-stambergs-cranberry-relish]
+    note: 1 cup + 5 Tbsp for the tart, ½ cup for the relish
+  - item: Light brown sugar
+    amount: 2 Tbsp
+    for: [spice-rubbed-butterflied-smoked-turkey]
+  - item: All-purpose flour
+    amount: 6 Tbsp
+    for: [smoked-turkey-gravy]
+  - item: Cornstarch
+    amount: 2 Tbsp
+    for: [cranberry-curd-tart]
+  - item: Baking powder
+    amount: 1 Tbsp
+    for: [spice-rubbed-butterflied-smoked-turkey]
+  - item: Vanilla extract
+    amount: 1½ tsp
+    for: [cranberry-curd-tart]
+- section: Spices (check the pantry)
+  items:
+  - item: Kosher salt
+    amount: 2 Tbsp + pinches
+    for: [spice-rubbed-butterflied-smoked-turkey, creamed-leeks]
+  - item: Black pepper
+    amount: null
+    for: [spice-rubbed-butterflied-smoked-turkey, classic-green-bean-casserole, creamed-leeks, smoked-turkey-gravy]
+  - item: Paprika
+    amount: 1 Tbsp
+    for: [spice-rubbed-butterflied-smoked-turkey]
+  - item: Smoked paprika
+    amount: 1 tsp
+    for: [spice-rubbed-butterflied-smoked-turkey]
+  - item: Ground yellow mustard seed
+    amount: ½ tsp
+    for: [spice-rubbed-butterflied-smoked-turkey]
+  - item: Ground coriander
+    amount: ½ tsp
+    for: [spice-rubbed-butterflied-smoked-turkey]
+  - item: Ground cumin
+    amount: ½ tsp
+    for: [spice-rubbed-butterflied-smoked-turkey]
+  - item: Cayenne pepper
+    amount: ¼ tsp
+    for: [spice-rubbed-butterflied-smoked-turkey]
+  - item: Granulated garlic powder
+    amount: 1 tsp
+    for: [spice-rubbed-butterflied-smoked-turkey]
+  - item: Granulated onion powder
+    amount: 1 tsp
+    for: [spice-rubbed-butterflied-smoked-turkey]
+  - item: Ground sage
+    amount: 1 tsp
+    for: [spice-rubbed-butterflied-smoked-turkey]
+  - item: Bay leaves
+    amount: '2'
+    for: [smoked-turkey-gravy]
+  - item: Seasoned salt
+    amount: ¼ tsp
+    for: [classic-green-bean-casserole]
+  - item: Salt
+    amount: ¼ tsp
+    for: [cranberry-curd-tart]
+- section: Pantry
+  items:
+  - item: Olive oil
+    amount: 2 Tbsp
+    for: [creamed-leeks]
+  - item: Vegetable oil
+    amount: 2 Tbsp
+    for: [spice-rubbed-butterflied-smoked-turkey, smoked-turkey-gravy]
+  - item: Soy sauce
+    amount: 2 tsp
+    for: [classic-green-bean-casserole, smoked-turkey-gravy]
+  - item: Plastic wrap
+    amount: null
+    for: [spice-rubbed-butterflied-smoked-turkey, mama-stambergs-cranberry-relish]
+- section: Other
+  items:
+  - item: Dry white wine
+    amount: 1 bottle
+    for: [creamed-leeks]
+    note: ½ cup. Chardonnay, Pinot Grigio, or Sauvignon Blanc.
+  - item: Drip pan for the smoker
+    amount: null
+    for: [smoked-turkey-gravy]
+    note: A disposable foil pan works if you don't have one that fits under the turkey
+  - item: Hickory pellets
+    amount: 1 bag
+    for: [spice-rubbed-butterflied-smoked-turkey]
+    note: Enough to fill the hopper with some to spare
 plan:
 - date: '2026-11-24'
   tasks:
@@ -24,6 +207,9 @@ plan:
     task: >-
       Butterfly the turkey and remove the wishbone. Oil it, rub on the spice mix, and refrigerate
       it on a rack over a rimmed baking sheet, loosely covered with plastic wrap, until Thursday.
+  - time: evening
+    recipe: smoked-turkey-gravy
+    task: Refrigerate the backbone, neck, and giblets (not the liver) for the gravy stock.
 - date: '2026-11-25'
   tasks:
   - time: morning
@@ -41,6 +227,11 @@ plan:
       baking dish. Cover and refrigerate. Keep the remaining 1/2 cup onions in the bag for
       Thursday.
   - time: afternoon
+    recipe: smoked-turkey-gravy
+    task: >-
+      Make the turkey stock (about 1 1/4 hours, mostly simmering), then the gravy base with 3
+      cups of it. Refrigerate the base and the remaining 1 cup of stock separately.
+  - time: afternoon
     recipe: creamed-leeks
     task: >-
       Trim, slice, wash, and dry the leeks. Mince the garlic. Refrigerate both so Thursday is
@@ -56,9 +247,12 @@ plan:
   - time: 8:45 am
     recipe: spice-rubbed-butterflied-smoked-turkey
     task: Turkey on the smoker, skin side up, probe in the breast.
+  - time: 8:45 am
+    recipe: smoked-turkey-gravy
+    task: Drip pan under the turkey with about 1 cup of water. Top it up when you check the pellets.
   - time: 10:15 am
     recipe: spice-rubbed-butterflied-smoked-turkey
-    task: Check the pellet level and top up the hopper if needed.
+    task: Check the pellet level and top up the hopper if needed. Check the drip pan's water too.
   - time: 11:15 am
     recipe: spice-rubbed-butterflied-smoked-turkey
     task: >-
@@ -79,6 +273,12 @@ plan:
   - time: 12:15 pm
     recipe: spice-rubbed-butterflied-smoked-turkey
     task: Turkey off the smoker by now at the latest. Rest 15 minutes, then carve.
+  - time: 12:30 pm
+    recipe: smoked-turkey-gravy
+    task: >-
+      Pour the drippings into a fat separator and skim. Reheat the gravy base, whisk in the
+      drippings a little at a time, tasting (they're salty), and simmer 5 minutes. Thin with
+      the reserved stock if needed.
   - time: 12:45 pm
     recipe: classic-green-bean-casserole
     task: Stir, top with the remaining fried onions, and bake 10 minutes more, until golden.
