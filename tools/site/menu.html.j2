@@ -13,7 +13,7 @@
 
   <ul class="dishes">
     {% for d in m.dishes %}
-    <li><a href="{{ d.id }}.html">{{ d.title }}</a><span class="by">{{ d.category_label }}</span></li>
+    <li><a href="{{ d.id }}.html">{{ d.title }}</a> <span class="by">{{ d.category_label }}</span></li>
     {% endfor %}
   </ul>
 
