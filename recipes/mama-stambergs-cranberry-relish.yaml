@@ -1,0 +1,47 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: mama-stambergs-cranberry-relish
+title: Mama Stamberg's Cranberry Relish
+category: condiments
+author: null
+source: Susan Stamberg, NPR
+source_url: https://www.npr.org/2006/11/23/4176014/mama-stambergs-cranberry-relish-recipe
+date: '2006-11-23'
+yield: 1 1/2 pints
+servings: null
+oven_temp_f: null
+prep_time: 10 min
+cook_time: null
+inactive_time: frozen ahead, thawed Thanksgiving morning
+pan: meat grinder or food processor
+tags: [cranberry, thanksgiving, make-ahead, no-bake, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "2", unit: cup, item: whole raw cranberries, preparation: washed}
+  - {quantity: "1", unit: null, item: small onion}
+  - {quantity: "3/4", unit: cup, item: sour cream}
+  - {quantity: "1/2", unit: cup, item: sugar}
+  - {quantity: "2", unit: Tbsp, item: horseradish from a jar, note: red is a bit milder than
+      white}
+directions:
+- name: null
+  steps:
+  - >-
+    Grind the raw cranberries and onion together. Stamberg uses an old-fashioned meat
+    grinder; a food processor works if you pulse it to a chunky grind, not a puree.
+  - Add the sour cream, sugar, and horseradish and mix.
+  - Put it in a plastic container and freeze.
+  - >-
+    Early Thanksgiving morning, move it from the freezer to the refrigerator to thaw. It
+    should still have a few icy slivers left when you serve it.
+notes:
+- >-
+  The relish will be thick, creamy, and shocking pink ("OK, Pepto Bismol pink"). Its tangy
+  taste cuts through and perks up the turkey and gravy.
+- Also good on next-day turkey sandwiches and with roast beef.
+story: >-
+  Susan Stamberg's mother-in-law got the recipe from a 1959 New York Times clipping of Craig
+  Claiborne's cranberry relish, and Stamberg has shared it on NPR every Thanksgiving since.
+  "It sounds terrible but tastes terrific." In 1993 Claiborne told her, "Susan, I am simply
+  delighted. We have gotten more mileage, you and I, out of that recipe than almost anything
+  I've printed."

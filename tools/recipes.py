@@ -8,7 +8,9 @@ import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 RECIPES_DIR = ROOT / "recipes"
+MENUS_DIR = ROOT / "menus"
 SCHEMA = json.loads((ROOT / "recipe.schema.json").read_text())
+MENU_SCHEMA = json.loads((ROOT / "menu.schema.json").read_text())
 
 # Cookbook order; the schema's enum lists categories in this order too.
 CATEGORIES = {
@@ -29,20 +31,40 @@ PLURAL_UNITS = {"cup", "pint", "can", "jar", "bag", "box", "stick", "bar", "clov
 PLURAL_ABBREVIATED = {"lb": "lbs", "pkg": "pkgs"}
 
 
+def _load_file(path: pathlib.Path, schema: dict) -> dict:
+    doc = yaml.safe_load(path.read_text())
+    try:
+        jsonschema.validate(doc, schema)
+    except jsonschema.ValidationError as e:
+        raise SystemExit(f"{path.relative_to(ROOT)}: {e.message} (at {'/'.join(map(str, e.absolute_path))})")
+    if doc["id"] != path.stem:
+        raise SystemExit(f"{path.relative_to(ROOT)}: id {doc['id']!r} doesn't match the file name")
+    return doc
+
+
 def load(directory: pathlib.Path = RECIPES_DIR) -> list[dict]:
     """Every recipe, validated, in cookbook order: by category, then title."""
-    recipes = []
-    for path in sorted(directory.glob("*.yaml")):
-        r = yaml.safe_load(path.read_text())
-        try:
-            jsonschema.validate(r, SCHEMA)
-        except jsonschema.ValidationError as e:
-            raise SystemExit(f"{path.relative_to(ROOT)}: {e.message} (at {'/'.join(map(str, e.absolute_path))})")
-        if r["id"] != path.stem:
-            raise SystemExit(f"{path.relative_to(ROOT)}: id {r['id']!r} doesn't match the file name")
-        recipes.append(r)
+    recipes = [_load_file(path, SCHEMA) for path in sorted(directory.glob("*.yaml"))]
     order = list(CATEGORIES)
     return sorted(recipes, key=lambda r: (order.index(r["category"]), r["title"].lower()))
+
+
+def load_menus(recipe_ids: set[str], directory: pathlib.Path = MENUS_DIR) -> list[dict]:
+    """Every menu, validated and checked against the recipes, newest first."""
+    menus = []
+    for path in sorted(directory.glob("*.yaml")):
+        m = _load_file(path, MENU_SCHEMA)
+        where = path.relative_to(ROOT)
+        if m["id"] in recipe_ids:
+            raise SystemExit(f"{where}: id {m['id']!r} is also a recipe id; the pages would collide")
+        missing = [d for d in m["dishes"] if d not in recipe_ids]
+        if missing:
+            raise SystemExit(f"{where}: unknown recipe ids in dishes: {', '.join(missing)}")
+        stray = [t["recipe"] for day in m.get("plan", []) for t in day["tasks"] if t.get("recipe") and t["recipe"] not in m["dishes"]]
+        if stray:
+            raise SystemExit(f"{where}: plan tasks name recipes that aren't in dishes: {', '.join(sorted(set(stray)))}")
+        menus.append(m)
+    return sorted(menus, key=lambda m: m["date"], reverse=True)
 
 
 def pretty_fractions(text: str | None) -> str | None:

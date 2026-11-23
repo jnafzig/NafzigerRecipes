@@ -3,6 +3,11 @@
 <section class="intro">
   <h1>Nafziger Family Recipes</h1>
   <p>{{ count }} recipes, with the notes and stories that came with them.</p>
+  {% if menus %}
+  <ul class="menu-links">
+    {% for m in menus %}<li><a href="{{ m.id }}.html">{{ m.title }}</a><span class="by">menu &amp; plan</span></li>{% endfor %}
+  </ul>
+  {% endif %}
   <input id="q" type="search" placeholder="Search by name, ingredient, or cook" aria-label="Search recipes" autocomplete="off">
   <nav class="jump">
     {% for slug, label, rs in sections %}<a href="#{{ slug }}">{{ label }}</a>{% endfor %}

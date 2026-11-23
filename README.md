@@ -19,6 +19,10 @@ python3 -m http.server -d build/site     # http://localhost:8000
 
 Each recipe page has an **Edit on GitHub** button that opens its YAML file in GitHub's editor. People with write access can commit straight to `main`. Anyone else gets a fork and a pull request to review. Each recipe page also has a **Print card** button.
 
+## Menus
+
+`menus/<id>.yaml` (described by `menu.schema.json`) lists the recipes for a meal and a day-by-day plan for when to do the work. Each menu gets its own page on the site, linked from the home page. The page has a checklist you can tick off (remembered in your browser) and a button that prints all of the menu's cards. The build stops if a menu names a recipe id that doesn't exist.
+
 ## Printing recipe cards
 
 ```sh
