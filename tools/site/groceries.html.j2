@@ -19,7 +19,7 @@
           <input type="checkbox">
           <span class="what">
             <b>{{ g.item }}</b>{% if g.amount %} <span class="amt">{{ g.amount }}</span>{% endif %}
-            <span class="for">{% if g.note %}{{ g.note }} · {% endif %}{% for r in g["for"] %}{{ titles[r] }}{% if not loop.last %}, {% endif %}{% endfor %}{% for k in g.kitchens %} <span class="kitchen-tag">{{ k }}</span>{% endfor %}</span>
+            <span class="for">{% if g.note %}{{ g.note }} · {% endif %}{% for r in g["for"] %}<span class="{{ m.dish_class[r] }}">{{ titles[r] }}</span>{% if not loop.last %}, {% endif %}{% endfor %}{% for k in g.kitchens %} <span class="kitchen-tag {{ m.kitchen_class[k] }}">{{ k }}</span>{% endfor %}</span>
           </span>
         </label>
       </li>

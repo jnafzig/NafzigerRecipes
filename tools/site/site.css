@@ -1,11 +1,16 @@
-/* Same type and red rule as the printed cards, on a warm paper background. */
+/* Same type as the printed cards, on a warm paper background, with an ochre accent that sits
+   alongside the kitchen colors. */
 :root {
   --bg: #f7f3ec;
   --surface: #fffdf9;
   --ink: #1d1b19;
   --muted: #6a645d;
   --rule: #ddd5c9;
-  --accent: #a33a2c;
+  --accent: #8f5c0c;
+  --k0: #2f6b45;
+  --k1: #2c5a8c;
+  --k2: #7a4f96;
+  --k3: #6b5d4f;
   --font-body: "Alegreya", "Iowan Old Style", Georgia, serif;
   --font-label: "Alegreya Sans SC", "Gill Sans", "Trebuchet MS", sans-serif;
   color-scheme: light dark;
@@ -17,7 +22,11 @@
     --ink: #ece6dd;
     --muted: #a69e94;
     --rule: #3d3832;
-    --accent: #e07a64;
+    --accent: #dba54a;
+    --k0: #7cc495;
+    --k1: #86b2e6;
+    --k2: #c39ae0;
+    --k3: #b8a894;
   }
 }
 
@@ -136,6 +145,20 @@ button.button:disabled { opacity: 0.45; cursor: default; background: none; color
 }
 .kitchen-filter { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.75rem 0 0; }
 .kitchen-filter button[aria-pressed="true"] { background: var(--accent); color: var(--surface); }
+/* One color per kitchen, on its tags and its filter button. */
+.k0 { --kitchen: var(--k0); }
+.k1 { --kitchen: var(--k1); }
+.k2 { --kitchen: var(--k2); }
+.k3 { --kitchen: var(--k3); }
+.kitchen-tag[class*=" k"] {
+  color: var(--kitchen); border-color: var(--kitchen);
+  background: color-mix(in srgb, var(--kitchen) 12%, transparent);
+}
+.dish-name[class*=" k"] { color: var(--kitchen); }
+.kitchen-filter button[class*=" k"] { color: var(--kitchen); border-color: var(--kitchen); }
+.kitchen-filter button[class*=" k"][aria-pressed="true"], .kitchen-filter button[class*=" k"]:hover {
+  background: var(--kitchen); color: var(--surface);
+}
 @media (max-width: 30rem) {
   .tasks label { grid-template-columns: 1.25rem 1fr; }
   .tasks .what { grid-column: 2; }

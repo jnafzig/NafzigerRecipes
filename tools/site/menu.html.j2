@@ -15,7 +15,7 @@
 
   <ul class="dishes">
     {% for d in m.dishes %}
-    <li><a href="{{ d.id }}.html">{{ d.title }}</a> <span class="by">{{ d.category_label }}</span>{% if d.kitchen %} <span class="kitchen-tag">{{ d.kitchen }}</span>{% endif %}</li>
+    <li><a class="{{ m.dish_class[d.id] }}" href="{{ d.id }}.html">{{ d.title }}</a> <span class="by">{{ d.category_label }}</span>{% if d.kitchen %} <span class="kitchen-tag {{ m.kitchen_class[d.kitchen] }}">{{ d.kitchen }}</span>{% endif %}</li>
     {% endfor %}
   </ul>
 
@@ -32,7 +32,7 @@
           <input type="checkbox" data-key="{{ t.key }}">
           <span class="time">{{ t.time or "" }}</span>
           <span class="what">
-            {% if t.recipe or t.kitchens %}<span class="dish">{% if t.recipe %}<a href="{{ t.recipe }}.html">{{ titles[t.recipe] }}</a>{% endif %}{% for k in t.kitchens %} <span class="kitchen-tag">{{ k }}</span>{% endfor %}</span>{% endif %}
+            {% if t.recipe or t.kitchens %}<span class="dish">{% if t.recipe %}<a class="{{ m.dish_class[t.recipe] }}" href="{{ t.recipe }}.html">{{ titles[t.recipe] }}</a>{% endif %}{% for k in t.kitchens %} <span class="kitchen-tag {{ m.kitchen_class[k] }}">{{ k }}</span>{% endfor %}</span>{% endif %}
             {{ t.task }}
           </span>
         </label>
