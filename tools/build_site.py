@@ -59,7 +59,7 @@ def menu_context(m: dict, by_id: dict[str, dict]) -> dict:
         if item.get("kitchen"):
             return [item["kitchen"]]
         kitchens = [dish_kitchens.get(r) for r in item.get("for", [])]
-        return [] if not kitchens or None in kitchens else sorted(set(kitchens))
+        return [] if not kitchens or None in kitchens else sorted(set(kitchens), key=list(kitchen_class).index)
 
     def task_key(date: str, t: dict) -> str:
         # Keyed by the task's wording, so adding or reordering tasks doesn't move anyone's ticks.

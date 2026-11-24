@@ -7,15 +7,6 @@ serve_at: '406'
 kitchens:
 - {id: '406', cook: Jonathan}
 - {id: '1807', cook: Abby}
-notes:
-- >-
-  The turkey is on the pellet smoker, so Thursday's oven is free for the green beans and the
-  stove for the leeks.
-- >-
-  If the turkey finishes early, tent it loosely with foil and let it rest longer while the
-  sides finish.
-- >-
-  Abby cooks her dishes at 1807, a minute's walk away, and brings them over finished at 12:45.
 dishes:
 - {recipe: spice-rubbed-butterflied-smoked-turkey, kitchen: '406'}
 - {recipe: smoked-turkey-gravy, kitchen: '406'}
@@ -35,12 +26,12 @@ groceries:
     for: [creamed-leeks]
   - item: Garlic
     amount: 1 head
-    for: [creamed-leeks]
-    note: 4 large cloves
+    for: [creamed-leeks, slow-cooker-mashed-potatoes]
+    note: 4 large cloves for the leeks, 3-4 for the potatoes (optional)
   - item: Onions
-    amount: 1 small, 1 medium
-    for: [mama-stambergs-cranberry-relish, smoked-turkey-gravy]
-    note: The small one for the relish, the medium one for the gravy stock
+    amount: 1 small, 3 medium
+    for: [mama-stambergs-cranberry-relish, smoked-turkey-gravy, simple-is-best-stuffing]
+    note: The small one for the relish, 1 medium for the gravy stock, 2 yellow (2½ cups chopped) for the stuffing
   - item: Fresh green beans
     amount: 1½ lb
     for: [classic-green-bean-casserole]
@@ -50,12 +41,12 @@ groceries:
     for: [smoked-turkey-gravy]
   - item: Celery
     amount: 1 bunch
-    for: [smoked-turkey-gravy]
-    note: 1 rib
+    for: [smoked-turkey-gravy, simple-is-best-stuffing]
+    note: 1 rib for the gravy stock, 1½ cups sliced for the stuffing
   - item: Fresh thyme
     amount: 1 small package
-    for: [smoked-turkey-gravy]
-    note: 4 sprigs
+    for: [smoked-turkey-gravy, simple-is-best-stuffing]
+    note: 4 sprigs for the gravy stock, 1 Tbsp chopped for the stuffing
   - item: Fresh cranberries
     amount: 2 bags (12 oz each)
     for: [cranberry-curd-tart, mama-stambergs-cranberry-relish]
@@ -70,26 +61,14 @@ groceries:
   - item: Apple
     amount: 1 small
     for: [warm-brussels-sprouts-salad]
-  - item: Yellow onions
-    amount: '2'
-    for: [simple-is-best-stuffing]
-    note: 2½ cups chopped
-  - item: Celery
-    amount: 1 bunch
-    for: [simple-is-best-stuffing]
-    note: 1½ cups sliced
-  - item: Garlic
-    amount: 1 head
-    for: [slow-cooker-mashed-potatoes]
-    note: 3-4 cloves, optional
   - item: Flat-leaf parsley
     amount: 1 bunch
     for: [simple-is-best-stuffing]
     note: ½ cup chopped
-  - item: Fresh sage, rosemary, and thyme
+  - item: Fresh sage and rosemary
     amount: 1 small package each
     for: [simple-is-best-stuffing]
-    note: 2 Tbsp sage, 1 Tbsp each rosemary and thyme, chopped. Some stores sell a poultry blend with all three.
+    note: 2 Tbsp sage and 1 Tbsp rosemary, chopped. A poultry blend package has both, plus thyme.
   - item: Blueberries
     amount: 2 pints
     for: [blackberry-blueberry-crumb-pie]
@@ -119,20 +98,21 @@ groceries:
     for: [creamed-leeks, cranberry-curd-tart]
     note: ½ cup for the leeks, 1 cup for the whipped cream
   - item: Unsalted butter
-    amount: 3 sticks
-    for: [creamed-leeks, cranberry-curd-tart, smoked-turkey-gravy]
-    note: 2 Tbsp for the leeks, 7 Tbsp for the tart, 6 Tbsp for the gravy
+    amount: 8 sticks (2 lb)
+    for: [creamed-leeks, cranberry-curd-tart, smoked-turkey-gravy, blackberry-blueberry-crumb-pie, simple-is-best-stuffing, slow-cooker-mashed-potatoes]
+    note: 2 Tbsp for the leeks, 7 Tbsp for the tart, 6 Tbsp for the gravy, 2 sticks for the pie, 1½ sticks plus some for the dish for the stuffing, 1 stick for the potatoes
   - item: Sour cream
     amount: 8 oz
     for: [mama-stambergs-cranberry-relish]
     note: ¾ cup
   - item: Eggs
-    amount: 3 large
-    for: [cranberry-curd-tart]
-    note: 1 whole egg and 2 yolks
+    amount: 5 large
+    for: [cranberry-curd-tart, simple-is-best-stuffing]
+    note: 1 whole egg and 2 yolks for the tart, 2 for the stuffing
   - item: Milk
-    amount: ½ cup
-    for: [classic-green-bean-casserole]
+    amount: ½ gallon, whole
+    for: [classic-green-bean-casserole, slow-cooker-mashed-potatoes]
+    note: ½ cup for the casserole, 3-3½ cups for the potatoes. Half-and-half, or part heavy cream, makes the potatoes richer.
   - item: Orange juice
     amount: 1 cup
     for: [cranberry-curd-tart]
@@ -140,17 +120,6 @@ groceries:
     amount: 6 oz (1½ cups)
     for: [classic-green-bean-casserole]
     note: Optional
-  - item: Unsalted butter
-    amount: 5 sticks
-    for: [blackberry-blueberry-crumb-pie, simple-is-best-stuffing, slow-cooker-mashed-potatoes]
-    note: 2 for the pie, 1½ plus some for the dish for the stuffing, 1 for the potatoes
-  - item: Whole milk
-    amount: 1 quart
-    for: [slow-cooker-mashed-potatoes]
-    note: 3-3½ cups. Half-and-half, or part heavy cream, makes them richer.
-  - item: Eggs
-    amount: 2 large
-    for: [simple-is-best-stuffing]
   - item: Gruyère
     amount: 2 oz
     for: [warm-brussels-sprouts-salad]
@@ -165,17 +134,13 @@ groceries:
     for: [classic-green-bean-casserole]
     note: 1½ cups
   - item: Reduced-sodium chicken broth
-    amount: 2 cartons (32 oz each)
-    for: [creamed-leeks, smoked-turkey-gravy]
-    note: 1 cup for the leeks, 6 cups for the gravy stock
+    amount: 3 cartons (32 oz each)
+    for: [creamed-leeks, smoked-turkey-gravy, simple-is-best-stuffing]
+    note: 1 cup for the leeks, 6 cups for the gravy stock, 2½ cups for the stuffing
   - item: Prepared horseradish
     amount: 1 small jar
     for: [mama-stambergs-cranberry-relish]
     note: 2 Tbsp. Red is a bit milder than white.
-  - item: Low-sodium chicken broth
-    amount: 1 carton (32 oz)
-    for: [simple-is-best-stuffing]
-    note: 2½ cups
   - item: Whole grain mustard
     amount: 1 small jar
     for: [warm-brussels-sprouts-salad]
@@ -187,21 +152,23 @@ groceries:
     for: [cranberry-curd-tart]
     note: 10 full sheets (1¼ cups crumbs)
   - item: Granulated sugar
-    amount: about 2 cups
-    for: [cranberry-curd-tart, mama-stambergs-cranberry-relish]
-    note: 1 cup + 5 Tbsp for the tart, ½ cup for the relish
+    amount: about 3¼ cups
+    for: [cranberry-curd-tart, mama-stambergs-cranberry-relish, blackberry-blueberry-crumb-pie]
+    note: 1 cup + 5 Tbsp for the tart, ½ cup for the relish, about 1¼ cups for the pie
   - item: Light brown sugar
     amount: 2 Tbsp
     for: [spice-rubbed-butterflied-smoked-turkey]
   - item: All-purpose flour
-    amount: 6 Tbsp
-    for: [smoked-turkey-gravy]
+    amount: about 3¼ cups
+    for: [smoked-turkey-gravy, blackberry-blueberry-crumb-pie]
+    note: 6 Tbsp for the gravy; 1¼ cups for the pie crust, 1⅓ cups for the crumbs, plus some for rolling
   - item: Cornstarch
     amount: 2 Tbsp
     for: [cranberry-curd-tart]
   - item: Baking powder
-    amount: 1 Tbsp
-    for: [spice-rubbed-butterflied-smoked-turkey]
+    amount: 1 Tbsp + 1 tsp
+    for: [spice-rubbed-butterflied-smoked-turkey, blackberry-blueberry-crumb-pie]
+    note: 1 Tbsp for the turkey rub, 1 tsp for the pie crumbs
   - item: Vanilla extract
     amount: 1½ tsp
     for: [cranberry-curd-tart]
@@ -209,29 +176,19 @@ groceries:
     amount: 1 lb loaf
     for: [simple-is-best-stuffing]
     note: Good-quality and a day old; about 10 cups torn
-  - item: All-purpose flour
-    amount: about 2¾ cups
-    for: [blackberry-blueberry-crumb-pie]
-    note: 1¼ cups for the crust, 1⅓ cups for the crumbs, plus some for rolling
-  - item: Granulated sugar
-    amount: about 1¼ cups
-    for: [blackberry-blueberry-crumb-pie]
-    note: ¾ cup for the filling, 6 Tbsp for the crumbs, 1½ tsp for the crust
   - item: Tapioca starch
     amount: 7 Tbsp
     for: [blackberry-blueberry-crumb-pie]
     note: Or 5½ Tbsp cornstarch
-  - item: Baking powder
-    amount: 1 tsp
-    for: [blackberry-blueberry-crumb-pie]
 - section: Spices (check the pantry)
   items:
   - item: Kosher salt
-    amount: 2 Tbsp + pinches
-    for: [spice-rubbed-butterflied-smoked-turkey, creamed-leeks]
+    amount: about 3 Tbsp
+    for: [spice-rubbed-butterflied-smoked-turkey, creamed-leeks, simple-is-best-stuffing, slow-cooker-mashed-potatoes, warm-brussels-sprouts-salad]
+    note: 2 Tbsp for the turkey rub; the rest a teaspoon or two at a time
   - item: Black pepper
     amount: null
-    for: [spice-rubbed-butterflied-smoked-turkey, classic-green-bean-casserole, creamed-leeks, smoked-turkey-gravy]
+    for: [spice-rubbed-butterflied-smoked-turkey, classic-green-bean-casserole, creamed-leeks, smoked-turkey-gravy, simple-is-best-stuffing, slow-cooker-mashed-potatoes, warm-brussels-sprouts-salad]
   - item: Paprika
     amount: 1 Tbsp
     for: [spice-rubbed-butterflied-smoked-turkey]
@@ -266,22 +223,15 @@ groceries:
     amount: ¼ tsp
     for: [classic-green-bean-casserole]
   - item: Salt
-    amount: ¼ tsp
-    for: [cranberry-curd-tart]
-  - item: Kosher salt
-    amount: about 1 Tbsp
-    for: [simple-is-best-stuffing, slow-cooker-mashed-potatoes, warm-brussels-sprouts-salad]
-  - item: Black pepper
-    amount: null
-    for: [simple-is-best-stuffing, slow-cooker-mashed-potatoes, warm-brussels-sprouts-salad]
-  - item: Salt
-    amount: about 1 tsp
-    for: [blackberry-blueberry-crumb-pie]
+    amount: about 1¼ tsp
+    for: [cranberry-curd-tart, blackberry-blueberry-crumb-pie]
+    note: ¼ tsp for the tart, about 1 tsp for the pie
 - section: Pantry
   items:
   - item: Olive oil
-    amount: 2 Tbsp
-    for: [creamed-leeks]
+    amount: 4 Tbsp
+    for: [creamed-leeks, warm-brussels-sprouts-salad]
+    note: 2 Tbsp for the leeks, 2 Tbsp for the salad dressing
   - item: Vegetable oil
     amount: 2 Tbsp
     for: [spice-rubbed-butterflied-smoked-turkey, smoked-turkey-gravy]
@@ -290,10 +240,7 @@ groceries:
     for: [classic-green-bean-casserole, smoked-turkey-gravy]
   - item: Plastic wrap
     amount: null
-    for: [spice-rubbed-butterflied-smoked-turkey, mama-stambergs-cranberry-relish]
-  - item: Olive oil
-    amount: 2 Tbsp
-    for: [warm-brussels-sprouts-salad]
+    for: [spice-rubbed-butterflied-smoked-turkey, mama-stambergs-cranberry-relish, blackberry-blueberry-crumb-pie]
   - item: Apple cider vinegar
     amount: 2 Tbsp
     for: [warm-brussels-sprouts-salad]
@@ -304,9 +251,6 @@ groceries:
     amount: ½ cup
     for: [warm-brussels-sprouts-salad]
     note: Hazelnuts, pecans, or pepitas work too
-  - item: Plastic wrap
-    amount: null
-    for: [blackberry-blueberry-crumb-pie]
 - section: Other
   items:
   - item: Dry white wine
