@@ -1,0 +1,34 @@
+{% if m.kitchens %}
+<p class="kitchen-filter" role="group" aria-label="Show one kitchen">
+  <button type="button" class="button" data-kitchen="">All</button>
+  {% for k in m.kitchens %}<button type="button" class="button" data-kitchen="{{ k.id }}">{{ k.id }} · {{ k.cook }}</button>
+  {% endfor %}
+</p>
+{% endif %}
+<script>
+// Show everything, or only one kitchen's tasks and groceries. Things with no kitchen (dinner
+// itself) always show. The choice is remembered in this browser, for the menu and grocery
+// pages alike. Pages call kitchenFilter.onChange(fn) to re-render when it changes.
+const kitchenFilter = (() => {
+  const key = "kitchen:{{ m.id }}";
+  const buttons = [...document.querySelectorAll(".kitchen-filter button")];
+  let current = "";
+  try { current = localStorage.getItem(key) || ""; } catch {}
+  if (!buttons.some(b => b.dataset.kitchen === current)) current = "";
+  const listeners = [];
+  const apply = () => {
+    for (const b of buttons) b.setAttribute("aria-pressed", b.dataset.kitchen === current);
+    for (const fn of listeners) fn();
+  };
+  for (const b of buttons) b.addEventListener("click", () => {
+    current = b.dataset.kitchen;
+    try { localStorage.setItem(key, current); } catch {}
+    apply();
+  });
+  apply();
+  return {
+    matches: el => !current || !el.dataset.kitchens || el.dataset.kitchens.split(" ").includes(current),
+    onChange(fn) { listeners.push(fn); fn(); },
+  };
+})();
+</script>

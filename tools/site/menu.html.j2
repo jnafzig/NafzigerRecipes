@@ -5,7 +5,7 @@
   <header class="recipe-head">
     <span class="eyebrow">Menu</span>
     <h1>{{ m.title }}</h1>
-    <p class="byline">{{ m.date_label }}{% if m.serve_time %} · dinner at {{ m.serve_time }}{% endif %}</p>
+    <p class="byline">{{ m.date_label }}{% if m.serve_time %} · dinner at {{ m.serve_time }}{% endif %}{% if m.serve_at %} at {{ m.serve_at }}{% endif %}</p>
     <p class="actions">
       {% if m.groceries %}<a class="button" href="{{ m.id }}-groceries.html">Grocery list</a>{% endif %}
       {% if m.plan %}<a class="button" href="#plan">Plan</a>{% endif %}
@@ -15,23 +15,24 @@
 
   <ul class="dishes">
     {% for d in m.dishes %}
-    <li><a href="{{ d.id }}.html">{{ d.title }}</a> <span class="by">{{ d.category_label }}</span></li>
+    <li><a href="{{ d.id }}.html">{{ d.title }}</a> <span class="by">{{ d.category_label }}</span>{% if d.kitchen %} <span class="kitchen-tag">{{ d.kitchen }}</span>{% endif %}</li>
     {% endfor %}
   </ul>
 
   {% if m.plan %}
   <h2 id="plan">Plan</h2>
+  {% include "kitchen-filter.html.j2" %}
   {% for day in m.plan %}
   <section class="day" data-date="{{ day.date }}">
     <h3>{{ day.label }} <span class="when">{{ day.relative }}</span></h3>
     <ol class="checklist tasks">
       {% for t in day.tasks %}
-      <li>
+      <li data-kitchens="{{ t.kitchens|join(' ') }}">
         <label>
-          <input type="checkbox" data-key="{{ day.date }}-{{ loop.index }}">
+          <input type="checkbox" data-key="{{ t.key }}">
           <span class="time">{{ t.time or "" }}</span>
           <span class="what">
-            {% if t.recipe %}<a class="dish" href="{{ t.recipe }}.html">{{ titles[t.recipe] }}</a>{% endif %}
+            {% if t.recipe or t.kitchens %}<span class="dish">{% if t.recipe %}<a href="{{ t.recipe }}.html">{{ titles[t.recipe] }}</a>{% endif %}{% for k in t.kitchens %} <span class="kitchen-tag">{{ k }}</span>{% endfor %}</span>{% endif %}
             {{ t.task }}
           </span>
         </label>
@@ -51,4 +52,12 @@
 </article>
 
 {% include "checklist.js.j2" %}
+{% if m.plan %}
+<script>
+kitchenFilter.onChange(() => {
+  for (const li of document.querySelectorAll(".tasks li")) li.hidden = !kitchenFilter.matches(li);
+  for (const day of document.querySelectorAll(".day")) day.hidden = [...day.querySelectorAll("li")].every(li => li.hidden);
+});
+</script>
+{% endif %}
 {% endblock %}

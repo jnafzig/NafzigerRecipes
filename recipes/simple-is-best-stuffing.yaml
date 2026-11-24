@@ -1,0 +1,57 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: simple-is-best-stuffing
+title: Simple-Is-Best Stuffing
+category: breads
+author: null
+source: Victoria Granof, Bon Appétit
+source_url: https://www.bonappetit.com/recipe/simple-is-best-stuffing-dressing
+date: '2012-11-11'
+yield: null
+servings: 8-10
+oven_temp_f: 350
+prep_time: 20 min
+cook_time: 2 hr 30 min
+inactive_time: null
+pan: 13x9x2 inch baking dish, rimmed baking sheet, large skillet
+tags: [stuffing, dressing, bread, side-dish, thanksgiving, make-ahead]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: "3/4", unit: cup, item: unsalted butter, note: 1 1/2 sticks; plus more for the dish}
+  - {quantity: "1", unit: lb, item: good-quality day-old white bread, preparation: torn into 1 inch pieces, note: about 10 cups}
+  - {quantity: "2 1/2", unit: cup, item: yellow onions, preparation: chopped}
+  - {quantity: "1 1/2", unit: cup, item: celery, preparation: sliced 1/4 inch thick}
+  - {quantity: "1/2", unit: cup, item: flat-leaf parsley, preparation: chopped}
+  - {quantity: "2", unit: Tbsp, item: fresh sage, preparation: chopped}
+  - {quantity: "1", unit: Tbsp, item: fresh rosemary, preparation: chopped}
+  - {quantity: "1", unit: Tbsp, item: fresh thyme, preparation: chopped}
+  - {quantity: "2", unit: tsp, item: Diamond Crystal kosher salt, note: or 1 tsp Morton}
+  - {quantity: "1", unit: tsp, item: black pepper, preparation: freshly ground}
+  - {quantity: "2 1/2", unit: cup, item: low-sodium chicken broth, note: divided}
+  - {quantity: "2", unit: null, item: large eggs}
+directions:
+- name: null
+  steps:
+  - >-
+    Preheat the oven to 250°F. Butter a 13x9x2-inch baking dish. Scatter the bread in a
+    single layer on a rimmed baking sheet and bake, stirring occasionally, until dried out,
+    about 1 hour. Let cool and transfer to a very large bowl.
+  - >-
+    Meanwhile, melt the butter in a large skillet over medium-high heat. Add the onions and
+    celery and cook, stirring often, until just beginning to brown, about 10 minutes.
+  - >-
+    Add to the bowl with the bread and stir in the parsley, sage, rosemary, thyme, salt, and
+    pepper. Drizzle in 1 1/4 cups of the broth and toss gently. Let cool.
+  - >-
+    Preheat the oven to 350°F. Whisk the eggs with the remaining 1 1/4 cups broth, add to the
+    bread mixture, and fold gently until thoroughly combined.
+  - >-
+    Transfer to the prepared dish, cover with foil, and bake until an instant-read
+    thermometer in the center registers 160°F, 35-40 minutes.
+  - Uncover and bake until set and the top is golden brown and crisp, 35-45 minutes more.
+notes:
+- >-
+  Make ahead: bake covered (before browning) up to 1 day ahead. Uncover, let cool, then cover
+  and chill. To finish, bake uncovered until the top is golden brown and crisp, 45-60
+  minutes.
+story: null

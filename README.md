@@ -23,6 +23,8 @@ Each recipe page has an **Edit on GitHub** button that opens its YAML file in Gi
 
 `menus/<id>.yaml` (described by `menu.schema.json`) lists the recipes for a meal and a day-by-day plan for when to do the work. Each menu gets its own page on the site, linked from the home page. The page has a checklist you can tick off (remembered in your browser) and a button that prints all of the menu's cards. A menu's optional `groceries` section becomes its own page, `<id>-groceries.html`, linked from the menu page. The build stops if a menu names a recipe id that doesn't exist.
 
+When the cooking is split between houses, list them under `kitchens` (`{id: '406', cook: Jonathan}`) and write a dish as `{recipe: <id>, kitchen: '406'}`. Its plan tasks and grocery items take that kitchen automatically. A task with no recipe can name a `kitchen` itself; one with neither, like dinner, is for everyone. The plan and grocery pages then get a filter to show just one kitchen.
+
 ## Printing recipe cards
 
 ```sh

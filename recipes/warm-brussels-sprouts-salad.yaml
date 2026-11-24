@@ -1,0 +1,59 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: warm-brussels-sprouts-salad
+title: Warm Brussels Sprouts Salad with Bacon and Apples
+category: salads
+author: null
+source: Erica Baty, Flavorful Life
+source_url: https://flavorfulife.com/warm-brussels-sprouts-salad/
+date: '2026-11-10'
+yield: null
+servings: 6-8
+oven_temp_f: null
+prep_time: 10 min
+cook_time: 20-25 min
+inactive_time: null
+pan: large skillet
+tags: [brussels-sprouts, bacon, apple, salad, side-dish, thanksgiving, gluten-free]
+ingredient_groups:
+- name: Dressing
+  ingredients:
+  - {quantity: "2", unit: Tbsp, item: olive oil}
+  - {quantity: "2", unit: Tbsp, item: apple cider vinegar}
+  - {quantity: "1", unit: Tbsp, item: whole grain mustard}
+  - {quantity: "1", unit: Tbsp, item: maple syrup}
+  - {quantity: "1/2", unit: tsp, item: salt}
+  - {quantity: "1/2", unit: tsp, item: pepper}
+- name: Salad
+  ingredients:
+  - {quantity: "8", unit: slice, item: bacon}
+  - {quantity: "1", unit: lb, item: Brussels sprouts, preparation: trimmed and shredded}
+  - {quantity: "1/2", unit: cup, item: Marcona almonds, preparation: roughly chopped}
+  - {quantity: "2", unit: oz, item: Gruyère cheese, preparation: shaved, note: about 1/2 cup; divided}
+  - {quantity: "1", unit: null, item: small apple, preparation: very thinly sliced}
+directions:
+- name: null
+  steps:
+  - Shake or whisk together the dressing ingredients. Set aside.
+  - >-
+    Trim the stem ends and thinly slice the Brussels sprouts with the slicing disc of a food
+    processor, a mandoline, or a sharp knife, or buy them pre-shredded.
+  - >-
+    Cook the bacon in a large skillet over medium heat until crisp. Transfer to a paper
+    towel-lined plate, leaving 1-2 tablespoons of grease in the skillet. When cool enough to
+    handle, roughly chop.
+  - >-
+    Add the Brussels sprouts to the bacon grease over medium heat. Cook about 5 minutes,
+    tossing occasionally and letting them sit between tosses, until slightly softened with
+    golden edges. Don't overcook. Season with pinches of salt and pepper.
+  - >-
+    Pour in the dressing and about half the cheese, stirring until the salad is evenly
+    dressed and the cheese is melty. Remove from the heat and stir in the bacon, almonds, and
+    apple.
+  - Serve warm, topped with the remaining cheese and extra cracked black pepper, if you like.
+notes:
+- >-
+  Make ahead: prep all the components (shredded sprouts, cooked bacon, shaved cheese,
+  dressing) ahead, then cook the sprouts and assemble right before serving.
+- Roasted hazelnuts, pecans, or pepitas can stand in for the almonds.
+- Parmesan or pecorino are good substitutes for the Gruyère.
+story: null
