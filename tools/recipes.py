@@ -57,6 +57,18 @@ def load_menus(recipe_ids: set[str], directory: pathlib.Path = MENUS_DIR) -> lis
         where = path.relative_to(ROOT)
         if m["id"] in recipe_ids or f"{m['id']}-groceries" in recipe_ids:
             raise SystemExit(f"{where}: id {m['id']!r} collides with a recipe id; the pages would overwrite each other")
+        # Dishes become plain ids again; which kitchen makes each one moves to dish_kitchens.
+        m["dish_kitchens"] = {d["recipe"]: d["kitchen"] for d in m["dishes"] if isinstance(d, dict)}
+        m["dishes"] = [d["recipe"] if isinstance(d, dict) else d for d in m["dishes"]]
+        if len(set(m["dishes"])) != len(m["dishes"]):
+            raise SystemExit(f"{where}: a recipe is listed in dishes more than once")
+        kitchen_ids = {k["id"] for k in m.get("kitchens", [])}
+        named = [m.get("serve_at"), *m["dish_kitchens"].values()]
+        named += [t.get("kitchen") for day in m.get("plan", []) for t in day["tasks"]]
+        named += [i.get("kitchen") for sec in m.get("groceries", []) for i in sec["items"]]
+        unknown = {k for k in named if k is not None and k not in kitchen_ids}
+        if unknown:
+            raise SystemExit(f"{where}: kitchens not listed under kitchens: {', '.join(sorted(unknown))}")
         missing = [d for d in m["dishes"] if d not in recipe_ids]
         if missing:
             raise SystemExit(f"{where}: unknown recipe ids in dishes: {', '.join(missing)}")

@@ -1,0 +1,89 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: blackberry-blueberry-crumb-pie
+title: Blackberry-Blueberry Crumb Pie
+category: desserts
+author: null
+source: Deb Perelman, Smitten Kitchen
+source_url: https://smittenkitchen.com/2017/08/blackberry-blueberry-crumb-pie/
+date: '2017-08-11'
+yield: one 9 1/2 inch pie
+servings: '8'
+oven_temp_f: 375
+prep_time: 30 min
+cook_time: 1 hr 10 min-1 hr 20 min
+inactive_time: 1 hr 15 min, plus cooling
+pan: 9 1/2 inch standard (not deep-dish) pie plate
+tags: [pie, blueberry, blackberry, crumb, thanksgiving, make-ahead, vegetarian]
+ingredient_groups:
+- name: Crust
+  ingredients:
+  - {quantity: "1 1/4", unit: cup, item: all-purpose flour, note: 155 g}
+  - {quantity: "1 1/2", unit: tsp, item: granulated sugar, note: 6 g}
+  - {quantity: "1/2", unit: tsp, item: fine sea or table salt, note: 3 g}
+  - {quantity: "1/2", unit: cup, item: unsalted butter, preparation: cold; cut into chunks, note: 115 g}
+  - {quantity: "1/4", unit: cup, item: very cold water, note: plus up to 1 Tbsp more}
+- name: Filling
+  ingredients:
+  - {quantity: "4", unit: cup, item: blueberries, note: about 2 pints; 680 g}
+  - {quantity: "2", unit: cup, item: blackberries, note: about one 12 oz package; 340 g}
+  - {quantity: "3/4", unit: cup, item: granulated sugar, note: 150 g; moderately sweet}
+  - {quantity: "1/2", unit: null, item: lemon, preparation: juiced}
+  - {quantity: "7", unit: Tbsp, item: tapioca flour (starch), note: 55 g; or 5 1/2 Tbsp (45 g) cornstarch}
+  - {quantity: "1", unit: pinch, item: salt}
+- name: Crumbs
+  ingredients:
+  - {quantity: "1/2", unit: cup, item: unsalted butter, preparation: melted, note: 115 g}
+  - {quantity: "6", unit: Tbsp, item: granulated sugar, note: 75 g}
+  - {quantity: "1/2", unit: null, item: lemon, preparation: zest finely grated, optional: true}
+  - {quantity: "1", unit: tsp, item: baking powder}
+  - {quantity: "1 1/3", unit: cup, item: all-purpose flour, note: 175 g}
+  - {quantity: "2", unit: pinch, item: salt}
+directions:
+- name: Crust
+  steps:
+  - >-
+    Combine the flour, salt, and sugar in a large bowl (or a food processor). Work in the
+    butter with your fingertips or a pastry blender (or pulse) until it resembles coarse meal
+    with the largest bits the size of tiny peas.
+  - >-
+    In the bowl, add 1/4 cup cold water and stir until large clumps form, then knead the dough
+    together right in the bottom of the bowl, adding another tablespoon of water if needed.
+  - >-
+    Wrap in plastic and refrigerate at least 1 hour and up to 48 hours, or firm it in the
+    freezer for 15-20 minutes.
+  - Heat the oven to 400°F.
+  - >-
+    On a floured counter, roll the dough into a 12-13-inch circle. Transfer to the pie plate,
+    trim the overhang to about 1/2 inch, fold it under, and crimp. Save the scraps in the
+    fridge.
+  - >-
+    Freeze the shell 15 minutes, until solid. Dock all over with a fork. Press a buttered
+    piece of foil tightly against the shell, covering the dough and rim. Bake 20 minutes, then
+    gently remove the foil and set it aside, still molded. Press any puffed spots back down
+    and patch cracks with the scraps. Reduce the oven to 375°F.
+- name: Filling and Crumbs
+  steps:
+  - Meanwhile, mix all the filling ingredients in a large bowl.
+  - >-
+    For the crumbs, stir the sugar, zest, baking powder, flour, and salt into the melted
+    butter with a fork until crumbs form.
+- name: Assemble and Bake
+  steps:
+  - >-
+    Pour the filling into the crust and scatter the crumbs over the top. Bake 50-60 minutes.
+    The crumbs brown well before the pie is done; once they're the color you want (perhaps
+    20-30 minutes in), upend the reserved foil over the top.
+  - >-
+    The pie is done when bubbles form at the edges, some creeping through the crumbs. Longer
+    is better than underbaked.
+  - >-
+    Let cool to about room temperature before serving so the filling can set. It sets even
+    better after a night in the fridge; bring it back to room temperature to serve.
+notes:
+- >-
+  Tapioca starch thickens clearly, without chalkiness, but other thickeners work; the amount
+  here averages what blueberries (less) and blackberries (more) need. Frozen fruit usually
+  needs more thickener.
+- Other berries and fruits work too.
+- Dough keeps 2 days in the fridge; freeze it for longer.
+story: null

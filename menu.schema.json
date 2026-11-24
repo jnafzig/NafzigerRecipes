@@ -38,14 +38,63 @@
         "type": "string"
       }
     },
-    "dishes": {
-      "description": "Recipe ids, in the order they appear on the menu.",
+    "kitchens": {
+      "description": "Kitchens the cooking is split between. Dishes, tasks, and grocery items name one by id, and the menu and grocery pages can be filtered to one kitchen.",
       "type": "array",
       "minItems": 1,
-      "uniqueItems": true,
       "items": {
-        "type": "string",
-        "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+        "type": "object",
+        "required": [
+          "id",
+          "cook"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "description": "Short name for the kitchen, e.g. a house number like \"406\".",
+            "type": "string"
+          },
+          "cook": {
+            "description": "Who's responsible for that kitchen's dishes.",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "serve_at": {
+      "description": "Kitchen id where the meal is served.",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "dishes": {
+      "description": "Recipes in the order they appear on the menu: a recipe id, or {recipe, kitchen} to say which kitchen makes it.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "#/$defs/recipe_id"
+          },
+          {
+            "type": "object",
+            "required": [
+              "recipe",
+              "kitchen"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "recipe": {
+                "$ref": "#/$defs/recipe_id"
+              },
+              "kitchen": {
+                "description": "Kitchen id; its tasks default to this kitchen.",
+                "type": "string"
+              }
+            }
+          }
+        ]
       }
     },
     "groceries": {
@@ -92,6 +141,13 @@
                 },
                 "note": {
                   "description": "How much each dish needs, or what to check.",
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "kitchen": {
+                  "description": "Kitchen id that buys it. Defaults to the kitchens of the dishes in `for`.",
                   "type": [
                     "string",
                     "null"
@@ -144,12 +200,25 @@
                 },
                 "task": {
                   "type": "string"
+                },
+                "kitchen": {
+                  "description": "Kitchen id that does it. Defaults to the recipe's kitchen; a task with neither is for everyone.",
+                  "type": [
+                    "string",
+                    "null"
+                  ]
                 }
               }
             }
           }
         }
       }
+    }
+  },
+  "$defs": {
+    "recipe_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
     }
   }
 }

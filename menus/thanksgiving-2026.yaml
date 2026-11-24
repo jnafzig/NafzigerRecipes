@@ -3,6 +3,10 @@ id: thanksgiving-2026
 title: Thanksgiving 2026
 date: '2026-11-26'
 serve_time: 1:00 pm
+serve_at: '406'
+kitchens:
+- {id: '406', cook: Jonathan}
+- {id: '1807', cook: Abby}
 notes:
 - >-
   The turkey is on the pellet smoker, so Thursday's oven is free for the green beans and the
@@ -10,13 +14,19 @@ notes:
 - >-
   If the turkey finishes early, tent it loosely with foil and let it rest longer while the
   sides finish.
+- >-
+  Abby cooks her dishes at 1807, a minute's walk away, and brings them over finished at 12:45.
 dishes:
-- spice-rubbed-butterflied-smoked-turkey
-- smoked-turkey-gravy
-- classic-green-bean-casserole
-- creamed-leeks
-- mama-stambergs-cranberry-relish
-- cranberry-curd-tart
+- {recipe: spice-rubbed-butterflied-smoked-turkey, kitchen: '406'}
+- {recipe: smoked-turkey-gravy, kitchen: '406'}
+- {recipe: simple-is-best-stuffing, kitchen: '1807'}
+- {recipe: slow-cooker-mashed-potatoes, kitchen: '1807'}
+- {recipe: classic-green-bean-casserole, kitchen: '406'}
+- {recipe: creamed-leeks, kitchen: '406'}
+- {recipe: warm-brussels-sprouts-salad, kitchen: '1807'}
+- {recipe: mama-stambergs-cranberry-relish, kitchen: '406'}
+- {recipe: cranberry-curd-tart, kitchen: '406'}
+- {recipe: blackberry-blueberry-crumb-pie, kitchen: '1807'}
 groceries:
 - section: Produce
   items:
@@ -50,12 +60,58 @@ groceries:
     amount: 2 bags (12 oz each)
     for: [cranberry-curd-tart, mama-stambergs-cranberry-relish]
     note: 1 lb for the tart, 2 cups for the relish. Get a third bag if you want sugared cranberries on the tart.
+  - item: Russet potatoes
+    amount: 5 lb
+    for: [slow-cooker-mashed-potatoes]
+  - item: Brussels sprouts
+    amount: 1 lb
+    for: [warm-brussels-sprouts-salad]
+    note: Or a bag already shredded
+  - item: Apple
+    amount: 1 small
+    for: [warm-brussels-sprouts-salad]
+  - item: Yellow onions
+    amount: '2'
+    for: [simple-is-best-stuffing]
+    note: 2½ cups chopped
+  - item: Celery
+    amount: 1 bunch
+    for: [simple-is-best-stuffing]
+    note: 1½ cups sliced
+  - item: Garlic
+    amount: 1 head
+    for: [slow-cooker-mashed-potatoes]
+    note: 3-4 cloves, optional
+  - item: Flat-leaf parsley
+    amount: 1 bunch
+    for: [simple-is-best-stuffing]
+    note: ½ cup chopped
+  - item: Fresh sage, rosemary, and thyme
+    amount: 1 small package each
+    for: [simple-is-best-stuffing]
+    note: 2 Tbsp sage, 1 Tbsp each rosemary and thyme, chopped. Some stores sell a poultry blend with all three.
+  - item: Blueberries
+    amount: 2 pints
+    for: [blackberry-blueberry-crumb-pie]
+    note: 4 cups. Frozen works but needs a little more thickener.
+  - item: Blackberries
+    amount: 1 package (12 oz)
+    for: [blackberry-blueberry-crumb-pie]
+    note: 2 cups
+  - item: Lemon
+    amount: '1'
+    for: [blackberry-blueberry-crumb-pie]
+    note: Juice of half for the filling, zest of the other half for the crumbs
 - section: Meat
   items:
   - item: Turkey
     amount: 10-12 lb
     for: [spice-rubbed-butterflied-smoked-turkey]
     note: 'Buy it fresh, not frozen: it goes into the dry brine Tuesday evening, with no time to thaw.'
+  - item: Bacon
+    amount: 1 package
+    for: [warm-brussels-sprouts-salad]
+    note: 8 slices
 - section: Dairy & Eggs
   items:
   - item: Heavy cream
@@ -84,6 +140,21 @@ groceries:
     amount: 6 oz (1½ cups)
     for: [classic-green-bean-casserole]
     note: Optional
+  - item: Unsalted butter
+    amount: 5 sticks
+    for: [blackberry-blueberry-crumb-pie, simple-is-best-stuffing, slow-cooker-mashed-potatoes]
+    note: 2 for the pie, 1½ plus some for the dish for the stuffing, 1 for the potatoes
+  - item: Whole milk
+    amount: 1 quart
+    for: [slow-cooker-mashed-potatoes]
+    note: 3-3½ cups. Half-and-half, or part heavy cream, makes them richer.
+  - item: Eggs
+    amount: 2 large
+    for: [simple-is-best-stuffing]
+  - item: Gruyère
+    amount: 2 oz
+    for: [warm-brussels-sprouts-salad]
+    note: Parmesan or pecorino work too
 - section: Canned & Jarred
   items:
   - item: Condensed cream of mushroom soup
@@ -101,6 +172,14 @@ groceries:
     amount: 1 small jar
     for: [mama-stambergs-cranberry-relish]
     note: 2 Tbsp. Red is a bit milder than white.
+  - item: Low-sodium chicken broth
+    amount: 1 carton (32 oz)
+    for: [simple-is-best-stuffing]
+    note: 2½ cups
+  - item: Whole grain mustard
+    amount: 1 small jar
+    for: [warm-brussels-sprouts-salad]
+    note: 1 Tbsp
 - section: Baking
   items:
   - item: Graham crackers
@@ -126,6 +205,25 @@ groceries:
   - item: Vanilla extract
     amount: 1½ tsp
     for: [cranberry-curd-tart]
+  - item: White bread
+    amount: 1 lb loaf
+    for: [simple-is-best-stuffing]
+    note: Good-quality and a day old; about 10 cups torn
+  - item: All-purpose flour
+    amount: about 2¾ cups
+    for: [blackberry-blueberry-crumb-pie]
+    note: 1¼ cups for the crust, 1⅓ cups for the crumbs, plus some for rolling
+  - item: Granulated sugar
+    amount: about 1¼ cups
+    for: [blackberry-blueberry-crumb-pie]
+    note: ¾ cup for the filling, 6 Tbsp for the crumbs, 1½ tsp for the crust
+  - item: Tapioca starch
+    amount: 7 Tbsp
+    for: [blackberry-blueberry-crumb-pie]
+    note: Or 5½ Tbsp cornstarch
+  - item: Baking powder
+    amount: 1 tsp
+    for: [blackberry-blueberry-crumb-pie]
 - section: Spices (check the pantry)
   items:
   - item: Kosher salt
@@ -170,6 +268,15 @@ groceries:
   - item: Salt
     amount: ¼ tsp
     for: [cranberry-curd-tart]
+  - item: Kosher salt
+    amount: about 1 Tbsp
+    for: [simple-is-best-stuffing, slow-cooker-mashed-potatoes, warm-brussels-sprouts-salad]
+  - item: Black pepper
+    amount: null
+    for: [simple-is-best-stuffing, slow-cooker-mashed-potatoes, warm-brussels-sprouts-salad]
+  - item: Salt
+    amount: about 1 tsp
+    for: [blackberry-blueberry-crumb-pie]
 - section: Pantry
   items:
   - item: Olive oil
@@ -184,6 +291,22 @@ groceries:
   - item: Plastic wrap
     amount: null
     for: [spice-rubbed-butterflied-smoked-turkey, mama-stambergs-cranberry-relish]
+  - item: Olive oil
+    amount: 2 Tbsp
+    for: [warm-brussels-sprouts-salad]
+  - item: Apple cider vinegar
+    amount: 2 Tbsp
+    for: [warm-brussels-sprouts-salad]
+  - item: Maple syrup
+    amount: 1 Tbsp
+    for: [warm-brussels-sprouts-salad]
+  - item: Marcona almonds
+    amount: ½ cup
+    for: [warm-brussels-sprouts-salad]
+    note: Hazelnuts, pecans, or pepitas work too
+  - item: Plastic wrap
+    amount: null
+    for: [blackberry-blueberry-crumb-pie]
 - section: Other
   items:
   - item: Dry white wine
@@ -198,6 +321,10 @@ groceries:
     amount: 1 bag
     for: [spice-rubbed-butterflied-smoked-turkey]
     note: Enough to fill the hopper with some to spare
+  - item: Aluminum foil
+    amount: null
+    for: [blackberry-blueberry-crumb-pie, simple-is-best-stuffing]
+    note: To cover the stuffing and shield the pie crust
 plan:
 - date: '2026-11-24'
   tasks:
@@ -209,6 +336,9 @@ plan:
   - time: evening
     recipe: smoked-turkey-gravy
     task: Refrigerate the backbone, neck, and giblets (not the liver) for the gravy stock.
+  - time: evening
+    recipe: blackberry-blueberry-crumb-pie
+    task: Make the pie dough, wrap it, and refrigerate (it keeps up to 2 days).
 - date: '2026-11-25'
   tasks:
   - time: morning
@@ -216,6 +346,12 @@ plan:
     task: >-
       Make and bake the crust, make the cranberry curd, and fill the tart. Cool 30-45 minutes,
       then refrigerate overnight. Save the whipped cream for Thursday.
+  - time: morning
+    recipe: blackberry-blueberry-crumb-pie
+    task: >-
+      Roll out the crust, freeze the shell 15 minutes, and par-bake 20 minutes at 400°F. Fill,
+      top with the crumbs, and bake about 1 hour at 375°F, until bubbling at the edges. Cool,
+      then refrigerate overnight.
   - time: midday
     recipe: mama-stambergs-cranberry-relish
     task: Grind the cranberries and onion, mix in everything else, and freeze.
@@ -236,8 +372,24 @@ plan:
     task: >-
       Trim, slice, wash, and dry the leeks. Mince the garlic. Refrigerate both so Thursday is
       just cooking.
+  - time: afternoon
+    recipe: simple-is-best-stuffing
+    task: >-
+      Dry the bread 1 hour at 250°F, cook the onions and celery, and mix everything with the
+      broth and eggs. Bake covered at 350°F until the center reads 160°F, 35-40 minutes.
+      Uncover, cool, cover, and refrigerate. Thursday is just the browning.
+  - time: afternoon
+    recipe: warm-brussels-sprouts-salad
+    task: >-
+      Shred the sprouts. Cook and chop the bacon, saving 2 tablespoons of the grease. Shave the
+      Gruyère, chop the almonds, and shake up the dressing. Refrigerate each separately.
 - date: '2026-11-26'
   tasks:
+  - time: 7:00 am
+    recipe: slow-cooker-mashed-potatoes
+    task: >-
+      Peel and dice the potatoes into the buttered slow cooker with the garlic, salt, pepper,
+      and 1 1/2 cups of the milk. Cover and cook on HIGH (4-5 hours).
   - time: 8:15 am
     recipe: spice-rubbed-butterflied-smoked-turkey
     task: Start the smoker at 275°F.
@@ -250,9 +402,15 @@ plan:
   - time: 8:45 am
     recipe: smoked-turkey-gravy
     task: Drip pan under the turkey with about 1 cup of water. Top it up when you check the pellets.
+  - time: 9:00 am
+    recipe: blackberry-blueberry-crumb-pie
+    task: Take the pie out of the refrigerator so it's at room temperature for dessert.
   - time: 10:15 am
     recipe: spice-rubbed-butterflied-smoked-turkey
     task: Check the pellet level and top up the hopper if needed. Check the drip pan's water too.
+  - time: 11:00 am
+    recipe: simple-is-best-stuffing
+    task: Take the stuffing out of the refrigerator. Preheat the oven to 350°F.
   - time: 11:15 am
     recipe: spice-rubbed-butterflied-smoked-turkey
     task: >-
@@ -261,6 +419,14 @@ plan:
   - time: 11:30 am
     recipe: classic-green-bean-casserole
     task: Take the casserole out of the refrigerator. Preheat the oven to 350°F.
+  - time: 11:30 am
+    recipe: simple-is-best-stuffing
+    task: Bake uncovered until the top is golden brown and crisp, 45-60 minutes.
+  - time: 11:30 am
+    recipe: slow-cooker-mashed-potatoes
+    task: >-
+      Once the potatoes are falling-apart tender, warm the butter and 2 cups of milk, mash the
+      potatoes in the crock, and stir it in. Season and hold on WARM.
   - time: 12:00 pm
     recipe: classic-green-bean-casserole
     task: >-
@@ -279,6 +445,20 @@ plan:
       Pour the drippings into a fat separator and skim. Reheat the gravy base, whisk in the
       drippings a little at a time, tasting (they're salty), and simmer 5 minutes. Thin with
       the reserved stock if needed.
+  - time: 12:30 pm
+    recipe: simple-is-best-stuffing
+    task: Take the stuffing out and cover it with foil to keep it warm.
+  - time: 12:30 pm
+    recipe: warm-brussels-sprouts-salad
+    task: >-
+      Heat the bacon grease in the skillet and cook the sprouts about 5 minutes. Stir in the
+      dressing and half the cheese, then the bacon and almonds. Slice the apple and add it
+      last.
+  - time: 12:45 pm
+    kitchen: '1807'
+    task: >-
+      Walk over to 406 with the stuffing, potatoes (in the crock), Brussels sprouts with the
+      rest of the cheese, and pie. Plug the slow cooker in on WARM when you get there.
   - time: 12:45 pm
     recipe: classic-green-bean-casserole
     task: Stir, top with the remaining fried onions, and bake 10 minutes more, until golden.

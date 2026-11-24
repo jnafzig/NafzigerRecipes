@@ -13,6 +13,7 @@ build/site/ to GitHub Pages on every push to main.
 """
 import argparse
 import datetime
+import hashlib
 import os
 import pathlib
 import shutil
@@ -45,15 +46,52 @@ def menu_context(m: dict, by_id: dict[str, dict]) -> dict:
         days = (meal - datetime.date.fromisoformat(iso)).days
         return {0: "the day of", 1: "the day before"}.get(days, f"{days} days before" if days > 0 else f"{-days} days after")
 
+    dish_kitchens = m["dish_kitchens"]
+
+    def task_kitchens(t: dict) -> list[str]:
+        """Empty means everyone's."""
+        k = t.get("kitchen") or dish_kitchens.get(t.get("recipe"))
+        return [k] if k else []
+
+    def grocery_kitchens(item: dict) -> list[str]:
+        if item.get("kitchen"):
+            return [item["kitchen"]]
+        kitchens = [dish_kitchens.get(r) for r in item.get("for", [])]
+        return [] if not kitchens or None in kitchens else sorted(set(kitchens))
+
+    def task_key(date: str, t: dict) -> str:
+        # Keyed by the task's wording, so adding or reordering tasks doesn't move anyone's ticks.
+        return f"{date}-{hashlib.sha1(t['task'].encode()).hexdigest()[:8]}"
+
+    # Grocery ticks are keyed by item name; when two kitchens each buy the same thing, the second
+    # one's key gets its kitchen appended.
+    grocery_keys = set()
+
+    def grocery_key(item: dict, kitchens: list[str]) -> str:
+        key = item["item"].lower().replace(" ", "-")
+        if key in grocery_keys:
+            key = "-".join([key, *kitchens])
+        if key in grocery_keys:
+            raise SystemExit(f"menus/{m['id']}.yaml: grocery item {item['item']!r} is listed twice for the same kitchen")
+        grocery_keys.add(key)
+        return key
+
     return {
         **m,
         "date_label": day_label(m["date"]),
-        "dishes": [rx.display(by_id[d]) for d in m["dishes"]],
+        "kitchens": m.get("kitchens", []),
+        "dishes": [{**rx.display(by_id[d]), "kitchen": dish_kitchens.get(d)} for d in m["dishes"]],
         "notes": [rx.pretty_fractions(n) for n in m.get("notes", [])],
         "plan": [
             {"date": day["date"], "label": day_label(day["date"]), "relative": relative(day["date"]),
-             "tasks": [{**t, "task": rx.pretty_fractions(t["task"])} for t in day["tasks"]]}
+             "tasks": [{**t, "task": rx.pretty_fractions(t["task"]), "kitchens": task_kitchens(t),
+                        "key": task_key(day["date"], t)} for t in day["tasks"]]}
             for day in m.get("plan", [])
+        ],
+        "groceries": [
+            {**sec, "items": [{**i, "kitchens": ks, "key": grocery_key(i, ks)}
+                              for i in sec["items"] for ks in [grocery_kitchens(i)]]}
+            for sec in m.get("groceries", [])
         ],
     }
 

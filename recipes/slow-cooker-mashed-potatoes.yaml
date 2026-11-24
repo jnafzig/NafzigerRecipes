@@ -1,0 +1,59 @@
+# yaml-language-server: $schema=../recipe.schema.json
+id: slow-cooker-mashed-potatoes
+title: Slow-Cooker Mashed Potatoes
+category: vegetables
+author: null
+source: Faith Durand, The Kitchn
+source_url: https://www.thekitchn.com/how-to-make-mashed-potatoes-in-the-slow-cooker-cooking-lessons-from-the-kitchn-212550
+date: '2023-10-13'
+yield: null
+servings: 8-10
+oven_temp_f: null
+prep_time: 10 min
+cook_time: 4-5 hr
+inactive_time: null
+pan: 4 qt or larger slow cooker, medium saucepan
+tags: [potatoes, mashed-potatoes, slow-cooker, side-dish, thanksgiving, vegetarian]
+ingredient_groups:
+- name: null
+  ingredients:
+  - {quantity: null, unit: null, item: butter or cooking spray, note: for the slow cooker}
+  - {quantity: "5", unit: lb, item: russet potatoes}
+  - {quantity: "3-4", unit: clove, item: garlic, optional: true}
+  - {quantity: "1", unit: tsp, item: kosher salt, note: plus more to taste}
+  - {quantity: null, unit: null, item: freshly ground black pepper, optional: true}
+  - {quantity: "3-3 1/2", unit: cup, item: whole milk, note: or half-and-half or milk and heavy cream; divided}
+  - {quantity: "8", unit: Tbsp, item: unsalted butter, note: 1 stick}
+directions:
+- name: null
+  steps:
+  - >-
+    Lightly coat a 4-quart or larger slow cooker with butter or cooking spray. Peel the
+    potatoes, cut into 1-inch dice, and put them in the slow cooker.
+  - >-
+    Smash and peel the garlic, if using, and drop it on top. Add the salt and a generous
+    amount of pepper, if you like.
+  - Pour in 1 1/2 cups of the milk and stir to combine.
+  - Cover and cook on HIGH until the potatoes are very tender, 4-5 hours.
+  - >-
+    Turn the slow cooker off or to WARM. Melt the butter in a medium saucepan over low heat,
+    add 2 cups of the milk, and heat until just warmed through.
+  - >-
+    Remove the garlic if you don't want the potatoes very garlicky, and scoop out any browned
+    bits on the sides of the pot. Mash the potatoes right in the slow cooker, or rice them
+    into a bowl and back into the pot.
+  - >-
+    Slowly stir in the warm milk and butter. It will look soupy at first but the potatoes
+    soak it up quickly. Add up to 1/2 cup more milk for creamier potatoes.
+  - Taste and season with more salt and pepper.
+  - To hold, cover and keep on WARM for up to 4 hours.
+notes:
+- >-
+  Don't skimp on the cooking time; they're best when the potatoes are soft enough to fall
+  apart. The author tested on HIGH only; LOW overnight may work but wasn't tested.
+- >-
+  The milk may brown around the edges of the pot. Scrape it away, or leave it in for flavor
+  if you don't mind brown specks.
+- 'Dairy-free: use the same amount of chicken or vegetable broth in place of the milk.'
+- Leftovers keep up to 4 days in an airtight container in the refrigerator.
+story: null

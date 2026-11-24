@@ -128,6 +128,14 @@ button.button:disabled { opacity: 0.45; cursor: default; background: none; color
 .tasks label { display: grid; grid-template-columns: 1.25rem 5.5rem 1fr; gap: 0 0.6rem; padding: 0.45rem 0; cursor: pointer; align-items: baseline; }
 .tasks .time { font-weight: 600; font-variant-numeric: lining-nums tabular-nums; white-space: nowrap; }
 .tasks .dish { display: block; font: 700 0.85rem var(--font-label); letter-spacing: 0.06em; text-transform: lowercase; text-decoration: none; }
+.tasks .dish a { text-decoration: none; }
+.kitchen-tag {
+  display: inline-block; font: 700 0.75rem var(--font-label); letter-spacing: 0.06em; font-style: normal;
+  color: var(--muted); border: 1px solid var(--rule); border-radius: 4px; padding: 0 0.35rem; margin-left: 0.25rem;
+  font-variant-numeric: lining-nums; text-decoration: none; vertical-align: 0.1em;
+}
+.kitchen-filter { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.75rem 0 0; }
+.kitchen-filter button[aria-pressed="true"] { background: var(--accent); color: var(--surface); }
 @media (max-width: 30rem) {
   .tasks label { grid-template-columns: 1.25rem 1fr; }
   .tasks .what { grid-column: 2; }
