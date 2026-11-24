@@ -47,6 +47,8 @@ def menu_context(m: dict, by_id: dict[str, dict]) -> dict:
         return {0: "the day of", 1: "the day before"}.get(days, f"{days} days before" if days > 0 else f"{-days} days after")
 
     dish_kitchens = m["dish_kitchens"]
+    # Each kitchen's color is picked by its position in the list (site.css has k0, k1, ...).
+    kitchen_class = {k["id"]: f"k{i}" for i, k in enumerate(m.get("kitchens", []))}
 
     def task_kitchens(t: dict) -> list[str]:
         """Empty means everyone's."""
@@ -80,6 +82,9 @@ def menu_context(m: dict, by_id: dict[str, dict]) -> dict:
         **m,
         "date_label": day_label(m["date"]),
         "kitchens": m.get("kitchens", []),
+        "kitchen_class": kitchen_class,
+        # Dish names wear their kitchen's color wherever they appear.
+        "dish_class": {d: f"dish-name {kitchen_class.get(dish_kitchens.get(d), '')}" for d in m["dishes"]},
         "dishes": [{**rx.display(by_id[d]), "kitchen": dish_kitchens.get(d)} for d in m["dishes"]],
         "notes": [rx.pretty_fractions(n) for n in m.get("notes", [])],
         "plan": [

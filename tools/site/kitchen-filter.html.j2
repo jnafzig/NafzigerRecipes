@@ -1,7 +1,7 @@
 {% if m.kitchens %}
 <p class="kitchen-filter" role="group" aria-label="Show one kitchen">
   <button type="button" class="button" data-kitchen="">All</button>
-  {% for k in m.kitchens %}<button type="button" class="button" data-kitchen="{{ k.id }}">{{ k.id }} · {{ k.cook }}</button>
+  {% for k in m.kitchens %}<button type="button" class="button {{ m.kitchen_class[k.id] }}" data-kitchen="{{ k.id }}">{{ k.id }} · {{ k.cook }}</button>
   {% endfor %}
 </p>
 {% endif %}
